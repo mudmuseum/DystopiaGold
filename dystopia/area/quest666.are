@@ -1,0 +1,304 @@
+#AREADATA
+Name        The Questors Abode~
+Builders    Jobo~
+VNUMs       99501 99550
+Security    1
+Areabits    0
+End
+
+
+
+#MOBILES
+#99501
+Talbott Questmaster~
+Talbot the Sage~
+Talbot sits behind his oak desk, waiting to give out quests.
+~
+~
+3 16384 0 4999
+100 0 0
+0
+S
+#99502
+Tobias Questmaster~
+Tobias the Sorcerer~
+Tobias is waiting for young hopeful questors
+~
+~
+3 16384 0 5001
+100 0 0
+1
+S
+#99503
+Svend Questmaster~
+Svend The Axe-Wielder~
+Svend is weapon-training while he waits for questors.
+~
+~
+3 16384 0 5000
+100 0 0
+1
+S
+#99504
+Erik Questmaster~
+Erik The Questmaster~
+Erik the Artificer is here.
+~
+~
+3 16384 0 5001
+100 0 0
+1
+S
+#99505
+Tark Questmaster~
+Tark the Huntsman~
+Tark the Huntsmand stands here.
+~
+~
+3 16384 0 4998
+100 0 0
+1
+S
+#99506
+willy questmaster~
+One Eyed Willy~
+A mean pirate called Willy stands here.
+~
+~
+3 16384 0 5002
+100 0 0
+1
+S
+#0
+
+
+
+#OBJECTS
+#99501
+cracked blue diamond~
+a Blue Cracked Diamond~
+A cracked diamond lies here.~
+~
+8 0 1
+0 0 0 0
+1 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#99502
+ancient orb~
+an Ancient Orb of Scrying~
+A humming orb made from glass lies here.~
+~
+8 0 1
+0 0 0 0
+1 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#99503
+wand of arkhesis~
+the Wand of Arkhesis~
+A slim wand lies on the floor.~
+~
+3 0 1
+20 1 1 50
+1 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#99504
+mystic sigil~
+a Mystical Sigil~
+A mystical sigil floats in the air.~
+~
+9 1 524289
+0 0 0 0
+1 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#99505
+mace disruption~
+the Mace of Disruption~
+A wicked looking mace lies on the floor.~
+~
+5 1 8193
+17000 40 60 7
+1 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#0
+
+
+
+#ROOMDATA
+#99501
+The Circle of Light~
+This is the inner circle, where corridors leads
+in four directions, each going to one of the ancient
+questmasters of Dystopia. Theres a sign in the middle
+of the room.
+~
+0 0 0
+E
+sign~
+== The Sign Reads ==
+ 
+North - Talbot
+ 
+  Talbot gives out easy quests to hunt and destroy monsters.
+ 
+South - Tobias
+ 
+  Tobias gives out hard quests to hunt and destroy monsters.
+ 
+West  - Erik
+ 
+  Erik gives out quests to find ancient artifacts.
+ 
+East  - Svend
+ 
+  Svend gives out quests to kill monsters and retrieve lost items.
+~
+D0
+~
+~
+0 0 99502
+D1
+~
+~
+0 0 99504
+D2
+~
+~
+0 0 99503
+D3
+~
+~
+0 0 99505
+D5
+~
+~
+0 0 99506
+S
+#99502
+Talbots Chamber~
+The ancient sage Talbot roams this blackended room.
+~
+0 0 0
+D2
+~
+~
+0 0 99501
+S
+#99503
+Tobias Antechamber~
+Iron Golems blocks the pathway into the deeper
+parts of Tobias realm. Tobias himself usually
+meet possibly questors in this chamber
+~
+0 0 0
+D0
+~
+~
+0 0 99501
+S
+#99504
+Svends Questing Room~
+Sparring dolls and weaponracks fills this room.
+~
+0 0 0
+D3
+~
+~
+0 0 99501
+S
+#99505
+Eriks Chamber~
+Parchment and books are scatteres all over this
+room. And old sage stand in the middle of the room.
+~
+0 0 0
+D1
+~
+~
+0 0 99501
+S
+#99506
+Tarks Domain~
+Spiked monster heads and blood litters the floor
+of the room.
+~
+0 0 0
+D4
+~
+~
+0 0 99501
+D5
+~
+~
+0 0 99507
+S
+#99507
+Willy's Place~
+~
+0 0 0
+D4
+~
+~
+0 0 99506
+S
+#0
+
+
+
+#SPECIALS
+Q 99501 questspec_rand_mob
+Q 99502 questspec_hard_mob
+Q 99503 questspec_mob_and_item
+Q 99504 questspec_special_item
+Q 99505 questspec_mass_kill
+Q 99506 questspec_pk
+S
+
+
+
+#RESETS
+M 0 99501 1 99502
+M 0 99502 1 99503
+M 0 99503 1 99504
+M 0 99504 1 99505
+M 0 99505 1 99506
+M 0 99506 1 99507
+S
+
+
+
+#$

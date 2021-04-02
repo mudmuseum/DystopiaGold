@@ -1,0 +1,900 @@
+#AREADATA
+Name        Geometric Series~
+Builders    Xara~
+VNUMs       31000 31025
+Security    1
+Areabits    0
+End
+
+
+
+#MOBILES
+#31000
+shape mote light~
+a mote~
+A mote of light appears and disappears, seemingly at random.
+~
+A single mote of light, appearing and disappearing with no discernible purpose.
+~
+65 33320 0 102
+0 0 0
+0
+S
+#31001
+shape line wire mote motes blade~
+a wire~
+A wire of light turns and twists about.
+~
+Two motes move apparently randomly, connected by a thin wire of light. The
+line blurs in your vision until it seems as if a blade was being swept through
+the air before you.
+~
+65 33320 0 105
+0 0 0
+0
+S
+#31002
+shape featureless white triangle~
+a triangle~
+A featureless white triangle spins through the air.
+~
+A mathematically, boringly, flawlessly, featurelessly precise white triangle.
+It spins and slides through the air, occasionally shearing through an
+unfortunate sound wave.
+~
+65 33320 0 113
+0 0 0
+0
+S
+#31003
+shape white featureless arrowhead dart quadrilateral~
+an arrowhead~
+An arrowhead darts about the room.
+~
+Quite as mathematical as the triangles you saw earlier, if not quite so
+boring by virtue of it's irregularity.
+~
+65 33320 0 136
+0 0 0
+0
+S
+#31004
+shape white featureless pentagon~
+a pentagon~
+A pentagon glides through the air.
+~
+If you watch closely, you can see that the forward edge has a little flame
+along it. You feel glad it's only slicing up molecules, not atoms.
+~
+65 33320 0 151
+0 0 0
+0
+S
+#31005
+shape white featureless hexagon~
+a hexagon~
+A hexagon drifts, forcing the other shapes to flee before it.
+~
+The hexagon is the sharpest thing even this universe has to offer. Indeed, any
+universe; for this hexagon is so sharp, black rifts are left in it's wake,
+cuts in Reality.
+~
+65 33320 0 177
+0 0 0
+0
+S
+#0
+
+
+
+#OBJECTS
+#31000
+portal sides mirror mirrored door side~
+the side~
+One of the sides seems to be slightly mirrored.~
+~
+27 0 0
+31001 0 0 0
+1 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#31001
+portal sides mirror mirrored door side~
+the side~
+One of the sides seems to be slightly mirrored.~
+~
+27 0 0
+31003 0 0 0
+1 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#31002
+portal sides mirror mirrored door side~
+the side~
+One of the sides seems to be slightly mirrored.~
+~
+27 0 0
+31007 0 0 0
+1 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#31003
+portal sides mirror mirrored door side~
+the side~
+One of the sides seems to be slightly mirrored.~
+~
+27 0 0
+31012 0 0 0
+1 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#31004
+portal sides mirror mirrored door side~
+the side~
+One of the sides seems to be slightly mirrored.~
+~
+27 0 0
+31018 0 0 0
+1 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#31005
+portal sides mirror mirrored door side~
+the side~
+One of the sides seems to be slightly mirrored.~
+~
+27 0 0
+31025 0 0 0
+1 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#31006
+tiny mirror mirrored sphere portal door~
+the sphere~
+A tiny mirrored sphere hovers in the centre of the room.~
+~
+27 0 0
+31000 0 0 0
+1 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#0
+
+
+
+#ROOMDATA
+#31000
+Point~
+You stand within a featureless white cube.
+~
+0 12 0
+S
+#31001
+Line~
+You stand at one end of a featureless white corridor.
+~
+0 8 0
+D0
+~
+~
+0 -1 31002
+S
+#31002
+Line~
+You stand at one end of a featureless white corridor.
+~
+0 8 0
+D2
+~
+~
+0 -1 31001
+S
+#31003
+Tetrahedron~
+You're floating in the centre of an odd tetrahedral room. As before, the walls
+are blank and featureless.
+~
+0 8 0
+D1
+~
+~
+0 -1 31005
+D3
+~
+~
+0 -1 31004
+D4
+~
+~
+0 -1 31006
+S
+#31004
+Tetrahedron~
+You're floating in the centre of an odd tetrahedral room. As before, the walls
+are blank and featureless.
+~
+0 8 0
+D1
+~
+~
+0 -1 31003
+D3
+~
+~
+0 -1 31006
+D4
+~
+~
+0 -1 31005
+S
+#31005
+Tetrahedron~
+You're floating in the centre of an odd tetrahedral room. As before, the walls
+are blank and featureless.
+~
+0 8 0
+D1
+~
+~
+0 -1 31006
+D3
+~
+~
+0 -1 31003
+D4
+~
+~
+0 -1 31004
+S
+#31006
+Tetrahedron~
+You're floating in the centre of an odd tetrahedral room. As before, the walls
+are blank and featureless.
+~
+0 8 0
+D1
+~
+~
+0 -1 31004
+D3
+~
+~
+0 -1 31005
+D4
+~
+~
+0 -1 31003
+S
+#31007
+Pyramid~
+This appears to be a square-based pyramid, a corner of. Which corner, you're
+not quite sure.
+~
+0 8 0
+D1
+~
+~
+0 -1 31011
+D3
+~
+~
+0 -1 31008
+D4
+~
+~
+0 -1 31009
+D5
+~
+~
+0 -1 31010
+S
+#31008
+Pyramid~
+This appears to be a square-based pyramid, a corner of. Which corner, you're
+not quite sure.
+~
+0 8 0
+D1
+~
+~
+0 -1 31007
+D3
+~
+~
+0 -1 31009
+D4
+~
+~
+0 -1 31010
+D5
+~
+~
+0 -1 31011
+S
+#31009
+Pyramid~
+This appears to be a square-based pyramid, a corner of. Which corner, you're
+not quite sure.
+~
+0 8 0
+D1
+~
+~
+0 -1 31008
+D3
+~
+~
+0 -1 31010
+D4
+~
+~
+0 -1 31011
+D5
+~
+~
+0 -1 31007
+S
+#31010
+Pyramid~
+This appears to be a square-based pyramid, a corner of. Which corner, you're
+not quite sure.
+~
+0 8 0
+D1
+~
+~
+0 -1 31009
+D3
+~
+~
+0 -1 31011
+D4
+~
+~
+0 -1 31007
+D5
+~
+~
+0 -1 31008
+S
+#31011
+Pyramid~
+This appears to be a square-based pyramid, a corner of. Which corner, you're
+not quite sure.
+~
+0 8 0
+D1
+~
+~
+0 -1 31010
+D3
+~
+~
+0 -1 31007
+D4
+~
+~
+0 -1 31008
+D5
+~
+~
+0 -1 31009
+S
+#31012
+Triangular Prism~
+You appear to be within a white, featureless shape remarkably similar to one
+of the Egyptian pyramids. It's big, it's inhospitable, and it's very easy to
+get disoriented.
+~
+0 8 0
+D0
+~
+~
+0 -1 31015
+D1
+~
+~
+0 -1 31017
+D3
+~
+~
+0 -1 31013
+S
+#31013
+Triangular Prism~
+You appear to be within a white, featureless shape remarkably similar to one
+of the Egyptian pyramids. It's big, it's inhospitable, and it's very easy to
+get disoriented.
+~
+0 8 0
+D0
+~
+~
+0 -1 31016
+D1
+~
+~
+0 -1 31012
+D3
+~
+~
+0 -1 31014
+S
+#31014
+Triangular Prism~
+You appear to be within a white, featureless shape remarkably similar to one
+of the Egyptian pyramids. It's big, it's inhospitable, and it's very easy to
+get disoriented.
+~
+0 8 0
+D0
+~
+~
+0 -1 31017
+D1
+~
+~
+0 -1 31013
+D3
+~
+~
+0 -1 31015
+S
+#31015
+Triangular Prism~
+You appear to be within a white, featureless shape remarkably similar to one
+of the Egyptian pyramids. It's big, it's inhospitable, and it's very easy to
+get disoriented.
+~
+0 8 0
+D0
+~
+~
+0 -1 31012
+D1
+~
+~
+0 -1 31014
+D3
+~
+~
+0 -1 31016
+S
+#31016
+Triangular Prism~
+You appear to be within a white, featureless shape remarkably similar to one
+of the Egyptian pyramids. It's big, it's inhospitable, and it's very easy to
+get disoriented.
+~
+0 8 0
+D0
+~
+~
+0 -1 31013
+D1
+~
+~
+0 -1 31015
+D3
+~
+~
+0 -1 31017
+S
+#31017
+Triangular Prism~
+You appear to be within a white, featureless shape remarkably similar to one
+of the Egyptian pyramids. It's big, it's inhospitable, and it's very easy to
+get disoriented.
+~
+0 8 0
+D0
+~
+~
+0 -1 31014
+D1
+~
+~
+0 -1 31016
+D3
+~
+~
+0 -1 31012
+S
+#31018
+Crystal Pentagon~
+Around you stretches a white featureless plain. Something is not right though;
+space seems even more twisted than normal in this place. You get the feeling
+you are not, as it seems, in the middle of the plane, but somehow on the edge.
+~
+0 8 0
+D0
+~
+~
+0 -1 31020
+D1
+~
+~
+0 -1 31024
+D2
+~
+~
+0 -1 31023
+D3
+~
+~
+0 -1 31019
+D4
+~
+~
+0 -1 31021
+D5
+~
+~
+0 -1 31022
+S
+#31019
+Crystal Pentagon~
+Around you stretches a white featureless plain. Something is not right though;
+space seems even more twisted than normal in this place. You get the feeling
+you are not, as it seems, in the middle of the plane, but somehow on the edge.
+~
+0 8 0
+D0
+~
+~
+0 -1 31021
+D1
+~
+~
+0 -1 31018
+D2
+~
+~
+0 -1 31024
+D3
+~
+~
+0 -1 31020
+D4
+~
+~
+0 -1 31022
+D5
+~
+~
+0 -1 31023
+S
+#31020
+Crystal Pentagon~
+Around you stretches a white featureless plain. Something is not right though;
+space seems even more twisted than normal in this place. You get the feeling
+you are not, as it seems, in the middle of the plane, but somehow on the edge.
+~
+0 8 0
+D0
+~
+~
+0 -1 31022
+D1
+~
+~
+0 -1 31019
+D2
+~
+~
+0 -1 31018
+D3
+~
+~
+0 -1 31021
+D4
+~
+~
+0 -1 31023
+D5
+~
+~
+0 -1 31024
+S
+#31021
+Crystal Pentagon~
+Around you stretches a white featureless plain. Something is not right though;
+space seems even more twisted than normal in this place. You get the feeling
+you are not, as it seems, in the middle of the plane, but somehow on the edge.
+~
+0 8 0
+D0
+~
+~
+0 -1 31023
+D1
+~
+~
+0 -1 31020
+D2
+~
+~
+0 -1 31019
+D3
+~
+~
+0 -1 31022
+D4
+~
+~
+0 -1 31024
+D5
+~
+~
+0 -1 31018
+S
+#31022
+Crystal Pentagon~
+Around you stretches a white featureless plain. Something is not right though;
+space seems even more twisted than normal in this place. You get the feeling
+you are not, as it seems, in the middle of the plane, but somehow on the edge.
+~
+0 8 0
+D0
+~
+~
+0 -1 31024
+D1
+~
+~
+0 -1 31021
+D2
+~
+~
+0 -1 31020
+D3
+~
+~
+0 -1 31023
+D4
+~
+~
+0 -1 31018
+D5
+~
+~
+0 -1 31019
+S
+#31023
+Crystal Pentagon~
+Around you stretches a white featureless plain. Something is not right though;
+space seems even more twisted than normal in this place. You get the feeling
+you are not, as it seems, in the middle of the plane, but somehow on the edge.
+~
+0 8 0
+D0
+~
+~
+0 -1 31018
+D1
+~
+~
+0 -1 31022
+D2
+~
+~
+0 -1 31021
+D3
+~
+~
+0 -1 31024
+D4
+~
+~
+0 -1 31019
+D5
+~
+~
+0 -1 31020
+S
+#31024
+Crystal Pentagon~
+Around you stretches a white featureless plain. Something is not right though;
+space seems even more twisted than normal in this place. You get the feeling
+you are not, as it seems, in the middle of the plane, but somehow on the edge.
+~
+0 8 0
+D0
+~
+~
+0 -1 31019
+D1
+~
+~
+0 -1 31023
+D2
+~
+~
+0 -1 31022
+D3
+~
+~
+0 -1 31018
+D4
+~
+~
+0 -1 31020
+D5
+~
+~
+0 -1 31021
+S
+#31025
+Sphere~
+Everything is white. No matter how you spin about, you can't find an edge or
+feature anywhere. Your mind feels like it's slowly liquefying, unable to cope
+with the experience.
+~
+0 12 0
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 0 31000 8 31000
+O 0 31000 0 31000
+M 0 31000 6 31001
+M 0 31001 8 31001
+M 0 31000 6 31002
+M 0 31001 8 31002
+O 0 31001 0 31002
+M 0 31000 4 31003
+M 0 31001 6 31003
+M 0 31002 8 31003
+M 0 31000 4 31004
+M 0 31001 6 31004
+M 0 31002 8 31004
+M 0 31000 4 31005
+M 0 31001 6 31005
+M 0 31002 8 31005
+M 0 31000 4 31006
+M 0 31001 6 31006
+M 0 31002 8 31006
+O 0 31002 0 31006
+M 0 31000 2 31007
+M 0 31001 4 31007
+M 0 31002 6 31007
+M 0 31003 8 31007
+M 0 31000 2 31008
+M 0 31001 4 31008
+M 0 31002 6 31008
+M 0 31003 8 31008
+M 0 31000 2 31009
+M 0 31001 4 31009
+M 0 31002 6 31009
+M 0 31003 8 31009
+M 0 31000 2 31010
+M 0 31001 4 31010
+M 0 31002 6 31010
+M 0 31003 8 31010
+M 0 31000 2 31011
+M 0 31001 4 31011
+M 0 31002 6 31011
+M 0 31003 8 31011
+O 0 31003 0 31011
+M 0 31000 1 31012
+M 0 31001 2 31012
+M 0 31002 4 31012
+M 0 31003 6 31012
+M 0 31004 8 31012
+M 0 31000 1 31013
+M 0 31001 2 31013
+M 0 31002 4 31013
+M 0 31003 6 31013
+M 0 31004 8 31013
+M 0 31000 1 31014
+M 0 31001 2 31014
+M 0 31002 4 31014
+M 0 31003 6 31014
+M 0 31004 8 31014
+M 0 31000 1 31015
+M 0 31001 2 31015
+M 0 31002 4 31015
+M 0 31003 6 31015
+M 0 31004 8 31015
+M 0 31000 1 31016
+M 0 31001 2 31016
+M 0 31002 4 31016
+M 0 31003 6 31016
+M 0 31004 8 31016
+M 0 31000 1 31017
+M 0 31001 2 31017
+M 0 31002 4 31017
+M 0 31003 6 31017
+M 0 31004 8 31017
+O 0 31004 0 31017
+M 0 31001 1 31018
+M 0 31002 2 31018
+M 0 31003 4 31018
+M 0 31004 6 31018
+M 0 31005 8 31018
+M 0 31001 1 31019
+M 0 31002 2 31019
+M 0 31003 4 31019
+M 0 31004 6 31019
+M 0 31005 8 31019
+M 0 31001 1 31020
+M 0 31002 2 31020
+M 0 31003 4 31020
+M 0 31004 6 31020
+M 0 31005 8 31020
+M 0 31001 1 31021
+M 0 31002 2 31021
+M 0 31003 4 31021
+M 0 31004 6 31021
+M 0 31005 8 31021
+M 0 31001 1 31022
+M 0 31002 2 31022
+M 0 31003 4 31022
+M 0 31004 6 31022
+M 0 31005 8 31022
+M 0 31001 1 31023
+M 0 31002 2 31023
+M 0 31003 4 31023
+M 0 31004 6 31023
+M 0 31005 8 31023
+M 0 31001 1 31024
+M 0 31002 2 31024
+M 0 31003 4 31024
+M 0 31004 6 31024
+M 0 31005 8 31024
+O 0 31005 0 31024
+O 0 31006 0 31025
+S
+
+
+
+#$

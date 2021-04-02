@@ -1,0 +1,4232 @@
+#HELPS
+
+1 !~
+Syntax: !
+
+! repeats the last command you typed.
+~
+
+0 ADVANCEDSTANCE~
+Syntax: combat <style>
+
+Advanced stances can be learned after you have become a grand master in 
+two normal stances.  These stances are much better than the others.
+MANTIS: Requires CRANE and VIPER before it can be learned.  This stance 
+combines a very strong defence with lightning fast counter attacks.
+DRAGON: Requires BULL and CRAB before it can be learned.  This stance 
+uses very powerful attacks, as well as protecting the fighter from injury.
+TIGER: Requires BULL and VIPER before it can be learned.  Probably the 
+most aggressive of all the stances, this style utilizes very powerful and
+lightning fast attacks.
+MONKEY: Requires CRANE and MONGOOSE before it can be learned.  The only 
+affect of this stance is to completely nullify the advantages of your 
+opponents stance.
+SWALLOW: Requires MONGOOSE and CRAB before it can be learned.  This is 
+the most defensive of all the stances, combining agile dodges with the 
+ability to 'roll' with an attack, helping prevent injury.
+
+See also help on 'stance' and 'stancetable'.
+~
+
+-1 ALIAS~
+The alias system.
+
+You are allowed to have 30 aliases. The following commands can be used.
+
+alias       - Creates a new alias.
+removealias - Removes an old alias you don't want.
+showalias   - Shows all aliases that you have made.
+
+examples :
+
+* alias cc c 'dispel magic'
+
+By typing cc <target>, the player now casts dispel magic on that target.
+To remove this alias, a player would simply type 'removealias cc'.
+
+Feel free to experiment with aliases.
+
+~
+
+8 ALLOW BAN~
+Syntax: allow   <site>
+Syntax: ban     <site>
+Syntax: ban
+
+BAN <site> prohibits players from that site from logging in.  BAN with
+no arguments lists the banned sites.  ALLOW <site> removes a site from
+the ban list.
+
+The site ban test works by suffix comparison, so if you ban 'foo.edu',
+all sites within 'foo.edu' are banned as well.
+
+Site bans are not saved; every time the server is rebooted, the site
+ban list is cleared.  
+~
+
+0 ANGELS~
+#n #n
+Angels, being the creation of the holy God, were created perfect without
+any flaw or sin. They are considered holy due to the cause of their
+createn, smithing evil everywhere and being the messengers of God.
+The word of an angel is the direct word of God, and must be considered
+as a divine command by all worshippers.
+
+Angelicaura      - The aura of justice let's you strike down evil.
+Martyr           - Suffer the pain of others.
+Innerpeace       - Let the love of God heal you wounds.
+Touch of God     - Let the burning wrath of God strike down unbelivers.
+God's peace      - No harm will come to those protected by god.
+Eye for an Eye   - They breake your arm, you cut both theirs off.
+                   They scare you gf, you kill their wife.
+                   They take your kill, you take their head.
+                    - IT'S THE JUSTICE OF GOD!
+God's Favor      - Fill yourself with the love of God.
+God's Senses     - See through God's eyes.
+Swoop            - When you have gained your wings, you can fly anywhere.
+House of God     - No fighting can happen in the house of God.
+Banish           - Banish creatures of pure EVIL.
+Forgiveness      - Forgive the sins of another.
+Sins of the past - Punish a person for his or her sins.
+Spiritform       - Return to your true form.
+Harmony          - Let the inbalance of your prey wreck his/her body.
+Touch of God     - Strike down the unbelievers with the touch of God.
+
+An angel also have WINGS and a HALO, and can create angelic armor
+suited for their war with hell. The command for creating this godly
+armor is 'angelicarmor <piece>'.
+
+True angels master the art of : PEACE, LOVE, HARMONY and GOD'S JUSTICE
+
+~
+
+0 ANIMALISM~
+This discipline is tied in deep with the origins of the blood of the
+kindred. These powers are in direct link with the ancient kindred.
+
+<<*>> #rBeckon#n This allows you to call certian animals for blood.
+<<*>> #rSerenity#n This allows you to calm your rage.
+<<*>> #rPigeon#n This allwos you to transfer any item to another player.
+<<*>> #rShare#n This allows you to share your mind with mobs of certian levels.
+<<*>> #rFrenzy#n This is a vampires rage it allos the vampire to increase there
+      hitroll and damroll.
+~
+
+1 AREAS COMMANDS SOCIALS~
+Syntax: areas
+Syntax: commands
+Syntax: socials
+
+AREAS shows you all the areas in the game, with the author's name and the
+levels of the mobs that inhabit that area.
+
+COMMANDS shows you all the (non-social) commands available to you.
+
+SOCIALS shows you all the social commands available to you.
+~
+
+1 ARENA~
+The rules in the arena are simple :
+
+* No use of 'safe powers', meaning no going invis, objectform, shadowplane
+  or any other power that leaves you safe from attacks.
+
+To beat another player, you must tie them with the 'tie <players>' command,
+and that player will be removed from the arena and given a restore.
+
+Last man (or woman) standing in the arena will be the winner.
+
+The arena opens every 2 hours for normal battles, all the normal
+rules apply, and the winner gets a small prize. Some of these battles
+will be for base classes alone. (you can type timer to see when the next
+arena will be).
+
+Currently we are working on some nifty arena commands, and so far we have
+made these commands :
+
+* Arenastats - Shows the stats on the people in the arena.
+* Arenajoin  - Let's you join the arena when it opens (happens once in a while).
+* Resign     - Give up, you'll leave the arena and get an arena loss.
+
+~
+
+1 ARTIFACTS~
+These are the artifacts in the realm of Dystopia, wielding an artifact gives
+and additional 500 damcap, but you cannot claim artifacts, so other players
+may choose to hunt you down and steal your artifact, so beware.
+
+#0The #7-*-#LFrost#7-*- #0Ring#n                 - Grants supernatural vision.
+#0Bracers of #y-=#CLightning#y=- #0Strike#n      - Grants supernatural speed.
+#0The #C<<#Lprotection#C>> #0Mail#n              - Grants supernatural protection.
+#RS#0nake#RC#0harmer, The #R=#0Dark#R= #0Plague#n      - Powerful whip that casts web.
+#0The #GGreatsword #0of Sara#G-#0Thur#n          - Powerful vorpal sword.
+#0The #C=#GSigil#C= #0of #y<-#RM#La#od#Gn#Ce#ps#0s#y->#n           - Trading power for madness.
+#0Amulet of the #sThird #0Eye#n              - Grants the ability to know where everyone is.
+
+No more than 3 artifacts will be loaded at any given time, and players
+are not allowed to use more than one artifact. If you steal an artifact
+from another player, while you already have one, you must drop the one
+you have, or give it to someone else.
+
+~
+
+1 AURAS~
+The Necromancy power gives the undead knight acces to powerful auras,
+that the knight can enable with the aura command.
+
+level 2  : Death Aura (Your mere presence hurts those around you).
+level 4  : Might Aura (Increased damroll and hitroll).
+level 6  : Bog Aura   (You stand in a permanent swamp, making it hard to flee from you).
+level 9  : Fear Aura  (Fighting you makes even the most brave warrior piss their pants).
+level 10 : Cloak of Death (Regen boost when your just about to die).
+
+~
+
+0 AUSPEX~
+This Discipline is one of extrasensory awareness, empathy and 
+perception.  Those using this Discipline tend to be strongly affected by 
+environmental phenomena.  Vampires with Auspex are able to see and sense 
+things most other people cannot.  Auspex is the opposing Discipline to 
+Obfuscate, and they cancel out many of each others powers.
+
+<<*>> #rTruesight#n The user can see everything, whether invisible or whatever.
+<<*>> #rScry#n Allows you to view the room that the specified target is in.
+<<*>> #rReadaura#n Gives you detailed information about a creature or object.
+<<*>> #rAstral Walk#n This power allows you to astral to players and mobs.
+<<*>> #rUnveil#n This power allows you to see into the mind of a weaker victim and
+      watch what ever they do.
+~
+
+1 AUTOCLASS SELFCLASS~
+Gaining a class is rather easy, first you need to gain 2000 hitpoints,
+and then all you need to do, is 'train avatar', and type 'selfclass'.
+This will give you a list of classes availably to you, just pick
+one by typing 'selfclass <class>'.
+
+~
+
+1 AUTOSTANCE~
+The autostance command will enable you to choose a default stance, which
+you will always drop into when starting a new fight. You must be able
+to normally stance into a stance before you can autostance it.
+
+Syntax : Autostance <stance>
+
+~
+
+1 AVATAR RANK~
+To become an avatar, you must have 2000 hps. Then you can use the
+command 'train avatar' to achive the level of avatar. Once you
+have trained, you can gain a class by using the command 'selfclass'.
+
+TIP: It is not wise to train more than 4-5000 hps before you are
+ready to playerkill. You will be protected from playerkilling
+untill you have reached the status of Cadet (on the who screen).
+
+~
+
+1 BACKSTAB BERSERK BS DISARM KICK PUNCH KILL~
+Syntax: backstab <character>
+Syntax: berserk
+Syntax: disarm
+Syntax: kick
+Syntax: punch    <character>
+Syntax: kill     <character>
+
+KILL starts a fight, and, hopefully, kills something.  BACKSTAB is another way
+to start a fight, used by thieves.  BS is a synonym for BACKSTAB.
+
+BERSERK will make you strike out at every creature in the room.  It will
+not hit players, only mobiles.
+DISARM is an auxiliary fighting command to disarm your opponent.  Similarly,
+KICK will inflict more damage during combat by kicking.
+PUNCH will inflict a small amount of damage, and stun your opponent for a 
+short period of time.  It also has a chance of breaking your opponents 
+nose or jaw.
+
+In order to BACKSTAB, DISARM, KICK or PUNCH successfully, you must practice
+the appropriate skill.
+~
+
+1 BATTLEMAGES MAGE MAGES~
+The battlemages are powerful wizards that use their knowledge of the arcane
+to help them in combat. They can command the elements to help or destroy
+those they choose. A mage is indeed someone to fear.
+
+Chant      - Use the common spells all battlemages have.
+Invoke     - Learn or use some of the more powerful magics.
+Magics     - Keep track of what magical affects affects you.
+Teleport   - Teleport to any given location.
+Objectgate - Summon items from afar.
+Truesight  - Enhanced vision.
+Discharge  - Discharge your elementalshields (striking everyone in the room)
+Scry       - Use your farvision.
+Reveal     - Reveals everyone in the room.
+Magearmor  - Make magical equipment.
+Magetalk   - Class channel.
+Chaosmagic - Random spell effect.
+
+Also note that the better the mage is at casting spells (higher spell levels),
+the more powerful the spells they cast become.
+
+~
+
+0 BLINDNESS~
+Syntax: cast blindness <victim>
+
+This spell renders the target character blind.
+~
+
+1 BOMBS GRENADES TRIGGER~
+Dystopia has bombs and grenades, to use them simply use the
+trigger command, followed by the bombs name and how long you
+wish to set the delay (1-3 rounds).
+
+example : trigger grenade 2
+
+~
+
+1 BRANDISH QUAFF RECITE ZAP~
+Syntax: brandish <staff>
+Syntax: quaff    <potion>
+Syntax: recite   <scroll> <target>
+Syntax: zap      <wand> <target>
+
+BRANDISH brandishes a magical staff.  QUAFF quaffs a magical potion (as opposed
+to DRINK, which drinks mundane liquids).  RECITE recites a magical scroll; the
+<target> is optional, depending on the nature of the scroll.  ZAP zaps a
+magical wand at a target.  If the target is not specified, and you are fighting
+someone, then that character is used for a target.
+
+All of these commands use up their objects.  Potions and scrolls have a single
+charge.  Wands and staves have multiple charges.  When a magical object has no
+more charges, it will be consumed.
+~
+
+0 BREW SCRIBE CARVE ENGRAVE BAKE~
+Syntax: cast brew <potion> <spell>
+Syntax: cast scribe <scroll> <spell>
+Syntax: cast carve <wand> <spell>
+Syntax: cast engrave <staff> <spell>
+Syntax: cast bake <pill> <spell>
+
+These spells allow other spells to be embedded in the specified object, 
+which is usually created via the 'minor creation' spell.
+~
+
+1 BRIEF6 BRIEF5 BRIEF4 BRIEF3 BRIEF2 BRIEF1~
+With the command brief1, brief2, brief3, brief4, brief5 and brief6,
+you can toggle how much you'll recieve from looking and combat.
+
+brief1 -> Information when you look toggled between short/long.
+brief2 -> Toggle shields, misses and weapon burn/freeze in combat.
+brief3 -> Toggle dodge/parry messages in combat. (default enabled)
+brief4 -> Toggle message on exp modifiers, discipline points and class points.
+brief5 -> For the very sensitive persons - gives a summary of the combat.
+brief6 -> Blocks all 3rd party battlespam.
+
+~
+
+1 BULLY~
+It's not considered nice to harass players that are much weaker than yourself.
+It is quite okay to mort and tie someone weaker than yourself if they talked trash,
+killed your mobs or killed one of your friends, but it is not okay to constantly
+harass players that are weaker than yourself simply because you feel like it.
+
+Should a player act like a real bully, a special bullyflag will be added to that
+player. Anyone with a bullyflag will show as a bully on who and have a harder time
+dodging and parrying. The bully flag will be removed when that player has learned
+to act like a normal person.
+
+(Whether a player is a bully or not is decided at the discression of the immortals,
+trying to get the immortals to set the bully flag on someone will result
+in the bully flag being set on yourself)
+
+We hope never to actually set the bully flag on anyone, this is afterall a playerkilling
+mud, and people should expect to be morted, tied and killed; but should harassment be
+taken to the extreme by a player, we will set the flag on the offending player.
+
+~
+
+1 CAST~
+Syntax: cast <spell> <target>
+
+Before you can cast a spell, you have to practice it.  The more you practice,
+the higher chance you have of success when casting.  Casting spells costs mana.
+The mana cost decreases as your magical ability increases.
+
+The <target> is optional.  Many spells which need targets will use an
+appropriate default target, especially during combat.
+
+If the spell name is more than one word, then you must quote the spell name.
+Example: cast 'cure critic' frag.  Quoting is optional for single-word spells.
+You can abbreviate the spell name.
+
+When you cast an offensive spell, the victim usually gets a saving throw.
+The effect of the spell is reduced or eliminated if the victim makes the
+saving throw successfully.
+
+See also the help sections for individual spells.
+~
+
+0 CELERITY~
+This Discipline explains the legendary superior quickness of vampires.  
+Using the Celerity Discipline allows a vampire to move extremely quickly 
+and have extra attacks in the same round.
+~
+
+1 CHALLENGE FORTRESS BET SPAR DEATHMATCH~
+Dystopia has a forbidden fortress, which is used to fight one-on-one battles.
+
+To challenge someone to a fight type : challenge <person> <spar/death>,
+it is only possible to kill someone for real in a deathmatch, the spar
+will just result in an arena loss/win.
+
+To agree to a challenge, simply type agree <challenger>.
+
+It is possible to bet questpoints on who wins a deathmatch, simply
+use the command 'bet <winner> <amount>'. You can bet as long as
+both players have more than 75% of their hitpoints left.
+
+Genstealing in a deathmatch is possible, but all bets are cancelled
+if the fight ends in a genteal.
+
+~
+
+1 CHANGES~
+Nothing to see, go away!
+~
+
+1 CHANNELS~
+Syntax: channels
+Syntax: channels +<channel>
+Syntax: channels -<channel>
+
+With no options, CHANNELS shows you your current channels.  With a plus or
+minus sign and an option, CHANNELS turns that channel on or off.
+~
+
+0 'CHARM PERSON'~
+Syntax: cast 'charm person' <victim>
+
+This spell, if successful, causes the victim to follow you and to take orders
+from you.  Use ORDER to order your charmed followers.
+
+You are responsible for the actions of your followers.  Conversely, other
+people who attack your followers will be penalized as if they attacked you.
+~
+
+0 CHIMERSTRY~
+<<*>> #rMirror#n This allows the vampire to form a mirror image of 
+      himself which will look exactly as he does but once forced to interact 
+      with the real world it will vanish completely. 
+<<*>> #rFormillusion 'target'#n This will form an exact copy of the target and it
+      will be every bit as real to the beholder as real people, however upon death
+      destruction is complete and no traces will remain. 
+<<*>> #rClone 'target'#n The vampire that uses this has the ability to completely
+      clone objects making exact duplicates that are every bit as real and as 
+      powerful as the original, however the it is only really an illusion and as
+      time passes so will the clone. 
+<<*>> #rObjectmask 'self'#n By using this power the vampire gains the ability to 
+      mask as any object.
+<<*>> Control 'target' - At this final level of mastery the vampire actaully
+      gains the power to control his illusions and may command them to do his 
+      bidding by using [<command>].
+~
+
+0 CLAIM CALL GIFT LOCATE~
+Syntax: claim <object>
+Syntax: call <object>
+Syntax: call all
+Syntax: gift <object> <player>
+Syntax: locate
+
+By claiming an object (which costs 500 exp), that object becomes your 
+personal property.  Using the 'locate' command you can find what items 
+currently belong to you and where they are in the mud.  If you are not 
+carrying the item, you can get it back by calling it with the 'call' 
+command.  You can change the ownership of your own items by use of the 
+'gift' command.
+
+It should be noted that relics CANNOT be gifted.
+
+If you are looking for help on the 'locate object' spell, you might
+want to try typing #Ghelp 'locate object'#n.
+
+~
+
+1 CLASS CLASSES~
+#n #n
+The REQ for training Avatar is 2K hp, and you can gain any of
+these classes by using the selfclass command just after, only
+exception is Battlemages which requires and additional 5K mana
+and 100 in all spell colors.
+
+#R[#0Demon#R]#n               Demonic fiends from hell.
+#y((#LWerewolf#y))#n          Shapeshifting beasts of the night.
+#P.o0#0Drow#P0o.#n            Cruel dark elfs from the underdark.
+#y-*(#7S#0hadow #7N#0inja#y)*-#n    Assassins who practice ancient shadow magic.
+#0<<#RVampire#0>>#n           Ancient beings of great power.
+#0.x[#lMonk#0]x.#n            Masters of the martial arts and inner peace.
+{{#CBattlemage#n}}        Masters of arcane magic.
+#o(#c*#o)#RHobbit#o(#c*#o)#n          Cute little beings that have a fondness for food.
+#c<>#GG#gian#Gt#c<>#n             The firstborn, children of the gods, Tall as trees.
+
+UPGRADE CLASSES :
+
+#y{#RTanar'ri#y}#n            Bestial demonkind that fights in The Blood Wars.
+#0[#P*#0]#rShapeshifter#0[#P*#0]#n    Strange and powerful beings from the plane of shadows.
+#p{#0-#p}#0Spider Droid#p{#0-#p}#n    A breed of cybernetic driders.
+#C-=#RSamu#yrai#C=-#n           Great warriors, masters of any kind of armed combat.
+#0|[#LUndead Knight#0]|#n     Fallen Paladins cursed to live forever, never finding peace.
+#y.x#0(#7Angel#0)#yx.#n           God's avengers, send to punish the wicked.
+#G>*<#7Lich#G>*<#n            Evil sorcerers that has cheated death and returned as undead.
+#G<<#R(#yFae#R)#G>>#n             Mythical creatures from another plane of existance.
+#G<#0=#y{#0Drone#y}#0=#G>#n           Nightmarish creatures, spawned from our darkest dreams.
+
+Read HELP UPGRADE for reqs on upgrade classes.
+
+~
+
+-1 COLOR COLOUR ANSI~
+it is possible to turn colors on/off with the 'ansi' command.
+
+Ansi Colors (some may look the same on your client)
+#7Grey           #0##0 #8##8#n
+#7Red            #R##R #r##r#n
+#7Green          #G##G #g##g#n
+#7Cyan           #C##C #c##c#n
+#7Blue           #L##L #l##l#n
+#7Purple         #P##P #p##p#n
+#7White          #7##7 #9##9#n
+#7Yellow         #y##y #o##o#n
+
+Specials
+#7Random         #s##s#n
+#7Bold           #i##i#n
+#7Underline      #u##u#n
+
+To stop a color from bleeding into the next line stop it with ##n
+
+~
+
+1 COMBATSWITCH FAVOR~
+These commands has the following function
+
+combatswitch <target player> : switches the person you are fighting to the target.
+favor <left/right/both> : choses which hand you favor in combat.
+
+~
+
+1 CONFIG~
+Syntax: config
+Syntax: config +<option>
+Syntax: config -<option>
+
+This command configures some of your character behavior.  With no options,
+CONFIG shows you your current settings.  With a plus or minus sign and
+an option, CONFIG turns that option on or off.
+
+The options are:
+
+    ANSI      You view things in colour.
+    AUTOEXIT  You automatically see exits.
+    AUTOLOOT  You automatically loot corpses.
+    AUTOSAC   You automatically sacrifice corpses.
+    BLANK     You have a blank line before your prompt.
+    BRIEFx    You see brief[x] descriptions only.
+    COMBINE   You see object lists in combined format.
+    PROMPT    You have a prompt.
+    TELNETGA  You receive a telnet GA sequence.
+~
+
+1 CONSIDER~
+Syntax: consider <character>
+
+CONSIDER tells you what your chances are of killing a character, taking 
+into account hitroll, damroll, armour class and hit points, and giving 
+you an overview of your chances.  If you are considering a player, you 
+will also be informed how skilled they are with their weapon/s, and which 
+stance they are currently using (if any) and how good they are at it.
+
+Please remember that this is only a rough estimate.
+~
+
+0 'CONTINUAL LIGHT'~
+Syntax: cast 'continual light'
+
+This spell creates a ball of light, which you can hold as a light source.
+The ball of light will last indefinitely.
+~
+
+0 COOK~
+Cooking is a special hobbit skill, to cook you need to have a cooking pot,
+but besides that nothing else is needed (A hobbit ALWAYS have tons of food
+on him/her, and never needs to replenish the stock).
+
+Using the cook command to throw ingredients into the pot will cause
+strange and wonderful effects (sometimes). Only the true master chefs
+knows all the recipies. Heres a quick example on how to create the 'food frenzy'
+
+cook mushroom, cook herring, cook curry, cook cream.
+
+Typing those four commands will create the 'food frenzy' effect, the order
+of the ingredients doesn't matter. Go experiment young chefs.
+
+
+~
+
+1 CRACK~
+While holding a head in either your left or right hand, typing 'crack' 
+will crack the head open, spilling the brains out onto the floor.
+~
+
+0 'CREATE FOOD'~
+Syntax: cast 'create food'
+
+This spell creates a Magic Mushroom, which you or anyone else can eat.
+~
+
+0 'CREATE SPRING'~
+Syntax: cast 'create spring'
+
+This spell brings forth a magical spring from the ground, which has the
+same properties as a fountain.
+~
+
+0 'CREATE WATER'~
+Syntax: cast 'create water' <drink-container>
+
+This spell replenishes a drink container with water.
+~
+
+0 CREDITS~
+Syntax: credits
+
+This command shows the list of the original Diku Mud implementors.
+~
+
+-1 CRUSADERRANK~
+#CThe Ranks among the Crusaders of The One True God#n
+
+#GThe Neonates#n of the One True are the backbone of the army of light, and the most
+common of the churchs followers. Trained for combat, they normally found fighting
+the crawling chaos that is evil.
+
+#GThe Peacekeepers#n of the One True are the elite warriors, ordained through the
+trials of blood and horror that is the life of a true Crusader. These warriors have
+seen it all; slaughtered demons by the thousands and faced horrors so old and perveted
+that most men would die from the telling of the tale alone.
+
+#GThe Inquisitors#n of the One True, are feared even by the hearthy and pure; these
+grimfaces soldiers are the lawmakers and the judges of the One True. The word from
+one of these alone can condemn an entire village to be burned to the ground.
+
+#GThe Grand Knights#n forms a group of warriors within a world of warriors; these are the
+special forces dispatched only to solve the most delicate of problems. Raised with the 
+discpline and skill at arms that is the birthright of any Crusader, these men also show
+great skill at subtlety and cunning. Do not underestimate the skills of these men in combat;
+they may not start hacking at your with their mighty swords the first time you meet them,  
+but you can be sure they'll track you down and slay you without even breathing hard, should
+you utter a single word against the One True.
+
+#GThe Crusaders#n are the the ruling council, and form the circle of of devotion to the
+One True that is the basis of the church. These men are the are considered the closest
+thing you can come to the One True, hearing the word of a Crusader is considered hearing
+the words of the One True.
+
+~
+
+-1 CRUSADERS~
+#CThe Crusaders of The One True God#n
+
+The Crusaders are a sect of holy knights, paladins and noble warriors, who
+fight for justice and the love of their One True God. By some the Crusaders
+are looked upon as saviors, and by some as fools who have spend to much time
+inside their metal armor, frying their brains. From a historical perspective,
+we see the crusaders as an important force in the ongoing battle between
+that which is considered good and fair, and that which is Evil. The Crusaders
+have been the fuel to spawn many epic battles, and no history book is complete
+without at least mentioning the legendary battle between the demonspawned
+Nightlords and the Crusaders, where hundreds of Crusaders gave their life
+in a succesful attempt to banish the Nightlords back to the planes of Hades.
+
+Whether the Crusaders are right in their belief in The One True God (who is
+commonly refered to as The Hand of Justice), or the God is just an excuse to
+further the Crusaders own cause (which seemingly is to banish all Evil and
+restore peace (whatever that means) in the realms), is not up for discussion;
+you won't find a crusader talking about ethics or discussing the finer points
+of beliefs and religion, but rather you'll find him on a horseback, swinging
+his (or her) sword madly, hacking away at evil incarnated.
+
+The worshippers oppose The Loa and The Crawling Chaos in the circle of balance.
+
+read help on CRUSADERWORSHIP, CRUSADERRANKS.
+
+~
+
+-1 CRUSADERWORSHIP~
+The men of the church is under strict order to fight evil, slay those that refuse
+to worship the One True, and restore peace and order to the chaotic world of
+Dystopia, using all means possible. Do not stand in the way of these Crusaders,
+they will stomp you to a bloody pulp and throw themselfs headless into the next
+battle. To show fear is the worst crime a Crusader can ever commit.
+
+~
+
+0 CURE HEAL~
+Syntax: cast 'cure light'    <character>
+Syntax: cast 'cure serious'  <character>
+Syntax: cast 'cure critical' <character>
+Syntax: cast 'heal'          <character>
+
+These spells cure damage on the target character.
+~
+
+0 CURSE~
+Syntax: cast 'curse' <character>
+
+This spell reduces the character's to-hit roll by 1 and save versus spells
+by 1.  It also renders the character unclean in the eyes of God and
+unable to RECALL.
+~
+
+0 DAIMOINON~
+<<*>> #rVtwist#n this allows you to change the shape of an object.
+<<*>> #rGate#n This allows you to gate to players.
+<<*>> #rBloodwall#n This makes a wall of flowing blood.
+<<*>> #rGuardian#n This makes a guardian.
+<<*>> #rFear#n This makes the victim fear you.
+~
+
+-1 DCREDITS~
+Without the contributions and help of these people, Dystopia would
+not be what it is today, a great thanks to them all.
+
+  Thanks to Willaz, Antibody, Rand, Nyria and Jatr for their
+  work in creating new areas for Dystopia.
+
+  Thanks to Mandrax for his crash recovery system.
+
+  Thanks to Dingo for the core of the automap system.
+
+  Thanks to all the players that have contributed ideas
+  and made our stay here at Dystopia a pleasant one.
+
+~
+
+1 DEATH~
+When your character dies, you are reincarnated back at the Altar of the Temple
+of Midgaard. Your corpse is left behind in the room where you were killed,
+together with all of your equipment (unless it was claimed).
+
+Any spells which were affecting you are canceled by death.
+
+Following and groups are not affected by death.
+
+You lose experience points for dying. The amount you lose is half of your 
+current amount, so it's a good idea not to hoard exp.
+
+Corpses decay after time, and the objects inside corpses decay with them.
+Player corpses last *roughly* 30 hours of game time (15 minutes of real time).
+~
+
+1 DECAPITATE KILL PLAYERKILLING PKILL~
+The command 'decapitate' can be used to kill another player that is
+mortally wounded. Upon killing the player, you gain half of their
+current experience.
+
+Syntax: decap <victim>
+
+To see which players are in your playerkilling range, you can either
+type 'who kill' or simply look at the colors around the players on
+who (the different colors are explained in HELP WHO).
+
+The system that calculates who you can kill, is briefly discussed
+in the help file HELP PARADOXSTATS.
+
+~
+
+1 DEITIES GODS WORSHIP~
+#n
+Few gods survive the harsh demands of the mortals in the realms of Dystopia,
+but at least five religions has been know to be worshipped throughout
+the realms. These are known as :
+
+The Crusaders of The One True God       (HELP CRUSADERS)
+The Worshippers of The Stars            (HELP STARS)
+The Mysterious Loa organization         (HELP LOA)
+The Covern of Gahr, The Crawling Chaos  (HELP GAHR)
+The Pantheon of the Wild                (HELP WILD)
+
+The five deities form a circle of balance, each opposing two of the others.
+
+Religion status : Religions are open, but not 100% done.
+
+~
+
+1 DEMON DEMONS~
+Demons are mortals who have sold their souls for power, but they must take the souls
+of others to make their power grow, for they are the foul beasts of hell that will
+stop at nothing to rule the world. To steal a soul, you must simply decap another player.
+
+#R*#n #0Inpart#n      - use this to give youself demonic powers.
+#R*#n #0Warps#n       - shows warps alrdy gained.
+#R*#n #0Obtain#n      - use this to gain warps (15000 dp each).
+#R*#n #0Disciplines#n - use research to begin a discipline, when you get a message
+                that you are done, use the train command to improve.
+#R*#n #0Demonarmour#n - use the command to create demonic armour.
+#R*#n #0Weaponform#n  - use this to transform yourself into a weapon, use the
+                command humanform to return.
+
+Also read help on demondiscs, demonpower, warps and evileye for more information.
+
+~
+
+0 DEMONDISCS~
+Hellfire      - Immolate, Inferno, Demonseed, Hellfire.
+Morphosis     - Polymorphing powers.
+Discord       - Chaosportal, Unnerve, Evileye.
+Attack        - Claws, Fangs, Rage, Horns, Calm, Graft, Wings, Blink.
+Corruption    - Caust.
+Nether        - Deathsense, Leech.
+Temptation    - The power of hellish charm.
+Geluge        - Entomb, Gust, Freezeweapon, Frostbreath.
+Immunae       - Demon Toughness.
+
+~
+
+1 DEMONPOWERS~
+#R*#n #0Fangs#n          2500          Slide out razor sharp fangs, extra attack.
+#R*#n #0Horns    #n      2500          Slide out horns, extra headbutt attack.
+#R*#n #0Nightsight #n    3000          See perfectly at night.
+#R*#n #0Toughness  #n    7500          Skin hardens and take lesser damage.
+#R*#n #0Scry   #n        7500          Scry a opponent, to know where they are.
+#R*#n #0Leap    #n        500          Leap to objects, or people when in weaponform.
+#R*#n #0Shield     #n   20000          Shield yourself, so no one can scry you.
+#R*#n #0Immolate   #n    2500          Immolate a weapon to burn someone in combat.
+#R*#n #0Unnerve   #n     5000          Force your opponent to unstance in combat.
+#R*#n #0Leech   #n      15000          Leech off your opponent hitpoints.
+#R*#n #0Claws  #n        2500          Slide razor sharp claws, to aid in combat.
+#R*#n #0Hooves  #n       1500          Feet transform to hooves, improve kick.
+#R*#n #0Wings #n         1000          Able to fly, and unfold wings, to be unhurable.
+#R*#n #0Speed #n         7500          Have Great speed for better dodges/parries.
+#R*#n #0Truesight#n      7500          Better awareness, see all.
+#R*#n #0Magic#n          1000          Able to control your magic in weaponform.
+#R*#n #0Longsword  #n       0          Transform to a longsword.
+#R*#n #0Inferno #n      20000          Burn yourself when morted, to escape.
+#R*#n #0Freezeweapon #n  3000          Freeze your weapon, and hurt them with ice.
+#R*#n #0Demonform  #n   25000          Transform to a huge demon, better attributes.
+#R*#n #0Tail  #n         5000          Extend your tail, for an extra tail attack.
+#R*#n #0Graft  #n       20000          Graft 2 more arms, to carry more objects.
+#R*#n #0Might  #n        7500          Resist some damage when fighting.
+#R*#n #0Travel #n        1500          Travel to any mob or player with nosum on
+#R*#n #0Move #n           500          Able to move when in weaponform.
+#R*#n #0Lifespan#n        100          Crumble up faster when a severed head.
+#R*#n #0Caust#n          3000          Caust your weapon, better average damage.
+#R*#n #0Entomb#n        20000          Entomb a person, n,s,w,e,up,and down.
+#R*#n #0Blink#n         15000          Blink a person and do devasting attacks.
+
+~
+
+7 DENY DISCONNECT FREEZE~
+Syntax: deny       <character>
+Syntax: disconnect <character>
+Syntax: freeze     <character>
+
+DENY denies access to a particular player and throws them out of the game.
+DENY is permanent (persists across reboots) and is not undoable from within the
+game.  Only someone with access to the player files directory may repeal a
+DENY by editing the appropriate player file.
+
+DISCONNECT <character> immediately disconnects that character.
+
+FREEZE <character> is a toggle which prevents a character from issuing any
+commands at all.
+~
+
+1 DESCRIPTION~
+Syntax: description <string>
+Syntax: description + <string>
+
+Sets your long description to the given string.  If the description string
+starts with a '+', the part after the '+' is appended to your current
+description, so that you can make multi-line descriptions.
+~
+
+0 'DETECT HIDDEN'~
+Syntax: cast 'detect hidden'
+
+This spell enables the caster to detect hidden creatures.
+~
+
+0 'DETECT INVIS'~
+Syntax: cast 'detect invis'
+
+This spell enables the caster to detect invisible objects and characters.
+~
+
+0 DIAGNOSE~
+Syntax: diagnose <target>
+
+This will show you any injuries received by the target player or mob.  If 
+that person is bleeding to death, this will also be shown.
+~
+
+-1 DIKU~
+.                    Original game idea, concept, and design:
+
+          Katja Nyboe               [Superwoman] (katz@freja.diku.dk)
+          Tom Madsen              [Stormbringer] (noop@freja.diku.dk)
+          Hans Henrik Staerfeldt           [God] (bombman@freja.diku.dk)
+          Michael Seifert                 [Papi] (seifert@freja.diku.dk)
+          Sebastian Hammer               [Quinn] (quinn@freja.diku.dk)
+
+                     Additional contributions from:
+
+Michael Curran  - the player title collection and additional locations.
+Ragnar Loenn    - the bulletin board.
+Bill Wisner     - for being the first to successfully port the game,
+                  uncovering several old bugs, uh, inconsistencies,
+                  in the process.
+
+And: Mads Haar and Stephan Dahl for additional locations.
+
+Developed at: DIKU -- The Department of Computer Science
+                      at the University of Copenhagen.
+
+~
+
+0 DISCIPLINE DISCIPLINES~
+Each Discipline has several power levels and each level
+must be learnt before the next can be gained.
+
+   obtenebration : lamprey grab shadowgaze shroud shadowstep shadowplane shadowsight 
+        presence : mindblast entrance summon far awe majesty 
+         quietus : spit assassinate bloodagony sharpen vsilence flash infirmity 
+     thaumaturgy : spew gourge taste cauldron tide theft 
+          auspex : truesight readaura scry astralwalk unveil 
+        dominate : mesmerise command baal forget acid possession 
+       obfuscate : vanish mask shield conceal 
+         protean : flamehands change claws earthmeld healing nightsight 
+       serpentis : tongue tendrils coil darkheart poison serpent 
+     vicissitude : fleshcraft dragonform bonemod plasma zuloform 
+       daimoinon : servant guardian fear portal vtwist bloodwall 
+       animalism : pigeon share frenzy beckon serenity 
+      chimerstry : mirror formillusion controlclone 
+      thanatosis : hagswrinkles putrefaction withering drainlife 
+      necromancy : preserve spiritgate spiritguard zombie bloodwater 
+      melpominee : scream 
+           obeah : (purify) (Beast control) (Movement of pure magic)
+
+For more information, type 'help <discipline name>
+
+thanks to WillaZ for making the missing discipline helps.
+
+~
+
+0 'DISPEL MAGIC'~
+Syntax: cast 'dispel magic' <character>
+
+This spell dispels magical affects on a character.  It may be used as
+an offensive spell to remove an enemy's magical advantages, or as a
+benign spell to remove a friend's (or one's own) magical handicaps.
+~
+
+1 DJINN GENIE~
+A powerful fae can summon a djinn or even a genie to their
+service. This powerful creature will leave after a short while,
+but while it is in the service of the fae, it will answer simple
+questions.
+
+A Djinn can be asked about any monster in the area where it was
+summoned. For instance you could say 'What is a demon', and the
+djinn would try to answer the question.
+
+A Genie can find the path to anyone in the same area as it was
+summoned. Try asking a genie 'please locate demon' and it will
+give the directions to a demon. The Genie does not always give
+a straight path, they can be rather tricky.
+
+~
+
+0 DOMINATE~
+This discipline reflects the mystical ability of vampires to influence 
+the minds and actions of others.  Dominate is an aspect of the power of 
+the mind and the will.
+
+<<*>> #rCommand#n The user can issue a command that the target will be compelled 
+      to obey. This will only work on those who's minds are much weaker than 
+      the vampire's.
+<<*>> #rCoil#n This makes your body in a coil like postion ready to attack.
+<<*>> #rMesmerise#n This allows you to take over mobs and players.
+<<*>> #rPossession#n This allows you to tkae over a players mind controlling them.
+<<*>> #rAcid#n This fills your blood with acid making it so you cannot be
+      embraced.
+
+~
+
+1 DRONES~
+Drones are horrid creatures, able to bend the fabric of reality to their liking, few
+details are known about this strange breed of dark beasts, for those that encounter
+them either lose their life or sanity.
+
+Drones master three realms of power, each of those again holding three spheres.
+
+#G<#0=#y{#0Realities#y}#0=#G>#n
+#P*#n Horrid         - Truesight, Horrid, Nightmare.
+#P*#n Distorted      - Visage, Distort, Nightmare.
+#P*#n Alternate      - Memorytwist, Realityshift, Nightmare.
+
+#G<#0=#y{#0Psyche#y}#0=#G>#n
+#P*#n Willpower      - Memorytwist, Shield, Mentalblock.
+#P*#n Mindcontrol    - Visage, Readaura, Dreamscape.
+#P*#n Psionics       - Psionicburst, Mindseye, Mindwarp.
+
+#G<#0=#y{#0Combat#y}#0=#G>#n
+#P*#n Evasion        - The ability to dodge and evade attacks.
+#P*#n Fortitude      - The ability to resist attacks, reducing damage taken.
+#P*#n Focus          - The ability to focus attacks, causing more damage.
+
+Prompt info : Special 1 will show if the drone can use distort.
+
+Also read help on MEETING.
+
+~
+
+1 DROP GET GIVE PUT TAKE~
+Syntax: drop <object>
+Syntax: get  <object>
+Syntax: get  <object> <container>
+Syntax: give <object> <character>
+Syntax: put  <object> <container>
+
+DROP drops an object on the ground.
+
+GET gets an object, either lying on the ground, or from a container, or even
+from a corpse.  TAKE is a synonym for get.
+
+GIVE gives an object to another character.
+
+PUT puts an object into a container.
+
+DROP, GET and PUT understand the object names 'ALL' for all objects and
+'ALL.object' for all objects with the same name.
+~
+
+0 DROW DROWS~
+Drow are an elite and deadly force of mages clerics and warriors.  They 
+are dedicated to there deity Lloth.  Lloth binds them togther and grants 
+them there powers.  The drow channel power thought Lloth avatar to gain 
+favour's in return.
+
+* Grant         - Command to grant powers to followers
+* Drowcreate    - Command to create drow relics
+* Sign          - Drow chat channel
+* Drowpowers    - View the powers you currently have
+* Lloth		- Show all online members of the church of Lloth
+
+In addition drow's can have a number of powers granted to them by Lloth 
+Type 'help Drowpowers' or 'help Drowclasses' for more
+~
+
+0 DROWCLASSES~
+Drows can be granted specialization in a class by their matron.
+
+* Mage -  Higher spell levels in red and purple magic.
+          'chaosblast' skill.
+
+* Cleric -  Higher spell levels in blue and green magic.
+            'heal' skill.
+
+* Warrior -  Higher weapon skill.
+             Extra attack.
+
+* Weaponmasters - Gain both heal, chaosblast and the extra attacks.
+  You can only become a weaponmaster by getting generation 2.
+
+~
+
+0 DROWPOWERS~
+* Drowsight      -  lets you see all people and rooms
+* Drowshield     -  shield your aura from others
+* Levivation     -  super fly spell (automatic)
+* Darkness       -  turns a room complety dark to everyone else
+* Drowpoison     -  favour to grant poison & immunity (automatic)
+* Drowfire       -  improved faerie fire    
+* Spider         -  creates a drow spider follower   (cast mount)
+* Garotte        -  utilize a whip to choke your victim
+* Dgarotte       -  Dark Garotte used from the Darkness
+* Spiderarms     -  more arms to increase parry/attack speed (automatic)
+* Drowhate       -  invoke the hatred drows have (+dam,random attacks)
+* Spiderform     -  can transform into a giant mutant spider
+* Web            -  shoot spidery webs at your victim
+* Confuse        -  confuse your opponent, causing them to flee
+* Glamour        -  make your items appear more glamourous
+* Earthshatter   -  shake the earth, damaging the whole room
+* Speed          -  drow quickness!
+* Toughskin      -  reduce damage due to toughened skin
+* Darktendrils   -  extra attacks that almost always hit.
+* Fightdance     -  Your weapon dances around parrys.
+~
+
+-1 DYSTOPIA~
+[Note: this entry may not be removed or altered. See the file dystopia.license]
+
+  Original Dystopia created and maintained by
+
+  Thomas Andersen    as   Vladd       [sirvladd@hotmail.com]
+  Henrik Jensen      as   Dracknuur   [mayhaven@worldonline.dk]
+  Dennis Aagaard     as   Tarasque    [daagaard@hotmail.com]
+  Brian Graversen    as   Jobo        [jobo@daimi.au.dk]
+
+  Thanks goes to
+
+  KaVir.... for the godwars codebase and additional code and helpful webpage.
+  Mandrax.. for the signalhandling code.
+  And to all the players of Dystopia, for the great times and tons of fun.
+
+~
+
+1 EMOTE , POSE SOCIAL~
+Syntax: emote <action>
+Syntax: pose
+
+EMOTE is used to express emotions or actions.  Besides EMOTE, there are
+several dozen built-in social commands, such as CACKLE, HUG, and THANK.
+
+POSE is a variant of EMOTE.
+~
+
+0 'ENCHANT WEAPON'~
+Syntax: cast 'enchant weapon' <weapon>
+
+This spell magically enchants a weapon, increasing its to-hit and to-dam
+bonuses.  The weapon must be un-magical to start with.  This spell also
+causes the weapon to be aligned with the alignment with the caster.
+~
+
+1 EQUIPMENT INVENTORY~
+Syntax: equipment
+Syntax: inventory
+
+EQUIPMENT lists your equipment (armor, weapons, and held items).
+INVENTORY lists your inventory.
+~
+
+1 ESCAPE~
+This command allows you to transport to your home room when you are
+mortally wounded. Unfortunately, it also reduces both your mana and move 
+to 0, and informs everyone else on the mud that you are lying defenseless,
+so be careful how you use it.
+~
+
+1 EVILEYE~
+Syntax: Evileye
+Syntax: Evileye Action <action>
+Syntax: Evileye Message <message>
+Syntax: Evileye Toggle Spell/Other/Self
+
+Evileye is a power for demons to make those who dare look at them pay the price.
+
+* Evileye action is for setting what happens when somone looks at you, such as making
+  them chat something, or making them do something, like walk south.
+* Evileye Message sets what they see right before they do the action, such as
+  "Don't stare" or something.
+* Evileye toggle sets who it works on, Other for other than you, self is kinda self
+  explainetory, and spell is for when someone casts a spell on you.
+
+Help file donated by Faekiss.
+
+~
+
+1 EXAMINE LOOK~
+Syntax: look
+Syntax: look    <object>
+Syntax: look    <character>
+Syntax: look    <direction>
+Syntax: look    <keyword>
+Syntax: look in <container>
+Syntax: look in <corpse>
+Syntax: examine <container>
+Syntax: examine <corpse>
+
+LOOK looks at something and sees what you can see.
+
+EXAMINE is short for 'LOOK container' followed by 'LOOK IN container'.
+~
+
+1 EXITS~
+Syntax: exits
+
+Tells you the visible exits of the room you are in.  Not all exits are visible.
+You can use the 'bump' technique to find hidden exits.  (Try to walk in a
+certain direction and see what you bump into).
+~
+
+1 EXPERIENCE XP MODIFIERS~
+Experience is gained by killing mobs, the amount of experience
+gained through a kill depends on the level of the mob being killed.
+There are also different modifiers like happy hour and newbie exp.
+
+The exp modifiers are as listed :
+
+* Newbie hours (The first 4 hours) : gives 200 % extra exp.
+* Happy (Immortals can set this)   : gives 100 % extra exp.
+* Size                             : gives an unknown amount.
+* Time                             : depends on how long you have been on.
+* Tithe (worshippers only)         : gives  -5 % exp (that's less)
+* Mccp   (read Help mccp)          : gives  -5/+25 % exp modifier.
+* Alignment (explained below)      : gives  +/- 25 % exp modifier.
+* Edge                             : gives 15% extra exp.
+
+#GAlignment explaned#n
+If your kill a mob of the opposite alignment as yourself, fx. if your
+aligned good and you kill an evil mob, you gain 25% extra exp from
+the kill. BUT if your the same alignment as the mob you get 25% LESS
+exp from killing that mob.
+
+#GGuidelines about modifiers#n
+* DO NOT ask immortals to turn on Happy Hour!
+* Use #ymccp#n to get the 25% extra exp, it helps the mud run smother.
+    #RYou can use mccp with #yANY#R mudclient out there, please#n
+    #Rread the help file on #ymcclient#R if your normal mudclient doesn't#n
+    #Rsupport mccp by itself. Mcclient is NOT a client, it simply helps#n
+    #Ryour normal client so it can use the mccp protocol.#n
+* If you for some reason don't get a certain modifier even though your sure
+  that you should get it, please recheck everything, perhaps you shouldn't
+  get it afterall.
+
+~
+
+1 FAE~
+The Fae is an ancient races of faeriekin, that roam the planes of Limbo
+and Gehenna. They are rarely seen in the mortal realms, but those who are so
+lucky (or misfortunate, depending on what happens) to meet one of the Fae, will
+have quite a story to tell their grandchildren. Do not let the Fae's diminished
+stature fool you, they are indeed a force to reckon with, controlling the raw
+energied of the plane, and conjuring powerful magics into existance with
+the snap of a finger.
+
+The Fae study the arts of Woodlore and ancient magics, and are devotees
+of the disciplines of #GARCANE#n and #GNATURE#n (research and train commands to improve).
+
+The four forces the Fae control are called plasma, energy, will and matter,
+to unleash these energies, the Fae needs to channel these forces into existance,
+using their own "bodies" as the vessel of creation. It should be noted that the
+Fae doesn't have a real mortal form or body, but rather are beings of energy.
+The Fae takes a mortal form upon entering our world, but they can reform this
+body whenever needed, thus realising their stored energies and reforming lost
+limbs.
+
+The truly powerful of the Fae can reform their bodies into pure elemental form,
+becoming a true Force of Nature. The only real important powers for a Fae
+is #GInfuse#n and #GChannel#n, which let's the Fae summon and discharge the four
+forces of the Fae.
+
+Be warned though, Fae is a bit hard to play.
+
+Prompt info : Special 1/2/3/4 are used for energies and
+              Special 5 is used for faeshields.
+
+~
+
+0 'FAERIE FOG'~
+Syntax: cast 'faerie fog'
+
+This spell reveals all manner of invisible, hidden, and sneaking creatures in
+the same room as you.
+~
+
+1 FIGHT STYLE FIGHTSTYLE~
+Syntax: fightstyle <number> <style>
+
+This is used for unarmed combat, and it allows the fighter to decide on 
+their style of unarmed attack.  Many different types of attack are 
+possible, each with different advantages and disadvantages.  Your first 
+attack in combat always uses the first number slot.  If you have a second 
+attack, this will draw a fighting technique from slots 1 to 4.  If you 
+have a third attack, it will draw a fighting technique from slots 5 to 
+8.  Any other attacks are randomly drawn from any of slots 1 to 8.  If 
+the slot is blank (0) then the attack is a standard unarmed attack.
+~
+
+1 FIGHTTIMER FT~
+On your standard prompt you will notice a section called 'ft',
+this is your fighttimer. When your fighttimer is larger than
+zero, then no room is safe, and certain powers will no longer
+work. Also, the portal spell can be used against you, even
+though you have the nosummon flag on.
+
+You gain a fighttimer each time you do battle with another player,
+and it will slowly drop outside combat.
+
+~
+
+1 FLEE RESCUE~
+Syntax: flee
+Syntax: rescue   <character>
+
+Once you start a fight, you can't just walk away from it.  If the fight
+is not going well, you can attempt to FLEE, or another character can
+RESCUE you.  (You can also RECALL, but this is less likely to work,
+and costs more experience points, then fleeing).
+
+If you lose your link during a fight, then your character will keep
+fighting, and will attempt to RECALL from time to time.  Your chances
+of making the recall are reduced, and you will lose much more experience.
+
+In order to RESCUE successfully, you must practice the appropriate skill.
+~
+
+0 FLY~
+Syntax: cast 'fly' <character>
+
+This spell enables the target character to fly.
+~
+
+1 FOLLOW GROUP~
+Syntax: follow <character>
+Syntax: group
+Syntax: group <character>
+
+FOLLOW starts you following another character.  To stop following anyone else,
+just FOLLOW <yourself>.
+
+GROUP <character> makes someone who is following you a member of your group.
+Group members share experience points from kills and may use the GTELL and
+SPLIT commands.  If anyone in your group is attacked, you will automatically
+join the fight.
+
+If the <character> is already a member of your group, then GROUP will
+kick out the <character> from your group.  Characters can also leave your
+group by using a FOLLOW command to stop following you.
+
+GROUP with no argument shows statistics for each character in your group.
+~
+
+7 FORCE~
+Syntax: force <character> <command>
+Syntax: force all <command>
+
+FORCE forces one character to execute a command.
+
+FORCE 'all' forces all player characters to execute a command.
+This is typically used for 'force all save'.
+~
+
+1 FORGE GEMSTONE HILT SLAB~
+There is no help on the forge system, you'll just have to try the gems, hilts
+and slabs one by one to figure it out.
+
+Syntax : forge <hilt|slab|gem> <item>
+
+Slabs : Copper, Iron, Steel and Adamantite.
+Gems  : Diamond, Sapphire, Emerald, Ruby, Jade, Pearl,
+        Amethyst, Onyx, Opal and Topaz.
+Hilts : Ivory, Ebony, Lazuli, Crystal, Marble, Gold,
+        Bronze, Sandstone and Limestone.
+
+~
+
+0 FORTITUDE~
+Fortitude describes a type of supernatural toughness and vigor which
+allows Kindred to resist harm.  Many vampires are very tough and are able
+to withstand a lot of injury inflicted by weapons and spells.  However 
+with the Fortitude power, they resist damage even further by often keeping
+the weapons from harming them at all.
+~
+
+-1 GAHR~
+#RThe Covern of Gahr, The Crawling Chaos#n
+
+A long time ago, or so the legends tell (not much is known of Gahr before the Time of
+Chaos) Gahr was a powerful god, revered by most of the other gods. Gahr was the god
+of War, and dabbled a little in the arts of magic. As the story goes, Gahr got delusions
+of Grandeur and called upon forbidden magic to enlargen his domain; something went awry
+and the forbidden magic took a terribly toll on Gahr. His sanity. Unable to sustain his
+immortal form, he became what is now know as The Crawling Chaos. An evershifting form
+of tentacles, teeths and scorched fur. Without his sanity Gahr was unable to sustain
+control over his wast domain, causing what is known as the Time of Chaos. The churches
+of Gahr turned upon themselfs, and the worshippers died by the thousands in the war.
+Today Gahr is mostly worshipped by the cruel and twisted, being the god of madness and
+chaos he is also the god of slaughter and destruction, and many vile deeds are commited
+in his name. Evil warlocks and other spellcasters often invoke the name of The Crawling
+Chaos when powerful and destructive magic is called open, and many a sadist and murderer
+is a member of the Covern of Gahr, The Crawling Chaos.
+
+The Worshippers oppose The Crusaders and The Pantheon of the Wild in the circle of balance.
+
+Also read help on GAHRRANK.
+~
+
+-1 GAHRRANK~
+#RThe ranks in the Covern of Gahr, the Crawling Chaos#n
+
+#GThe Slayers of Gahr#n are some of the meanest bastards that walk on two legs; born and breed
+for the sole purpose of slaughter and destruction these vile creatures are known for their
+savage fury and ability to hunt down any prey.
+
+#GThe Diabolists of Gahr#n form the occult backbone of the Covern; these men and women drive
+the followers of Gahr into a worshipping frenzy and are responsibly for channeling the powers
+of Gahr into a destructive purpose. The Diabolists make most of the planning and thinking in
+the Covern.
+
+#GThe Eyes of Gahr#n are cursed with much the same madness as Gahr himself, these are speciel
+worshippers, touched by Gahr, and infused with a part of the God. Driven mad and crazed by this
+constant unholy presence inside them, they are feared not only by innocent, but also by many
+followers of Gahr. They are known to act irrational, and strike out at anyone for no apperant
+reason.
+
+#GThe Voices of Gahr#n are a sorry bunch. Not much of the mortal that worshipped Gahr is left,
+at least not of the sane mind that once possesed the body. These rambling, vulcanos of utter
+power, unleashes raveging, destrutive forces upon buildings and mortals alike.
+
+#GThe Abominations of Gahr#n are those that have undergone the final transformation and has
+become a demonthing, avatars of Gahr himself they are sometimes called; like Gahr they seem
+to have no control over their bodies, their limbs are hideously deformed, and their faces
+and features are those of a demonic nightmare.
+
+~
+
+1 GENERATIONS GENSTEAL~
+All new chars start at generation 6, and can improve their
+generation by stealing generation from other chars with same
+or better (lower) generation than them self.
+
+syntax : gensteal <victim>
+
+victim must be morted.
+
+Generation gives a damcap bonus.
+
+At generation 2 your max weaponskill goes up by 10%.
+At generation 1 your max weaponskill goes up by 20%.
+
+~
+
+1 GIANTS~
+The Giants were the first to walk this world. In the beginning, before the gods
+created man, and populated the worlds, the Giants would walk with the gods, they
+were scholars and warriors, born and breed in the image of the gods. Then came
+the time of man; humankin started walking the same earth the Giants had thought
+their own for millinia; the time of the Giantwars started, and for many centuries
+the children of the gods fought the onslaught of man. Finally the Giants, who had
+always been few in numbers, lost, and retreated to the barren parts of the world.
+Living in the wast wilderness, in the mountains and on the barren plains, the
+Giants declined, both in numbers and in spirit, they became the race of Giants
+we know today. The big and ugly brutes, that hates all of man. Few are those
+that meet a giant and lives to tell about it, such is the hatred of the Giants.
+
+Smack, Bash and Thwack      - Attack types, combo based.
+Longstep                    - Walk somewhere fast.
+Growth and Giantgift        - Gain powers and grow higher.
+Dawnstrength and Standfirm  - Prepare to give a good bashing.
+                              (standfirm costs class points to keep active).
+Earthpunch and Sweep        - Special attacks.
+Stoneshape                  - Modify equipment. (costs 50 qps).
+Revival                     - Call for the earth to restore you.
+Deathfrenzy                 - Look out for giants when they enter the frenzy.
+
+also rumble, truesight, scry and giantarmor.
+
+~
+
+1 GLAMOUR RESHAPE VTWIST CAMOUFLAGE~
+Reshaping powers can be used to rename equipment, this is
+the correct syntax to use for any of the reshaping commands.
+
+reshape <targer object> [name|short] <new name>
+
+name  : Changes the keywords of the item (that which you type to handle it)
+short : This is the name shown, when you look at the item.
+
+example for renaming a dagger to 'Purple Dagger'
+
+reshape dagger short Purple Dagger
+
+~
+
+1 GNOSIS~
+Gnosis is the power of the garou, and is used to power certain powerful
+werewolf commands/powers. To regenerate your gnosis, you must be sleeping.
+
+Training gnosis costs experience points, and the command 'train gnosis'
+is used to increase your maximum level (the final max is 20).
+
+~
+
+-1 GODWARS~
+God Wars was created by Richard Woolcock, aka KaVir.
+Thanks also go to the following people (in order of help given):
+
+...Zarkas, for teaching me how to mud properly.
+...Malice, for getting me into the implementor and coder side of things.
+...Haus, for inspiring me to create a mud without levels.
+...ShadoWeaver, for providing me with my first (and free) site.
+...Rotain, for helping with the code - and the debugging.
+...Calamar, for adding some nifty code that I still don't understand.
+...Stephen from ACK mud, for coding advise and suggestions.
+...Monochrome BBS, for supplying me with a decent free site.
+...Lucifur, for providing a USA mirror site for the USA players.
+...Shaddai, for a mirror site, code snippets and bug reports.
+...Arioch, for comments, suggestions, and help running the mud.
+...Tepic, for writing the web pages, and helping run the mud.
+...Pandora, for trying to bring some semblance of order to the mud.
+
+
+~
+
+-1 GREETING~
+#0
+                                _
+                             ==(W{==========-      #G/===-
+                               #0||  (.--.)         #G/===-_---#-#-#-#-#-#-#-#-------____
+                               #0| \_,|#y**#0|,__      #G|===-#-___               _,-'
+                  -==\\        #0`\ ' `--'   ),    #G`//#-\\   #-#-#-#-`--.___.-#-#-
+              ______-==|        #0/`\_. .__/\ \    #G| |  \\          _-#-`
+        __--#-#-#-  ,-/-==\\      #0(   | .  |#-#-#-#-|   #G| |   `\       ,'
+     _-#-       /'    |  \\     #0)__/==0==-\<>/   #G/ /      \     /
+   .'        /       |   \\      #0/#-\___/#-#-\/  #G/' /        \   /
+  /  ____  /         |    \`\.__/-#-#-   #0\  |#G_/'  /          \/'
+  -'#-    #-#-#-#-#----__  |     #--/#-         #0( )#G   /'        _--#-
+                   \_|      /        _) #0| ;#G  ),   __--#-#-
+   #nGodwars by#G        '#-#---_/      _-#-/- #0|/#G \   '-#- \     #CWelcome to Dystopia#G
+                    {\__--_/}    / \\_>-#0|)#G<__\      \
+     #nKaVir#G          /'   (_/  _-#-  | |__>--<__|      | #nDiku Mud by Tom Madsen,#G
+                   |   _/) )-#-     | |__>--<__|      |   #nHans Staerfeldt,#G
+                   / /#R#-#G ,_/       / /__>---<__/      |   #nSebastian Hammer,#G
+                  o-o _//        /-#-_>---<__-#-      /    #nMichael Seifert and#G
+                  (^(#-          /#-_>---<__-      _-#-     #nKatja Nyboe.#R
+                 ,/|           #G/__>--<__/     _-#-
+              #R,//(#y'#R(          #G|__>--<__|     /                  .----_
+             #R( ( #y'#R))   #nArt    #G|__>--<__|    |                 /' _---_#-\   
+          #R`-)#y)#R )#y)#R (           #G|__>--<__|    |               /'  /     #-\`\
+         #R,/#y,'#R//( (    #nby       #G\__>--<__\    \            /'  //        ||
+       #R,( #y(#R ((, #y)#R)              #G#--__>--<_#--_  #---____---#-' _/'/        /'
+    #R`#-/  #y)`#R ) ,#y/#R|       #nJGS       #G#--_#->--<_/-__       __-#- _/
+   #R._-#y#-#R//( #y)#R/ #y)#R) `                    #G#-#--'_/_/ /#-#-#-#-#-#-#-__--#-
+     #y;#R'( '#y)#R/ ,#y)#R(                              #G#-#-#-#-#-#-#-#-#-#-#R
+     ' ') '( #y(#R/
+       '   '  `
+   
+#nWhat be thy name? ~
+
+1 GROWTH GIANTGIFTS~
+By growing, a giant gains access to more powers, as well as increase their
+fighting abilities in general (more damage, more toughness, more damcap).
+
+Giantgifts are special gifts that can be used in combat. Some of them
+works automaticly, others require the giant to type a command. Remember
+that you can get a list of all your class commands by typing 'powers'.
+
+~
+
+1 GTELL ; REPLY SAY TELL~
+Syntax: gtell <message>
+Syntax: say   <message>
+Syntax: tell  <character> <message>
+
+All of these commands send messages to other players.  GTELL sends a message to
+all of the characters in your group, wherever they are, even if they are
+sleeping or stunned or dying.  ';' is a synonym for GTELL.
+
+SAY sends a message to all awake players in your room.  The single quote '''
+is a synonym for SAY.
+
+TELL sends a message to one awake player anywhere in the world.
+
+REPLY sends a message to the last player who sent you a TELL.  REPLY will work
+even if you can't see the player, and without revealing their identity.  This
+is handy for talking to invisible or switched immortal players.
+~
+
+1 'HAPPY HOUR' 'QUESTORS DELIGHT'~
+During Happy Hour, the experience gained through killing mobs are
+increased by 100%, and during Questors Delight, the qps gained when
+completing a quest is doubled.
+
+It is possible to check the chance of QD or HH to be actived by
+checking the 'timer' command. It will also show if these modes
+are currently active, and how long they will last.
+
+Also read HELP QUESTMASTER for details on questing.
+
+~
+
+1 HELP~
+Syntax: help
+Syntax: help <keyword>
+
+HELP without any arguments shows a one-page command summary.
+
+HELP <keyword> shows a page of help on that keyword.  The keywords include
+all the commands, spells, and skills listed in the game.
+~
+
+1 HIDE SNEAK VISIBLE~
+Syntax: HIDE
+Syntax: SNEAK
+Syntax: VISIBLE
+
+If you successfully HIDE, then other characters can't see you.  If you 
+attack while hidden, the surprise attack will inflict one and a half 
+times your normal damage (assuming your opponent cannot see you).
+
+If you successfully SNEAK, then you can move in and out of rooms without
+being noticed.
+
+In order to HIDE or SNEAK successfully, you must practice the appropriate
+skill.
+
+VISIBLE cancels your hiding and sneaking, as well as any invisibility,
+making you visible again.
+~
+
+1 HOBBIT~
+Hobbits are the children of the earth, these joyful and content beings
+hardly ever leave their homestead, and should you ever meet one, you can be
+sure it's got a backpack full of foodstuff, a icecream cone in one hand and
+a charming smile ready to disarm even the most fiendish of fiends. Related
+to dwarves they share an unnatural toughness as well as a resistance to most
+spells. The hobbits are mostly famous for their uncanny ability to cook anything.
+
+* Hobtalk        - Talk with your hobbit friends.
+* Readaura       - You just can't trick a halfling with words.
+* Shield         - But they sure can trick you, they always look much weaker than they are.
+* Truesight      - The mix of dwarven and elven blood gives great vision.
+* Hobbitarmor    - Never dressed for war doesn't mean your naked.
+* Bettercook     - Learning the arts of cooking is not easy.
+* Dishes         - List the known ingredients.
+* Cook           - The power!
+* Vanish         - Now you see me, now you dont.
+* Tunnel         - Dig a tunnel to anyone.
+
+Also read HELP COOK
+
+Prompt info : Class Special 1 will list the contents of your pot.
+
+~
+
+1 HOLD REMOVE WEAR WIELD~
+Syntax: hold   <object>
+Syntax: remove <object>
+Syntax: wear   <object>
+Syntax: wear   all
+Syntax: wield  <object>
+
+Three of these commands will take an object from your inventory and start using
+it as equipment.  HOLD is for light sources, wands, and staves.  WEAR is for
+armor.  WIELD is for weapons.
+
+WEAR ALL will attempt to HOLD, WEAR, or WIELD each suitable item in your
+inventory.
+
+You may not be able to HOLD, WEAR, or WIELD an item if its alignment does not
+match yours, if it is too heavy for you, or if you are not experienced enough
+to use it properly.
+
+REMOVE will take any object from your equipment and put it back into your
+inventory.
+~
+
+1 HOME~
+To set your recall point, enter the desired room and type 'home here'.  
+From that point on you will recall to that point rather than the Temple 
+of Midgaard (although you still go to the Templar Altar if you die).
+
+A home cannot be a safe room.
+~
+
+1 HUNTER~
+The dark hunter is a fierce beast from the lower layers
+of the abyss. It's enhanced predatorial senses makes it
+capable of hunting down any player in the world of dystopia.
+
+To use the hunter, the summoner simply has to tell the
+beast to start tracking someone by their name.
+
+Example 'say start tracking Jobo'
+
+The beast will then begin to track the player named
+Jobo, and will not stop untill it has found him, or
+have lost his trail (if the player leaves the area).
+
+Please try to remember that the beast is still being
+tested, and it might be a short while before it works
+as it is supposed to - so no whining because he suck.
+
+~
+
+1 HURL~
+Syntax: hurl <name>
+Syntax: hurl <name> <direction>
+
+This ability allows you to hurl the target into walls, through exits, or 
+through doors.  Hurling someone through an exit does a little damage.  
+Hurling them into walls does twice as much, and hurling them through 
+doors does three times as much.  If you don't specify a direction to hurl 
+the target, it will be random (north, south, east or west).  You cannot 
+hurl someone who is already injured.
+~
+
+0 IDENTIFY~
+Syntax: cast identify <object>
+
+This spell reveals information about the object.
+~
+
+0 IMMUNE IMMUNITY IMMUNITIES RESISTANCES~
+Immunities and resistances give you protection from the following:
+Slash     : Slashing/Slicing weapon damage reduced by 1-100% per blow.
+Stab      : Stabbing/Piercing weapon damage reduced by 1-100% per blow.
+Smash     : Blasting/Crushing/Pounding damage reduced by 1-100% per blow.
+Beast     : Clawing/Biting weapon damage reduced by 1-100% per blow.
+Grab      : Grepping/Whipping/Sucking damage reduced by 1-100% per blow.
+Charm     : You are no longer affected by the Charm Person spell.
+Heat      : You are unaffected by Burning Hands, Fireball, etc.
+Cold      : You are unaffected by Frost Breath, Chill Touch, etc.
+Lightning : You are unaffected by Lightning bolt, Call Lightning, etc.
+Acid      : You are unaffected by Acid Blast, Acid Breath, etc.
+Drain     : You are unaffected by the Energy Drain spell.
+Summon    : You cannot be summoned or portaled to, nor can you teleport.
+Hurl      : You cannot be hurled.
+Backstab  : You cannot be backstabbed.
+Kick      : Kicks do no damage whatsoever to you.
+Disarm    : You cannot be disarmed by other players or by mobs.
+Steal     : Other players and mobs cannot steal from you.
+Bite      : Vampires may not bite you or feed you blood.
+Stake     : If you're a vampire with this, you cannot be staked down.
+~
+
+1 IMPLANTS~
+By using the 'implant' command, a spiderdroid can buy new implants for
+it's body, the cost mentioned is on drider/droid points, but the droid
+must #Galso#n pay 500 times the mentioned cost in exp to gain the implant.
+
+#0Implant            Cost  Description#n
+Eyes              25000  Grants Truesight
+Extra Arms       100000  Grants extra attacks
+Radar            100000  Grants a powerful scry ability
+Machinegun       200000  Grants the ability to use the submachine gun
+Rocket Launcher  150000  Grants the ability to use the rocket launcher
+Body Armor       100000  Grants extra toughness
+Armwires         200000  Grants enhanced parry and the web skill
+360 Vision        50000  Grants enhanced dodge
+Armory           200000  Grants the ability to hold extra ammo/rockets
+Steam Engine     150000  Grants extra power, increases damcap/damage
+Breath Cannon    100000  Grants the ability to breathe steam (requires engine)
+Battlestation    400000  Grants the ability to turn into an immobile battlestation
+Shadow Gate      100000  Grants access to the sphere of shadows
+Tuned Engine     100000  Increases the power of the steam engine
+Regrowth          25000  Grants the ability to regenerate
+Larvafeet        200000  Allows slow travel in battlestation form
+
+~
+
+0 INFRAVISION~
+Syntax: cast infravision <character>
+
+This spell enables the target character to see in the dark.
+~
+
+1 INVOKE~
+The invokes are the main source of power for the battlemages, to learn
+a new invoke, the mage must pay 20 primals for each level learned, so
+to gain level 8 invoke, the mage must pay 160 primals. To gain the invoke,
+simply type 'invoke learn'. There are a total of 10 invokes to learn as
+a battlemage.
+
+~
+
+1 LEAP ROLL~
+These two demon powers allows a demon in weaponform to roll or leap
+around, moving the demon from room to room, or into the inventory of
+players. The leap power can even be used to leap into containers.
+
+~
+
+1 LICH~
+#n #n
+Lichs are powerful sorceres that have cheated death by entering a state of
+living death. No longer subject to the affects of time, they use their time
+to explore other planes and perfect their magic. The lichs grow in power, far
+beyond that of most mortal mages, since they have so much more time to perfect
+their art. If you thought mages were scary, try fighting a lich that has used
+the last 2000 years coming up with nasty spells to kill and destroy.
+
+Masters of conjuring, death, life, necromantics and chaos, lichs have
+acces to several powers, some of them are know as :
+
+Conjuring   : Objectgate, Fireball, Planartravel, Golemsummon, Pentagram.
+Death       : Readaura, Chillhand, Painwreck, Creeping Doom.
+Life        : Regeneration, Earthswallow, Powertransfer, Polarity.
+Necromantic : Zombie, Soulsuck, Planarstorm, Planeshift.
+Chaos Magic : Chaosmagic, Chaossurge, Chaosshield.
+
+Prompt info : Class special 1 will list the number of golems owned
+              by the lich (which are in the same room as the lich).
+
+~
+
+-1 LOA~
+#0What is the Loa#n
+
+The Loa is not one person or being, it is something quite different, you
+might call it a multitude of personalities mixed into one existance,
+scholars have spent eons studying the few facts we have on the Loa,
+but no real conclusion have come of it. Most of the scholars do agree  
+on one thing. The Loa didn't create existance as we know it, but there   
+seems to be no evidence of the Loa ever having been created itself, so
+most people agree that the Loa have always existed in one form or another.
+
+The Loa is also refered to as the snake god, or the Serpent; some religions
+know of the Loa as the corruptor or the destroyer. Most religions agree
+that the Loa exists, though they all expres a certain antipathy against
+the followers of the Serpent god.
+
+The different personalities of the Loa seems to be ignorant of eachother,
+striving for different purposes and sometimes even fighting each other,
+for a long time, the Loa was revered as several different deities, only
+during the last few hundred years have the truth been know about the Loa.
+
+The worshippers oppose The Stars and The Crusaders in the circle of Balance.
+
+read help on LOAWORSHIP, LOARELICS, LOARANKS.
+
+~
+
+-1 LOARANKS~
+#0What ranks are know among the Loa#n
+
+#GThe Disciples of the Loa#n are the most common of the priests, they
+are the backbone of the church, and the gatheres and brokers of the
+churchs knowlegde.
+
+#GThe Tongues of the Loa#n are the speakers of the divine truth, (at least
+that's what the church calls them). These priests attain the special rank
+of diviners and have acces to many of the secrets of the Loa.
+ 
+#GThe Horses of the Loa#n are said to be possessed from time to time, by
+one of the personalities of the Loa, from this possession springs both
+madness and knowledge, some say that it's the divine knowlegde that causes
+the insanity.
+
+#GThe Vessels of the Loa#n have melted with the Loa, and are considered  
+avatars of the great existance, these beings are rare indeed, and what
+powers they have acces to is uknown.
+
+#GThe Loremasters of the Loa#n is a secretive group that leads the church,
+the numbers and power of these people are unknown, and it's even
+speculated that the Loremasters are the Loa itself, manifested in mortal
+form to lead it's church.
+
+~
+
+-1 LOARELICS~
+#0Ancient Relics of the Church of the Loa#n
+
+#R* #GThe bones of the Loa#n The ancient rod of communication with the
+                      gods, whom we know now to be the Loa. Holding
+                      this rod allows the wielder to know everything
+                      the Loa does, or at least one of it's personalities.
+
+#R* #GThe Serpent Staff#n    Wielded by the high priet of the Church of Loa,
+                      last location unknown. It's powers are likewise
+                      unknown, though it's rumored that certain
+                      Loremasters have knowledge of atleast its powers.
+
+#R* #GAncient tomes#n        Written by ancient loremasters, most lost forever.
+                       These tomes are said to contain knowledge that
+                       allows a reader to gain a deeper understading of
+                       the existance we call the Loa. Though most of
+                       these works are know to cause insanity by merely
+                       skimming the cover.
+~
+
+-1 LOAWORSHIP~
+#0What do we know about the worshippers of the Loa#n
+
+These shadowcloaked people seems to strive on secrecy and information;
+it's commenly said about secrets, that if the children of the Loa doesn't
+know it, no one ever will. Because the priest of the Loa keep every little
+piece of knowledge they got from everyone else, it's almost impossible
+to get any information about that church of the Loa, it's even said that
+most of the priests don't know the full truth about the agenda of the Loa.
+
+~
+
+1 'LOCATE OBJECT'~
+This nice spell, allows you to locate any object on the mud. By giving
+the name of the object as the argument to the spell, the spell will list
+the first 44 objects that match your argument. If you wish to see more
+than just the first 44 objects, you can give an additional argument X to
+the spell, so it will skip the first X objects.
+
+example : cast locate sword 30
+
+This will list up to 44 swords, and their location, skipping the first
+30 swords encountered on the mud.
+
+~
+
+0 'LOCATE OBJECT'~
+Syntax: cast 'locate object' <name>
+
+This spell reveals the location of all objects with the given name.
+~
+
+0 MANTRA~
+Eyes of God           Truesight
+Shield/Readaura/Scry  <----
+Sacred Invisibility   Monk Invisibility
+Heart of the Oak      Toughness
+Adamantium Hands      Advanced Parry
+Flaming Hands         Sets your opponent on fire
+Skin of Steel         Reduced Damage
+The Almighty Favor    Adds Strength
+Dark Blaze            Totally blinds the opponent
+Celestial Path        Portal to players/mobs
+Prayer of the Ages    (unknown)
+Cloak of Life         Regenboost when hurt bad
+Gods Heal             God Heals you
+Gods Hold             God holds players when they flee 
+
+To train a mantra use '#cMantra Power Improve#n'.
+~
+
+1 MAP AUTOMAP~
+By enabling long descriptions for rooms (brief1 must be off),
+and enabling the automap feature (type 'map'), then the room
+description will include a map of the rooms around the player.
+
+Symbols used for the map are :
+
+#g*#n  Woodland, Forest, Plains
+#8@#n  Mountain, Hill
+#nO#n  Inside, City
+#L=#n  Water, Ocean, Sea
+#C#-#n  Air, Flying
+#y+#n  Desert
+
+The symbols '#o|#n' and '#o-#n' represents roads, tunnels, etc.
+
+~
+
+1 'MARTIAL SKILL'~
+A ninjas fighting abilities relies entirely on their level of
+martial skill, which can be increased by using the shadowlearn
+command. The cost is 10 primal for each level of martial skill,
+meaning that the 11th skill will cost 110 primal, and the 14th
+skill will cost 140 primal.
+
+The martials will increase the ninjas ability to dogde and parry,
+as well as give additional attack in combat.
+
+~
+
+1 MASTERY~
+When you have grandmasterd all your stances, spells and weapons,
+you can use the mastery command to gain a mastery item, which
+is a piece of classeq that's better than your normal classeq.
+Mastery doesn't require that you max your superstances, nor
+does it require that you have more than 200 in weapons/skills
+if that's possible. Getting 200 is enough.
+
+syntax : mastery
+
+NOTE : If you are so stupid that you gemstone your mastery item
+       it's your loss, don't expect anyone to care.
+
+~
+
+1 MCCP MCCLIENT~
+Mccp is a compression protocol, and the two main benefits of mccp are:
+
+1. lower bandwidth usage by the mud.
+2. clients (i.e. players) get large responses (such as, for example, combat
+   spam) from the mud at a higher rate - the mud will "feel" faster, despite
+   the fact that the actual round-trip times are unchanged.
+
+With a suitable client, mccp is entirely transparent to the user - it
+automatically enables itself when supported by both the server and client.
+
+For more details on the protocol, your welcome to visit the MCCP homepage
+
+#Ghttp://www.randomly.org/projects/MCCP/#n
+
+Currently the following mud clients are know to support mccp.
+
+* Papaya
+* Tkturf
+* Mcl
+* Amcl (cvs only)
+* Kmud
+* Zmud (version 6 only)
+* Mushclient
+
+If you use mccp, you will be rewarded by an extra 25% exp bonus.
+~
+
+7 MCLEAR~
+Syntax: mclear <player>
+
+This resets the target players stats to their correct value.
+~
+
+-1 MEETING~
+#RThe meeting#n
+
+As you stumble down the dark corridor, you come upon the form of a humanoid creature,
+it doesn't look very menacing nor threatening, but as you get closer you see how wrong
+you really were. Though the create looks slim and scrawny, the face is horrid beyond
+reality, grey ashy skin, and huge black voids for eyes, all set into an empty expression
+that marks the face in a way more horrid than the tentacles that surrounds the mouth
+or the dark fluid that runs from the open sores on it's body. As you stumble to a halt,
+a sense of vertigo falls over you, and the world around you change to something not quite
+real, but not quite a fantasy; as if the settings was wrought from your innermost
+memories, just that this is nothing you have ever experience, more like your worst
+nightmare; the nightmare you had once, but have forgotten, pushed into the darkest
+parts of your mind.... the nightmare comes alive, and a hulking creature stands infront
+of you - the same creature that was once the scrawny humanoid you met in the corridor,
+somewhere far far away. Now you know.... know for sure.... the nightmare has just begun.
+
+What these dronelike creatures really are, is something no one really knows. Their unnatural
+behaviour, and the fact that no known habitat have ever been found (on any plane) calls for
+the conclusion that these creatures don't really exist, but infact are figments of our
+imagination, some dark, twisted, perverted version of our darkest fears.
+
+~
+
+0 MELPOMINEE~
+<<*>> #rScream#n This stuns everyone in the room.
+<<*>> #rGourge#n This allows you to eat of small animals.
+<<*>> #rLove#n You can make people fall in love with you.
+<<*>> #rReina#n This allows you to make the room safe.
+<<*>> #rCourage#n You gain extra courage in battle.
+
+~
+
+-1 MERC~
+[Note: this entry may not be removed or altered.  See our license.txt.]
+This mud is based on Merc 2.1, created by Furey, Hatchet, and Kahn.  Merc 2.1
+is available as Merc_21.tar.gz from ftp.tcp.com and ftp.math.okstate.edu.
+E-mail to 'merc-request@kpc.com' to join the merc mailing list.
+
+Thanks to ...
+  ... Diku Mud for starting it all.
+  ... The Free Software Foundation and DJ Delorie for kick-ass tools.
+  ... Copper Mud and Alfa Mud for releasing their code and worlds.
+  ... Aod of Generic for ... well, everything.  You're a hoopy frood, Aod.
+  ... Alander for many ideas and contributions.
+  ... John Brothers of Silly for permission to use Silly code and worlds.
+  ... Zrin for administering the mailing list.
+  ... Abaddon for proofreading our comm.c.
+  ... Hind, Quin, Vic, Diavolo, Oleg, Trienne, and others for porting help.
+  ... Diavolo, Grodyn, Morgenes, and others for code and bug fixes.
+  ... Raff, Doctor, VampLestat, Nirrad, Tyrst, PinkF, Chris, Glop for worlds.
+  ... the players and imps of Mud Dome, Final Mud, Mud Lite, Vego Mud, Rivers
+      of Mud, Ruhr Mud, and Mystic Realms for bug reports, ideas, new code,
+      and hours of enjoyment.
+
+Share and enjoy.
+~
+
+0 'MINOR CREATION'~
+Syntax: cast 'minor creation' <object>
+
+This spell creates an empty potion, scroll, wand, staff or pill, which 
+can then be enchanted by the caster using other spells.
+~
+
+7 MLOAD OLOAD PLOAD~
+Syntax: mload <vnum>
+Syntax: oload <vnum>
+Syntax: oload <vnum> <level>
+Syntax: pload <player>
+
+MLOAD loads a mobile given its vnum (virtual number).  The vnum's are just
+the #NNNN numbers that appear in world.obj.
+
+OLOAD loads an object given its vnum.  It takes an optional parameter for
+the level of the object to be loaded.
+
+PLOAD loads the specified player under your control.  To get back, simply 
+quit and log back on as your normal character.
+~
+
+1 MONK MONKS~
+These Followers of god, have devoted their lives to protect and help
+the good. They will fight against evil anytime to destroy and banish the evil
+from this world. With them they have been granted with the power of god.
+These powers are called mantras.
+
+#G*#R*#L Mantra#n      : list currant monk powers.
+#G*#R*#L Monkarmor#n   : Make special equipment bestowed by the gods.
+#G*#R*#L Learn#n       : Learn the monk techniques and abilities.
+
+For more in depth information, See the following helps:
+#LMONKABILITIES#n,#L MONKCHI#n,#LMONKCOMBO#n,#LMANTRA#n
+
+Prompt info : Class Special 1 will list active combos.
+
+~
+
+0 MONKABILITIES~
+Monks have four special abilities granted to them by God.
+Each ability has four levels, which cost 500k exp each.
+
+#LSpirit#n      - Blinding agony, Healingtouch, Deathtouch.
+#LBody#n        - Adamantium hands, Spiritpower.
+#LAwareness#n   - Nightsight, Shadowsight, Truesight, Scry.
+#LCombat#n      - Combat bonuses per level.
+~
+
+0 MONKCHI~
+A monk's chi is the essential part of combat.  The higher
+the monk's chi, the better he or she can parry and dodge
+blows.  It also gives the monk more strength and power,
+thus letting him or her inflict more damage and receive
+less.  Maintaining chi is very strenuous, and requires
+that the monk have plenty of vitality.
+~
+
+0 MONKCOMBO~
+By using his or her special techniques, such as thrust kick,
+in a certain order, he or she may perform special combos.
+Each combo has a different effect.  Some may do damage to the
+victim, some syphon movement points, and some may stun the victim.
+A monk's combos are a very mysterious thing, thus the monk
+must spend much of his or her life trying to perfect
+these combos.
+
+Lightning Kick - Strikes the opponent with a series of powerful kicks.
+Tornado Kick   - Strikes everyone in the room with kicks.
+Choyoken       - A devastating attack that targets the opponents stamina.
+Raptor Strike  - An attack that syphons the mystical energies of the target.
+Nerve Pinch    - A series of attacks targeted at central nerves, paralysing.
+
+~
+
+-1 MOTD~
+#n #n
+     #G*********************************************************************#n
+     #G*                       #LWELCOME TO DYSTOPIA#n                         #G*
+     #G*                                                                   *#n
+     #G*                #RPlease check help on the following :#n               #G*
+     #G*                                                                   *#n
+     #G*       #PRules, Upgrade, Class, Pkpowers, FAQ,#n                       #G*
+     #G*       #PSuperstance, Mccp, Mcclient and Policy. Thanks!#n             #G*
+     #G*                                                                   *#n
+     #G* #RIf you find any bugs, write a note or mail me..  #yDONT ABUSE IT.#n   #G*
+     #G*                                                                   *#n
+     #G* #RMail to the staff is #0--> #Gjobo@daimi.au.dk#n                         #G*
+     #G* #RDystopias Homepage   #0--> #Ghttp://www.daimi.au.dk/#-jobo/dystopia#n    #G*
+     #G*                                                                   *#n
+     #G*            #yREAD #RHELP NEWBIE#y IF YOU ARE A NEWBIE!!!#n                #G*
+     #G*                                                                   *#n
+     #G*   #RIF YOUR USING #LMCCLIENT#R PLEASE DOWNLOAD A NEW VERSION,           #G*
+     #G*   #ROR EDIT THE FILE MCCLIENT.CFG TO POINT TO THE NEW ADDRESS.      #G*
+     #G*                                                                   *#n
+     #G*********************************************************************#n
+
+
+~
+
+0 MOUNT DISMOUNT~
+Syntax: mount <creature>
+Syntax: dismount
+
+This allows the character to mount the specified creature.  Only 
+creatures such as horses and the like may be mounted, and they will aid 
+their rider in combat.
+~
+
+0 MOUNTSPELL~
+Syntax: cast mount
+
+This spell summons a mystical creature to serve as the casters mount.  
+The type of mount summoned is dependant on the casters alignment, and the 
+toughness of the mount is dependant on the casters spellcasting ability.
+~
+
+7 MSET OSET RSET SSET QSET~
+Syntax: mset <character> <field> <value>
+Syntax: oset <object>    <field> <value>
+Syntax: rset <location>  <field> <value>
+Syntax: sset <character> <skill> <value>
+Syntax: sset <character> all     <value>
+Syntax: qset <object>    <field> <value>
+
+MSET, OSET, and RSET set the properties of mobiles, objects, and rooms,
+respectively.  SSET sets a skill or spell level on a PC.  QSET sets 
+special properties and text messages on objects.
+
+There is currently no way to enter more than one line of text for a
+string-valued option.
+~
+
+1 MSP SOUNDS MUSIC~
+MSP stands for Mud Sound Protocol, and it's a way of allowing muds
+to use sounds and affects to increase the fun of mudding.
+
+You can either download all the sounds first (that's probably
+the smartest thing to do), or let your mudclient download them
+when they are needed (it will only download them once, and then
+reuse the downloaded sound next time it's needed).
+
+Just type 'sound' to toggly sounds on/off.
+~
+
+1 MULTIPLAYING PLAYERSHARING~
+Multiplaying and playersharing is strictly forbidden, the rules
+are as this (and don't try and find loopholes, I'll just wipe you).
+
+* No more than 1 char can connect via 1 ip, so local networks
+  don't work, unless you have more than one ip available.
+* Going linkdead to trade items from one char to another is not
+  allowed, it still counts as multiplaying.
+* Having more than one person controlling a character on the mud
+  is called playersharing and it not allowed.
+* No transfering of items and/or qps from one char to another
+  that you own, read HELP RULES on how I deal with people who
+  think they found a loophole.
+* No using one of your characters to help another in some way
+  or another. Be smart, keep your characters seperated.
+* If an immortal tells you to stop multiplaying, you will stop
+  instantly, there will only be given one warning, next time
+  ANYONE multiplays from that ip, ALL chars from that ip will
+  be deleted.
+
+Don't argue, if an imm tells you that your multiplaying, then
+you are. We don't give a shit if it's your mother that controls
+the other character.
+
+~
+
+1 NCOMBOS~
+Once a ninja has mastred the ninja attack styles, he or she can
+use them in combination to achive powerful affects. So far 7 such
+combos are known to exists, and only by experimenting can a ninja
+truly master them all.
+
+One though, is well known among all ninjas, and that's the ability
+to form a barrier of cutting knifes infront of yourself. This is
+easily done by using the caltrop attack followed by a knifespin.
+
+All affects given by ninja combos requires a few class points each
+turn to keep running.
+
+~
+
+0 NECROMANCY~
+<<*>> #rZombie#n This allows you to bring corpses back to life.
+<<*>> #rSpiritguardian#n When you call upon this guardian he will tell you when
+      people are scrying portaling or trying to summon you.
+<<*>> #rSpiritgate#n This allows you to gate to mob corpses.
+<<*>> #rPreserve#n This preserves a corpse, or any other object that needs
+      preserving.
+<<*>> #rBloodwater#n This turns a vampire's blood into water.
+~
+
+-1 NEWBIE~
+#RThe Newbie Helper#n
+
+#R*#n First kill some mobs in the newbie arena (located south of where you start, that's
+  up and south from recall), when you have 2K hps, you can train avatar and use
+  the selfclass command to gain a class.
+#R*#n After getting a class, you should get a little buffer from killing mobs in newbie
+  arena, then move on to either Elemental Canyon or The Black Dragons Lair.
+  The Lair can be found 1 south, 6 east, 2 south and down from recall.
+#R*#n During the first 4 hours of play you cannot be attacked by other players, and should
+  use this time to get stronger, remember to get all your class powers, read the
+  help file on your class and do the best you can.
+#R*#n There are some help files you might want to read, since they'll help you alot.
+  The list : BRIEF, EXP, MCCLIENT, CHANGES, RULES and POLICY, they each contain knowledge
+  that is useful for new players to this mud (not just newbies).
+#R*#n Remember the following :
+  #R*#n The higher your unarmed ability is, the less you will get hit by monsters.
+  #R*#n Treat others with the same respect you would want them to show you, it will
+    help you get along alot easier (Remember be nice while you are small, you can always be mean later)
+  #R*#n If you don't know how a thing is done, try seeing if there is a help file on the
+    subject, if there isn't we could use one, and your welcome to write it and mail it to the staff.
+
+Good luck, and all that :)
+
+~
+
+1 'NIGHT PACT' 'DEMONIC PACT'~
+These two pacts will help the ninja do more damage, and also
+help the ninja resist more damage. Without committing to these
+pacts, the shadow ninja will never reach it's full potential.
+
+~
+
+1 NORTH SOUTH EAST WEST UP DOWN~
+Syntax: north
+Syntax: south
+
+yntax: east
+Syntax: west
+Syntax: up
+Syntax: down
+
+Use these commands to walk in a particular direction.
+~
+
+1 NOTE BOARDS NOTEBOARD~
+Dystopia has 6 note boards, where general discussions, as well as important
+announcements are posted. The commands used to access, read and write
+on these boards, are :
+
+* note <read|write|list>
+  - read will read the next note on the board (or a given note
+    for example 'note read 7').
+  - write will post a new note on the board you are currently on.
+    Just follow the instructions given during note creation.
+  - list will show all the messages on the current board.
+
+* Board <number>
+  - will simply change to the board number you enter,
+    or list all boards if you don't enter a number.
+
+~
+
+1 OBEAH~
+Obeah is the most useful of vampire disciplines, and allows the vampire
+to wear equipment and cast spells while in zulo/dragon form, and it
+grants access to a powerful healing skill called 'purify'.
+
+~
+
+0 OBFUSCATE~
+Kindred with this Discipline excel at hiding among and away from crowds.  
+When they do not wish to be seen, others rarely notice them even if they 
+are standing in plain view.  Though this Discipline affects others minds 
+and does not actually render the users invisible, the end result is much 
+the same.  Obfuscate is the opposing Discipline to Auspex, and they 
+cancel out many of each others powers.
+
+<<*>> #rMask#n Allows you to disguise yourself as another player.
+<<*>> #rShield#n Protects you from the Auspex 'scry' and 'readaura' powers.
+<<*>> #rMortal#n Switches between vampire and mortal mode.  While in mortal 
+      form, you loose all vampire advantages and disadvantages, and are 
+      undetectable from a normal mortal.
+<<*>> #rVanish#n allows the player to be invisible to the common eye.
+<<*>> #rConceal#n This power hides any object it is used on.
+
+~
+
+1 OBTAIN INPART~
+These two commands can be used to gaining new powers as a demon,
+obtain costs 15000 class points, and will give the demon a random
+warp. The inpart command allows the demon to buy demon powers.
+
+~
+
+0 OBTENEBRATION~
+Obtenebration allows the user to manipulate the powers of darkness.  By 
+using their powers they are able to switch between the normal world and 
+the plane of shadows at will.  They may also view things in both planes 
+simultaneously if they so wish.
+
+<<*>> #rShroud#n This power is an advanced hide.
+<<*>> #rShadowsight#n This power allows you to see in the Umbra.
+<<*>> #rNightSight#n This power allows the kindred to see in the dark.
+<<*>> #rShadowstep#n This allows you to step through the umbra without
+      being seen and appear in front of your victim.
+<<*>> #rLamprey#n This powerful ability allows you to shoot tendrils
+      at your victim entraping them.
+~
+
+7 OCLONE~
+Syntax: oclone <object>
+
+This creates an identical copy of the specified object, with the only 
+exceptions being that the cloned objects creator is the person creating 
+the clone, and the cloned objects owner is not set.
+~
+
+1 OPEN CLOSE LOCK UNLOCK PICK~
+Syntax: open   <object|direction>
+Syntax: close  <object|direction>
+Syntax: lock   <object|direction>
+Syntax: unlock <object|direction>
+Syntax: pick   <object|direction>
+
+OPEN and CLOSE open and close an object or a door.
+
+LOCK and UNLOCK lock and unlock a closed object or door.  You must have
+the requisite key to LOCK or UNLOCK.
+
+PICK can open a lock without having the key.  In order to PICK successfully,
+you must practice the appropriate skill.
+~
+
+1 ORDER~
+Syntax: order <character> command
+Syntax: order all command
+
+ORDER orders one or all of your charmed followers (including pets) to
+perform any command.  The command may have arguments.  You are responsible
+for the actions of your followers, and others who attack your followers
+will incur the same penalty as if they attacked you directly.
+
+Most charmed creatures lose their aggresive nature (while charmed).
+
+If your charmed creature engages in combat, that will break the charm.
+~
+
+7 OTRANSFER~
+Syntax: otransfer <object>
+Syntax: otransfer <object> <character>
+
+This will transfer the specified object to the specified character.  The 
+character is defaulted to yourself.
+
+~
+
+1 PARADOX~
+When a player decaps someone not in their range, they get paradox'ed,
+which means they end up morted in midgaard, which really isn't healthy.
+A player getting paradox'ed will also lose 10% of their MAX hps.
+
+The range works in this way :
+
+Each player has a certain powerscore assigned to them, and this score will
+go up (or down) as this player gets more powerful, these are the things that
+affect how powerful you are in regard to the powerscore :
+
+* How many hitpoints you have (max hps, not current).
+* If you have mastery or not.
+* How many superstances you have (0 to 5).
+* Whether your an upgrade or not.
+* A small change for the amount of rune a player may have.
+* Spell affects like trains or blesses should will not affect this score.
+
+If you decap someone which are not within your range, you get a paradoxcounter,
+should you ever get 3 of these counters you will be struck by paradox. You can
+only get rid of counters by decapping players within your range.
+
+Also read PARADOXSTATS.
+
+~
+
+1 PARADOXSTATS~
+Taking a base in hps, the paradoxrange looks at a number calculated from the following.
+
+* Each skill mastered (weapons, stances, spells) gives a small modifier,
+  a fully mastered player get's a 10K total modifier.
+* Superstances counts as 5K hps a piece. (25K hps when you have ss5).
+
+If a player doesn't have more than 15K now, we don't add anything else.
+  #G(#yactually a player with less than 15K can't be killed nor kill#G)#n
+But if the player has more than 15K we take a look at the following.
+
+* Possible Rune eq counts as 1K hps a piece for a max of 14 (yes, 14K).
+* Being an upgrade will modify this number in a special way :)
+* Each extra level beyond level 1 as upgrade counts as an extra 12K hps.
+
+We then compare the number of the attacker and the defender, deciding
+whether the attacker is allowed to decap or not.
+
+And no, I will not explain this any better, if you don't understand, then
+you'll just have to live with not understanding.
+
+~
+
+0 'PASS DOOR'~
+Syntax: cast 'pass door'
+
+This spell enables the caster to pass through closed doors.
+~
+
+1 PASSWORD~
+Syntax: password <old-password> <new-password>
+
+PASSWORD changes your character's password.  The first argument must be
+your old password.  The second argument is your new password.
+
+The PASSWORD command is protected against being snooped or logged.
+~
+
+1 PEACE LOVE HARMONY JUSTICE~
+#n #n
+PEACE                       HARMONY
+level 1 : gpeace            level 1 : <none yet>
+level 2 : spiritform        level 2 : angelicaura
+level 3 : innerpeace        level 3 : gbanish
+level 4 : <none yet>        level 4 : <none yet>
+level 5 : houseofgod        level 5 : harmony
+
+LOVE                        JUSTICE
+level 1 : gsenses           level 1 : swoop/awings
+level 2 : gfavor            level 2 : halo
+level 3 : forgiveness       level 3 : sinsofthepast
+level 4 : regeneration      level 4 : touchofgod
+level 5 : martyr            level 5 : eyeforaneye
+
+~
+
+1 PKPOWERS~
+Pkpowers are special powers that becomes available to players as
+they rise in pkscore. To see your pkscore type 'top' this will
+not only show you your own score, but also show the top10 of
+best players (in regard to pkscore).
+
+The pkscore is based on your pk record (kills and deaths), and
+you gain a power for each 500 points you have. You can type
+'pkpower' to gain a list of powers you can use.
+
+pkscore   power
+-----------------
+  500    Sanctum         -  a healing power.
+ 1000    Eaglesight      -  a scrying power.
+ 1500    Awareness       -  (auto).
+ 2000    Lifesense       -  a readaura power.
+ 2500    Supreme attack  -  (auto).
+ 3000    Call to Arms    -  summons help.
+ 3500    Objectscry      -  scry through items.
+ 4000    Ironmind	 -  reverse damage.
+ 4500    Crystalsight    -  superior sight for a while.
+ 5000    Darkhunter      -  summons the hunter (HELP HUNTER).
+
+~
+
+1 PKRULES~
+To discourage ganging and feeding, a system has been implanted
+that will monitor any pk aggressions made by players. Whenever
+someone attacks a player far below their normal pk-range, their
+special pk counter will increase a few ticks, UNLESS
+
+* The player they attacked had already aggressed against them.
+
+This pk counter will slowly decrease over time, so unless the
+player has a tendency to harras small players over and over, he
+or she will never get into trouble. When the counter reaches
+a certain level, it will drop back to 0, and give a bully flag
+to the player, which will last 2 full hours.
+
+To protect larger players from provocative attacks, a player
+will get a special flag if he or she attacks a player who are
+much larger than themselfs - we can call this flag for the
+you-asked-for-it-so-you-deserve-it flag. When a player has
+this flag (and it will go away after a short while), the
+provoked player can attack the small player without fearing
+a pk counter increase.
+
+To protect smaller players from beeing fed (the larger player
+already gets a small increase in his or her pk counter for
+doing attack, but let's add more), we add a certain amount
+of protection to the attacked player - he or she cannot be
+attacked by anyone else for a short period of time, thus
+preventing most feeding situations.
+
+Remember - The best way to discourage bad pk behaviour is
+by starting with yourself. If you act honorable towards
+others, they will act the same way towards you.
+
+~
+
+1 POINTS 'CLASS POINTS'~
+Certain classes gain clas points when killing monsters. These points
+are usualy used to buy new powers, but some powers might require that
+the player spend a certain amount of class points each time the power 
+is used.
+
+~
+
+-1 POLICY~
+#G
+    As a player of Dystopia, you must agree to the rules as stated
+    in #RHELP RULES#G. You must also agree to follow any additional
+    rules made by the immortal staff at a later time. As a player
+    it is your responsibility to make to act and behave according to
+    the rules and guidelines set forth by the immortal staff of
+    Dystopia. You will also accept that Dystopia is a player-killing
+    mud, which means that your character can be killed by other
+    players, and you in return can kill them. You will also accept
+    the immortals right to prevent you access to your characters or
+    the server if you break the rules, or act in a manner that
+    is found to be in violation with the guidelines of Dystopia.
+
+#R
+    By accepting these terms, you will be allowed to gain experience
+    points after your fourth hour of playing at Dystopia. Even though
+    you have #Gnot accepted#R these terms, you can still be punished
+    for breaking the rules. If you chose to decline this policy,
+    your character will be deleted.
+
+    To accept this policy, you can use the '#Gpolicy#R' command.
+#n    
+~
+
+0 PORTAL~
+Syntax: cast portal <victim>
+
+This spell creates a magical portal between the caster and the target.  
+The portal remains in existance for 2 or 3 hours (mud time), during which 
+time anyone can 'enter' the portal on one side and come out on the other.
+~
+
+0 POTENCE~
+This Discipline defines the superior strength that vampires often 
+possess.  This physical might allows the user to inflict much larger 
+amounts of damage in combat than normal.
+~
+
+1 POWERS~
+To see a list of all the commands available to your class, simply use
+the command 'powers'. This will list all general class powers, and
+should your class use disciplines, then it will also show any discipline
+powers that you have already learned.
+
+~
+
+1 PRACTICE~
+Syntax: PRACTICE
+Syntax: PRACTICE <skill|spell>
+
+PRACTICE without an argument tells you your current ability in all the 
+skills and spells available to you.  You can check this anywhere.
+
+PRACTICE with an argument practice that skill or spell.  Your learning
+percentage varies from 0% (unlearned) to a some maximum between 80% and 100%,
+depending on your class.  You must be at a guild master to practice.
+
+The higher your intelligence, the more you will learn at each practice
+session.  Unused sessions are saved until you do use them.
+~
+
+0 PRESENCE~
+<<*>> #rMajesty#n While this power is on you are protected from player attacks.
+<<*>> #rSummon#n You can summon certian mobs.
+<<*>> #rEntrance#n This makes a victim totally loyal to you.
+<<*>> #rMindblast#n This fills the victims mind with confusion thus making them
+      collapse to the ground stunned.
+<<*>> #rAwe#n This makes you awe inspiring to players and mobs.
+
+~
+
+1 PRIMAL~
+Primal energy is the ultimate form of energy in the multiverse, the one 
+from which all other energies are derived.  Unfortunately, unlike mana, 
+primal energy is only one use, and is generally used for very powerful 
+spells and abilitites.
+~
+
+1 PROMPT CPROMPT~
+This command allows you to configure your prompt.  The PROMPT command 
+will set your standard prompt.  You also have the option of having a 
+combat prompt, CPROMPT, which will appear while fighting.  If no cprompt 
+is defined, the standard prompt will be used for both conditions.
+The following options are available:
+
+%b %B = Beast/Blood.                %f %F = Condition of opponent/tank. 
+%h %H = Current hp/Max hp.          %t %T = Current Fighttimer/Stance.
+%m %M = Current mana/Max mana.      %n %N = Name of opponent/tank.      
+%p %P = Hitroll/Plus Damroll.       %q %Q = Quest/Class points.
+%r %R = Room name/Rage.             %k %K = Class special 1/2 (if any)
+%x %X = Exp./Linebreak              %c %C = Class special 3/4 (if any)
+%v %V = Current move/Max move.      %y %Y = Class special 5/6 (if any)
+%a %A = Special Cond. of opponent (with or without colors)
+
+( for class specials, you should refer to the class own help file, it
+  will tell you if any of the specials are available for that class   )
+
+To switch your prompt on and off, use 'prompt on' and 'prompt off'.
+For some examples, type 'help prompts'.
+~
+
+1 PROMPTS~
+There are many possible prompts, and everyone will have their own 
+favoured setups.  However, to get you going, here are some examples:
+
+Original normal prompt: [%x exp] <%h/%Hhp %m/%Mm %v/%Vmv>
+Original combat prompt: [%f] <%h/%Hhp %m/%Mm %v/%Vmv>
+Simple prompt: [%hH/%mM/%vV]
+Vampire prompt: [%B Blood] <%hhp %mm %vmv>
+Werewolf prompt: [%R Rage] <%hhp %mm %vmv>
+Combat prompt: [%N:%F/%n:%f]
+Stat prompt: [%xX] [+%pHIT/+%PDAM] [%cAC] [%hH/%mM/%vV]
+
+Remember, you can switch between the default prompts and your customised
+prompts with 'prompt on' and 'prompt off'.  Doing this will not destroy 
+your customised prompts.
+~
+
+0 PROTEAN~
+This Discipline allows a vampire to transform either their entire body or 
+a part of their body into something inhuman.  The vampire can thus grow 
+claws, turn into a bat, transform into a wolf or dissolve into a fine 
+mist.  A vampire can use most other Disciplines while shapeshifted, but 
+may not cast spells.  Full transformation is not possible during combat, 
+although claws can be grown if you are fighting.  While shapeshifted the 
+vampire cannot wear any equipment.
+
+<<*>> #rUmbravision#n A combination of truesight shadowsight allows
+      you to see any hidden charchter accept for monk and ninja.
+<<*>> #rFlamehands#n This power erupts your hands into flames.
+<<*>> #rEarthmeld#n Allows you to sink into the ground hiding from enemies.
+<<*>> #rClaws#n Enables the user to grow inch-long claws on each finger.  These 
+      claws have no effect if the vampire is armed, however if not they cause 
+      considerably more damage than a normal unarmed attack.
+<<*>> #rChange#n Allow the vampire to transform into bat, wolf or mist.  Bat 
+      form can fly and detect almost everything (invis, hidden, etc).  While in 
+      wolf form, the vampire enjoys the benefit of an extra 500hp and greatly 
+      enhanced combat abilities.  Mist form is impervious to attacks and can 
+      pass through doors.  Beware though, for two vampires in mist form CAN 
+      attack each other.
+~
+
+0 PROTECTION SANCTUARY~
+Syntax: cast protection
+Syntax: cast sanctuary  <character>
+
+
+The PROTECTION spell reduces the damage taken from any attack by an evil
+creature by one quarter.
+
+The SANCTUARY spell reduces the damage taken by the character from any attack
+by one half.
+
+These spells may be used simultaneously for cumulative effect.
+~
+
+1 QUEST QUESTMASTERS~
+A new quest system is in town, and the old one is out. Here is
+a short list of commands used (for more details you should read
+the quest help on my homepage).
+
+qgain <questmaster>       - gain a new quest from a questmaster.
+qcomplete <questmaster>   - get the prize for completing the quest.
+showquest                 - lists all quests you are doing.
+
+During Questors Delight, gained qps will be doubled, and faithpoints
+adds an extra qps for each 10 points of max faith you have.
+
+example (goto pappa smurf)
+
+> qgain smurf
+> showquest
+(complete the quest and return to pappa smurf)
+> qcomplete smurf
+
+The real questmasters can be found down from the old questroom,
+that is east of the executioner.
+
+~
+
+1 QUESTKEY~
+#yQuest#RKey#n is a unique prize, as i would recommend you to store -
+if you find any! 
+I usually make an info when I put one out, but not every time.
+You can locate a questkey with the locate spell, simple as that!
+It cannot be claimed or stored in a container.
+Players can cap you and loot it.
+Some keys can be worn, and will have some affects.
+But most important, you can trade it for goods .. :)
+
+1  Questkey      1000qp or 20000000 exp
+3  Questkey      +10 hit/dam or -50 ac on a item
+5  Questkey      +5 to avarage damage on a weapon
+7  Questkey      1 generation
+15 Questkey      1 artifact affect on a pice of your eq
+
+Dracknuur.
+~
+
+0 QUIETUS~
+<<*>> #rSpit#n This power spits a at your victim sending them a powerful hit.
+<<*>> #rInfirmity#n This power slows your victim down and makes them weaker.
+<<*>> #rBloodagony#n This allows you to poison your weapons with blood of the
+      kindred.
+<<*>> #rAssassinate#n This gives you a chance of killing someone in 1 hit.
+<<*>> #rVsilence#n This allows you to silence a room.
+
+~
+
+1 QUIT RENT SAVE~
+Syntax: QUIT
+Syntax: RENT ... not!
+Syntax: SAVE
+
+SAVE saves your character and objects.  You must be a mortal or avatar to
+save.  The game will auto-save your character every few minutes whether you
+save or not.
+
+Some objects, such as keys and potions, may not be saved.
+
+QUIT leaves the game.  You may QUIT anywhere, although there is an experience
+penalty for quitting outside of Midgaard.  When you re-enter the game you will
+be back in the same room.
+
+QUIT automatically does a SAVE, so you can safely leave the game with just one
+command.  Nevertheless it's a good idea to SAVE before QUIT.  If you get into
+the habit of using QUIT without SAVE, and then you play some other mud that
+doesn't save before quitting, you're going to regret it.
+
+There is no RENT in this mud.  Just SAVE and QUIT whenever you want to leave.
+~
+
+-1 RAGNAROK~
+#0RAGNAROK MODE#n
+
+When time comes, the world will sunder and the gods will walk the earth
+spreading havoc and destruction, this is a time of slaughter, and no one
+will be safe, this is the age of Ragnarok.
+
+Using the command 'mudstat' you'll be able to tell if ragnarok is on,
+if it's not, you'll just get the normal mudstat screen.
+
+Doing ragnarok the following changes are in effect :
+
+* There are no safe rooms.
+* Everyone has scry, and it bypasses all shields.
+* You can decap anyone, anywhere. (no paradox).
+* Heads will vanish faster.
+* Players will auto train avatar and get a restore.
+* Upgrades can only fight other upgrades.
+* You do not lose ANYTHING if capped during ragnarok.
+* Base classes can only fight other base classes.
+* You are safe for 3 ticks after training avatar. (to rewear)
+
+player can turn on ragarok buy pooling qps toward it, using
+the ragnarok command. ie. 'ragnarok 200' will add 200 qps
+to the ragnarok pool (currently 3000 qps is needed to turn
+on ragnarok). mudstat will show how many qps is still needed,
+and ragnarok cannot be turned on for two hours after it has
+last been on.
+
+Ragnarok lasts 15 minutes.
+
+Enjoy
+~
+
+8 REBOOT SHUTDOWN WIZLOCK~
+Syntax: reboot
+Syntax: shutdown
+Syntax: wizlock
+
+REBOOT shuts down the server.  When the normal 'startup' script is used
+to control the server, a delay of sixty seconds will ensue (to allow
+old connections to die), followed by a reboot.
+
+SHUTDOWN shuts down the server and prevents the normal 'startup' script
+from restarting it.
+
+WIZLOCK is a toggle command.  When the server is WIZLOCKed, players
+below level 36 may not log in.  Players who lose their links, however,
+may reconnect.
+~
+
+1 RECALL /~
+Syntax: RECALL
+
+RECALL prays to God for miraculous transportation from where you are back to
+the Temple of Midgaard.  '/' is a synonym for RECALL.
+
+RECALL may take you to a different location if you belong to a clan.
+
+RECALL doesn't work in certain God-forsaken rooms.  Characters afflicted by a
+curse may not recall at all.
+~
+
+0 REFRESH~
+Syntax: cast refresh <character>
+
+This spell refreshes the movement points of a character who is out of movement
+points.
+~
+
+0 REGENERATE CLOT MEND~
+Syntax: cast 'regenerate' <body part> <character>
+Syntax: cast 'clot' <character>
+Syntax: cast 'mend' <character>
+
+REGENERATE will replace lost body parts on the target, while CLOT will 
+stop them bleeding and MEND will fix any broken bones or cut open throats.
+~
+
+1 RELBUY RELPOWERS~
+It is possible to buy certain religion powers for the faithpoints you gain
+from killing other players (and in particular those from opposing religions).
+
+Though all priests have access to the same powers, the cost of the powers differs
+from religion to religion. A member of the church of The One True would have to
+pay more for the power to induce madness, whereas one of the Gahr worshippers would
+have to pay more for the power of Divine Fury. As a player grows in rank inside
+his or her church, the more expensive powers will start to cost less faith points
+to gain. When a player types 'relbuy' they get a list of powers they can buy,
+those that are colored WHITE are the powers in the players sphere, whereas those colored
+GREY are located in the spheres of other gods. All power can be bought, but the cost
+will depend on the players rank and religion.
+
+A players faith points are divided into two. One number is the total amount of faith
+that player has achived (which decides rank), and the other is the amount of faith
+that player has left to buy powers for.
+
+The cost for a given power is 20 fps per rank, this cost is doubled if it's a power
+from a sphere the priest doesn't normally have access to. Should a priest try to
+achive a power which is beyond his or her level (religion rank), then the price
+is again doubled. (The prices listed on the relbuy list is the actual price you
+need to pay).
+
+syntax : relbuy <power>
+
+Also take a look at HELP RPR1, RPR2, RPR3, etc.
+
+~
+
+-1 RELIGION FAITH BELIEF DEITY~
+The known religions of Dystopia :
+
+Five deities or pantheons are known to be worshipped throughout the realms
+known as Dystopia; the followers of these godly beings are among the finest
+of warriors, the very best Dystopia has to offer. To join one of the five
+churches or cults, you must first master yourself, then you may pledge
+alligiance to one of the churches in 'The Halls of Enlightenment'.
+
+As a follower of one of the churches, you must pay a tithe of 5% of the
+exp you earn; but for this tithe you gain acces to some of the special
+powers, that only the true believers can master. Ofcourse no simple neonate
+gains acces to the most powerful commands of the gods; first they must
+climb the hierachy within their own church walls, and find the divine favor
+of their deity.
+
+When you kill other players, you gain faithpoints, these points represents
+how much status you have within the chuch. For each 100 faithpoints you gain,
+you also gain a rank in your religion. If you go below the required faithlevel
+you will lose the rank again.
+
+The amount you gain is modified by this :
+
+Killing playes with a higher rank than you will give more faith.
+killing players that are bigger than you will give more faith.
+Killing playes that oppose your religion will give more faith.
+
+You don't want to get killed because :
+
+Getting killed by opposing religions will lower your faith.
+Getting killed in general will lower your faith a little.
+
+Read more about RELIGIONPOWERS and DEITIES.
+~
+
+1 RELIGIONPOWERS HOLYSYMBOL~
+As you grow closer to your god, you gain acces to more gifts granted by your deity,
+these are known to be, but not limited to :
+
+Personal login/logout messages.
+Personal decapitate messages.
+
+There will also be powers that depend on what deity you worship, but that's all
+to come later, lot's of work to be done.
+
+Current religion commands :
+
+* reltalk      - Faith talk channel
+* worship      - Worship a god (ONCE)
+* settie       - Sets your tie message    (HELP SETTIE)
+* setdecap     - Sets your decap message  (HELP SETDECAP)
+* setlogin     - Sets your login message  (HELP SETLOGIN)
+* setlogout    - Sets your logout message (HELP SETLOGOUT)
+* setavatar    - Sets your avatar message (HELP SETAVATAR)
+* relbuy       - Buy religion powers.
+* holysymbol   - Create a holy symbol (1000 qps and 500 primal)
+
+~
+
+0 'REMOVE CURSE'~
+Syntax: cast 'remove curse' <character>
+
+This spell removes a curse from a character.
+~
+
+1 REPORT SCORE TIME WEATHER~
+Syntax: report
+Syntax: score
+Syntax: time
+Syntax: weather
+
+REPORT shows your current statistics to you and also announces them to other
+players in the room.
+
+SCORE shows detailed statistics to you only.
+
+TIME shows the game time, as well as the time the mud was last started,
+and the current local time for the host computer.
+
+WEATHER shows the current game weather.
+~
+
+1 RESEARCH~
+Researching is the way to increase your levels in disciplines and totems.
+To start researching something, you type 'research <name of discipline>',
+and then you start killing monsters, untill the muds tells you that
+your are done researching (you could also check the progress on the
+discipline screen). When a discipline is done, you train it with the
+train command (train <name of discipline>).
+
+~
+
+0 RESISTANCE~
+Syntax: cast resistance <object>
+
+This spell makes the target object capable of withstanding 10 blows 
+before it is destroyed, rather than 4.
+~
+
+1 REST SLEEP STAND WAKE~
+Syntax: rest
+Syntax: sleep
+Syntax: stand
+Syntax: wake
+
+These commands change your position.  When you REST or SLEEP, you 
+regenerate hit points, mana points, and movement points faster.
+However, you are more vulnerable to attack, and if you SLEEP,
+you won't hear many things happen.
+
+Use STAND or WAKE to come back to a standing position.  You can
+also WAKE other sleeping characters.
+
+For info on the sleep spell, type: 'help sleepspell'.
+~
+
+1 RETALIATION~
+On your score screen, you will notice a field called retaliation.
+This is the name of the last player that killed you, and you will
+always be able to kill that player back, without risking paradox.
+
+~
+
+-1 RPR1~
+Religion Powers Rank 1
+
+#GName#n   Divine Armor (darmor)
+#GDesc#n   Shrouds the caster in a suit of divine armor, that gives better
+       resistance to attacks from believers of the churches the caster oppose.
+#GSphere#n All
+
+#GName#n   Holyword (holyword)
+#GDesc#n   A powerful magical attack, that causes great damage to the
+       believers of the churches the caster opposes.
+#GSphere#n All
+
+~
+
+-1 RPR2~
+Religion Powers Rank 2
+
+#GName#n   God's Zone (gzone)
+#GDesc#n   Lays a powerful enchantment on the area that the caster is in, giving
+       the followers of the same religion as the caster an advantedge in
+       combat, when fighting believers of the churches the caster opposes.
+#GSphere#n All
+
+#GName#n   Realms Purge (rpurge)
+#GDesc#n   This powerful incantation will try to dispel all global enchantments,
+       success depends on the faith of the caster, as well as the faith
+       of the enchanter.
+#GSphere#n Crusaders
+
+#GName#n   Deja-Vu (deja)
+#GDesc#n   This rite causes the person the caster is fighting to re-live
+       his or her last action.
+#GSphere#n Gahr
+
+#GName#n   Gaia's Blessing (gaia)
+#GDesc#n   This rite lays a powerful blessing on the target area, causing
+       everyone of the same faith, to gain superior regeneration,
+       while in the area.
+#GSphere#n Wild
+
+#GName#n   Area-Heal (areaheal)
+#GDesc#n   This rite showers the area the caster is standing in, with healing
+       magic, striking everyone, except those who oppose the casters religion.
+#GSphere#n Stars
+
+#GName#n   Bad Moon (badmoon)
+#GDesc#n   This rite lays a heavy enchantment on the target area, preventing
+       any scrying powers from working. Even aura reading abilities and
+       the like will malfunction under this powerful enchantment.
+#GSphere#n Loa
+
+~
+
+-1 RPR3~
+Religion Powers Rank 3
+
+#GName#n   Thorns and Brambles (thorns)
+#GDesc#n   Lays a powerful enchantment on the area that the caster is in,
+       causing roots, thorny branches, brambles and weeds to sprout
+       from the ground, making it harder to escape from combat.
+#GSphere#n Wild
+
+#GName#n   Call of the Wild (callwild)
+#GDesc#n   This ritual calls down the powers of nature, binding the person
+       fighting the caster to the ground, striking him with thorns,
+       and cursing him with all the might of nature.
+#GSphere#n Wild
+
+#GName#n   Banishment (banishment)
+#GDesc#n   This powerful incantation will try to dispel all area affects,
+       which are active in the targets area. (targets a player).
+#GSphere#n Stars
+
+#GName#n   Starsight (starsight)
+#GDesc#n   This enchantment gives the caster a superior sight which lasts
+       until the caster get's beheaded (_any_ attack that leaves the
+       casters head on the ground is a beheading). The cost to power
+       this enchantment is 1 faithpoint.
+#GSphere#n Stars
+
+#GName#n   The Hearts Desires (hdesire)
+#GDesc#n   This mysterious incantation will reveal more information about
+       the target, then he or she wishes. Priests with this power
+       are walking sources of knowledge.
+#GSphere#n Loa
+
+#GName#n   Divine Scry (dscry)
+#GDesc#n   This divination power will reveal the exact location of the target.
+#GSphere#n Loa
+
+#GName#n   Divine Battle (dbattle)
+#GDesc#n   Challenges the person your fighting to a one-on-one in the halls
+       of divine battle.
+#GSphere#n Crusaders
+
+#GName#n   Godly Fury (gfury)
+#GDesc#n   Strikes your opponent with the fury of your belief. This attack
+       is a battle of faiths, and opposing religions are struck
+       the hardest.
+#GSphere#n Crusaders
+
+#GName#n   Pestilence (pestilence)
+#GDesc#n   Lays a horribly enchantment on the area, preventing regrowth and
+       reducing the regenerative powers of others.
+#GSphere#n Gahr
+
+#GName#n   Induce Madness (madness)
+#GDesc#n   This power calls on the madness that lives in all beings, causing
+       all who fight the caster to succomb to their own demons.
+#GSphere#n Gahr
+
+~
+
+-1 RPR4~
+Religion Powers Rank 4
+
+#GName#n   Subvert (subvert)
+#GDesc#n   This powerful rite will allow the caster an attempt to steal any
+       area affects not owned by his or her religion. The rite only affects
+       enchantments in the area the caster is standing in, and the chance
+       depends on the casters maximum faith vs the original casters faith.
+       Casting this spell costs 1 fps, unless the caster does not worship
+       The Loa, in which case the cost is doubled.
+#GSphere#n Loa
+
+#GName#n   Rebirth (rebirth)
+#GDesc#n   This powerful incantation will summon the mother of nature,
+       allowing her to lay her healing hands on the caster. The power
+       cannot be used with a fighttimer, and will grant special powers
+       as well as heal the body. The power costs the caster a single
+       faith point to use. If the caster does not worship The Wild, he
+       or she must pay double the faith points needed.
+#GSphere#n Wild
+
+#GName#n   Chaotic Landscape (landscape)
+#GDesc#n   This enchantment makes it difficult to lay new enchantments
+       in the area, most likely new spells will backfire at the caster,
+       causing some damage. Any mana (but not fps) spend on casting the
+       spell will be lost, and the caster will experience a brief period
+       of vertigo, making it impossible to do anything besides at all.
+       Casting this spell costs 1 fps, unless the caster does not worship
+       The Mad One, in which case the cost is doubled.
+#GSphere#n Gahr
+
+#GName#n   Supernova (supernova)
+#GDesc#n   This invocation creates a powerful solarflare, striking down
+       the person the caster is fighting. Damage dealt by the attack depends
+       on the health of the caster (maximum hitpoints). In addition to
+       causing damage, it also has a chance to ruin any weapon the target
+       is wielding. The power can only be invoked once every 4 mud hours.
+       Casting this spell costs 1 fps, unless the caster does not worship
+       The Stars, in which case the cost is doubled.
+#GSphere#n Stars
+
+#GName#n   Armor of True Faith (farmor)
+#GDesc#n   This spell of warding creates a suit of enchanted armor, that
+       prevents religious attacks. The armor will only block direct attacks,
+       and any enchantments or similar will not be affected by the armor.
+       The spell will fade over time, and can be magically dispelled like
+       any other spell. Casting this spell costs 1 fps, unless the caster
+       does not worship The One True, in which case the cost is doubled.
+#GSphere#n Crusaders
+
+~
+
+1 RULES BOTTING~
+#0* #GNo spamming on any of the channels.
+#0* #GNo experience or quest botting.
+#0* #GSpellbotting is done #ROUTSIDE #GMidgaard.
+#0* #GStance and Weapon Botting is allowed against special
+  training mobs only - they are located in the class halls.
+#0* #GNo multiplaying or playersharing (read #RHELP MULTIPLAYING#G for details).
+#0* #GAllowing other players to steal your generation or kill you is
+  not allowed, any players participating in such a generation
+  or status ring will be punished.
+#0* #GUnneeded harrasing is not allowed.
+#0* #GPurposely #RCRASHING#G of the mud will get you deleted.
+#0* #GIf your going to argue and bicker with someone, please use the flame
+  channel, spambitching on any of the other global channels is NOT
+  allowed, and you'll most likely get silenced permanently if you do so.
+  This rule is enforced by the imms, and the imms will be the ones who
+  decide whether this rule has been violated. Live with it.
+#0* #GNo saccing other players equipment in any way.
+#0* #GRead the announce board (board 3), any rulings made on that board
+  counts as policy, and ignorance is not an excuse.
+#0* #GIf you find some way to get around something that is not normal possible
+  without breaking the rules, you can consider it illegal.
+  #0* #GUse your brain, if safeguards was made to prevent players to do certain
+    things, and you find a way around it, it's a bug, don't play stupid and
+    think the coders made it this way on purpose, report it instead.
+#n
+~
+
+1 RUNEEQ RUNEARMOR CURSEDEQ~
+Rune and Cursed equipment is very expensive, but very powerful
+pieces of equipment, that gives a powerful hr/dr bonus (in the
+case of rune eq), or a high reduction in hps, move, mana (in
+the case of cursed eq), allowing players to train their stats
+at a lower cost.
+
+syntax : runeeq <piece> & cursed <piece>
+
+The cost is 10.000 qps for rune, and 5.000 qps for cursed,
+saccing this eq will give you a 50% refund of the cost.
+
+~
+
+1 SACRIFICE~
+Syntax: sacrifice <object>
+
+SACRIFICE drains the energy matter from an object, transferring the 
+energy to you in the form of exp.
+
+SACRIFICE takes the argument 'all' to destroy all items in the room.
+
+The number of exp gained vary according to the value of the object.
+~
+
+1 SAMURAI~
+The Samurai is an ancient warrior and master of armed combat. 
+A samurai must train for a long time before his true potential can
+be released. Once he has masterd the fighting weapons however, few 
+can stand up to such power. Also the samurai is protected from most 
+magiks by the spirits of the ancestors. Beware, the samurai may appear
+as only mortal, but much power resides in these warriros of old.
+
+ancestralpath -  Class portal.
+technique     -  Start using the ancient fighting techniques.
+katana        -  Create the only weapon you'll ever need.
+web           -  These buggers have been know to throw webs at the opponent.
+martial       -  Command to learn the combos.
+
+Also read help on SAMURAICOMBO.
+
+Prompt info : special 1 is used for combos
+
+~
+
+0 SAMURAICOMBO~
+During combat a samurai can use four different attack forms, each will
+affect the samurais focus a bit.
+
+Slide         1 point
+Sidestep      2 points
+Block         4 points
+Countermove   8 points
+
+When the samurais focus hits 10, 15, 20, 25, 30 or 35 he or she will
+be allowed to make a special attack (auto).
+
+When not fighting the counter will slowly drop, while fighting, the
+samurai can use the focus command to make it drop.
+
+The focus counter can be added to the samurais prompt with the %k
+flag, read help prompt for details.
+
+~
+
+1 SCAN SPY THROW~
+Syntax: scan
+Syntax: spy   <direction>
+Syntax: throw <direction> <target>
+
+SCAN allows you to see all the mobs/players within 1 room of you.
+
+SPY allows you to see all the mobs/players within 3 rooms in a specified 
+direction.
+
+THROW allows you to hurl an object you are holding (in your right hand, 
+or if that's empty left hand) to a target mob/player in a specified 
+direction.  The object can be throw up to 3 rooms.  If it fails to reach 
+the target by that time it will land on the floor.
+
+For information on the SCAN spell, type 'help scanspell'.
+~
+
+0 SCANSPELL REPAIR~
+Syntax: cast scan
+Syntax: cast repair
+
+The SCAN spell will tell you all the items you are carrying which are 
+currently in need of repairing.
+
+The REPAIR spell will repair all the items you are carrying which are 
+currently in need of repairing.
+~
+
+2 SELFDELETE DELETE~
+It is possible to delete your char and start over if that is what you want.
+Simply type 'selfdelete <your password>' and you will be deleted.
+
+Just remember that your char will be totally deleted, and it's not
+possible to bring him or her back; so don't do this unless you really
+want to do it.
+
+~
+
+0 SERPENTIS~
+Serpentis is the art of temptation and corruption.  Vampires with this 
+Discipline have the ability to tear out their own hearts, rendering 
+themselves immune to being staked.  Serpentis users also gain the ability 
+to transform themselves into a giant serpent and back at will.  The third 
+ability available to vampires with this Discipline is the ability to run 
+their tongues along weapons, coating them with a deadly snake venom.
+
+<<*>> #rDarkheart#n This allows you to remove your heart, making you
+      immune to being staked. 
+<<*>> #rSerpentForm#n This transforms you into a powerful serpent.
+<<*>> #rPoison#n Releases poison venom into your victim.
+<<*>> #rTendrils#n Entraps your victim in tendrils. 
+<<*>> #rTongue#n Your huge tongue strikes your victims with incredible power.
+
+~
+
+1 SETLOGIN SETLOGOUT SETAVATAR SETTIE SETDECAP~
+With these commands you can set the message other players gets when you enter
+or leave the game, as well as train avatar. Each time you set this message,
+you must pay 1000 qps.
+
+There are certain rules that must be followed, they are rather simple though, so
+you shouldn't have any trouble following them.
+
+* No profanities in the message.
+* No referring to any of the immortals or other players besides the possible victim.
+* I'll remove your ability to change your messages if you abuse this in any way.
+
+The syntax is easy, heres a few examples :
+
+setlogin $n draws his scimitars and prepares for battle as he enters Dystopia.
+settie $n grins in triumph as $e ties up $N.
+
+Heres the syntax :
+
+  $n  This is your name.
+  $N  This is the name of the possible victim.
+  $e  Results in he/she depending on your sex.
+  $E  Results in he/she depending on the victims sex.
+  $m  Results in him/her depending on your sex.
+  $M  Results in him/her depending on the victims sex.
+  $s  Results in his/her depending on your sex.
+  $S  Results in his/her depending on the victims sex.
+
+~
+
+1 SHADOW NINJAS~
+Ninjas are born and breed for a life in shadows; shrouded in the flickering
+shadows, they are nearly impossibly to detect, and few are those that survive
+an attack by these silent hitmen.
+
+Miktalk      - This is the ninjas channel.
+Ninjaarmor   - This is the command to create ninja equipment.
+Nfocus       - Is used to focus the ninjas powers before combat.
+Vanish       - Ninjas has the power to vanish into the shadows.
+Shadowwalk   - Track your prey through the shadowrealm.
+Shadowlearn  - The command to learn new powers.
+Assassinate  - Assassinating is they way of the ninja.
+Soultaget    - To use soulseek, you must first lock your target.
+Soulseek     - A powerful kind of shadowmagic, used to attack from afar.
+               ** Soulseek costs 500 class points each time used **
+Shield       - Shielded in shadows, noone can find a ninja.
+Scry         - On the other hand, few can hide from one.
+Mienaku      - Enhanced flee command.
+
+Ninja attacks : moonstrike shadowthrust dirtthrow gutcutter
+                soulreaper knifespin wakasashislice caltrops
+
+You should also read help on NCOMBOS
+
+Prompt info : Special 1/2/3/4 will show the active status of
+                 knifeshields/blur/bloodrage/shadowform.
+
+~
+
+1 SHADOWLEARN~
+This is the command a ninja uses to increase his martial skill,
+as well as gain the special ninja powers. A ninja must spend
+many class points gaining these powers and many primal points
+gaining all the 25 martial skills.
+
+~
+
+1 SHAPESHIFTERS~
+Shapeshifters are powerful creatures able to take any form they wish.
+No one knows what a shapechanger really looks like, so how can you know
+that your best friend isn't one... better kill him to be on the safe
+side.
+
+Shift      - The command to change between the beastforms.
+Truesight  - Gain superior vision.
+Formlearn  - Learn more about the different beastforms.
+Mask       - Mask yourself as another player.
+Shapeshift - Change into ANYTHING.
+Hatform    - Why pull rabbits out of a hat, when you can be a hat instead.
+Camouflage - Camouflage your items.
+Mistwalk   - Class portal.
+Shapearmor - Make class eq.
+
+TIGER  : roar, phase.
+FAERIE : fblink, faeriecurse.
+HYDRA  : breath.
+BULL   : charge, stomp.
+
+Prompt info : special 1 is used for the shapecounter
+
+~
+
+1 SKILL~
+Syntax: skill | skill <player>
+
+This shows the target player's skill with the weapon they are currently 
+wielding and the stance they are in (if it's a specialized stance).
+
+Weapon skill				 Stance skill
+
+ 1) Totally unskilled.			 1) Totally unskilled.
+ 2) Slightly skilled.			 2) An apprentice.
+ 3) Reasonable.				 3) A trainee.
+ 4) Fairly competent.			 4) A student.
+ 5) Highly skilled.			 5) Fairly experienced.
+ 6) Very dangerous.			 6) Well trained.
+ 7) Extremely deadly.			 7) Highly skilled.
+ 8) An expert.				 8) An expert.
+ 9) A master.				 9) A master.
+10) A grandmaster.			10) A grandmaster.
+
+Note that these are only rough estimates; one master might well be 
+slightly more skilled than another master, and so on.
+~
+
+0 SMOTHER~
+Syntax: smother <name>
+
+This is used to try and smother the flames on a burning player or mob.  
+You cannot do this on yourself, and it may take several attempts to 
+work.  Also, there is a small chance that the person smothering might 
+catch on fire as well...
+~
+
+0 SOULBLADE~
+Syntax: cast soulblade
+
+This spell summons the casters personal (named) soulblade, which is an 
+extremely deadly weapon.  The weapon is permanent.
+~
+
+1 SPELL SPELLS~
+Syntax: spells | spell <colour>
+
+This shows your spell casting ability with the various types of magic.
+
+1) Untrained.				 6) An adept.
+2) An apprentice.			 7) A mage.
+3) A student.				 8) A warlock.
+4) A scholar.				 9) A master wizard.
+5) A magus.				10) A grand sorcerer.
+
+Note that these are only rough estimates; one master wizard might well be 
+slightly more skilled than another master wizard, and so on.
+~
+
+0 SPELLPROOF~
+Syntax: cast spellproof <object>
+
+This spell makes the target object immune to the destructive powers of 
+the various magical attacks.  No protection from physical attacks is 
+granted.
+~
+
+1 SPIDER DROID SPIDERDROID~
+The drows are know for spawning elite warriors, and from the very
+best of this fighter elite, Lloth chooses her champions, and bless
+them with powers way beyond that of normal drows. These creatures
+are called driders, and among them exists a few who are so close
+to their goddess that she has blessed them with superior bodies.
+These are the Spider Droids, the machine beeings who spread chaos
+and havoc in the name of the Spider Queen, their goddess Lloth.
+
+Truesight       - Gain superior sight.
+Radarscan       - A powerful scrying ability
+Steam           - Breathe Steam on your opponent
+Shadowwalk      - Class portal
+Web             - Spew web with the armwire implant
+Darkness        - Summons a glob of darkness
+Machinegun      - Shoots a volley with the machinegun
+Rocketblast     - Launches a rocket at the given target
+Battlestation   - Turns into a powerful battlestation
+Implant         - Gain new implants
+Reload          - Reloads the submachine gun and the rocket launcher
+Spiderarmor     - Creates useful class eq
+Droidspeed      - Increases the droids fighting speed
+Lloth           - Lists online droids and drows
+
+Please read help on IMPLANTS as well.
+
+Prompt info : Special 1/2 is used for gun/rocket ammo.
+
+~
+
+1 STAFF WAND SCROLL PILL~
+These items can be used to cast spells. Normally one would use the
+commands recite, zap, brandish and eat to use these items.
+
+~
+
+1 STANCE~
+Syntax: combat <style>
+
+In combat, the stance of the fighter plays a very important role; you 
+can't just stand there and exchange blow for blow unless you are very 
+confident of your ability.  Each fighting stance has advantages and 
+disadvantages, the basic outline of which follows:
+VIPER: A very fast and aggressive style of combat, concentrating on 
+striking your opponent before they have the chance to avoid or block you.
+CRANE: A wide, sweeping style of combat, which concentrates on a very 
+strong blocking defence.
+CRAB: A low, defensive fighting stance which uses agile footwork and 
+rolling with attacks in order to reduce your injuries.
+MONGOOSE: A light-footed stance, which relies on leaps and acrobatics to 
+ensure that by the time your opponent makes their attack, you've moved 
+out of the way.
+BULL: A low aggressive stance which concentrates purely on physical power.
+
+See also help on 'advancedstance' and 'stancetable'.
+~
+
+1 STANCETABLE~
+The following table is a rough comparison of stances, giving a value 
+between 10 and -10, where the higher the number the better your chance of 
+victory.  Cross-reference your stance from the left with your opponents 
+stance from along the top.  Please remember these are only rough 
+estimates, and may not be completely accurate...
+
+          None Vipr Cran Mmgs Bull Crab Mnts Tigr Drgn Mnky Swlw
+None        0   -4   -5   -5   -5   -5   -9   -9   -10   0   -10
+Viper      +4    0   +3   +3   -2   -2   -2   -7   -9    0   -4
+Crane      +5   -3    0    0   +2   +2   -8   -6   -1    0   -3
+Mongoose   +5   -3    0    0   +2   +2   -8   -6   -1    0   -3
+Bull       +5   +2   -2   -2    0   +2   -5   -3   -3    0   -5
+Crab       +5   +2   -2   -2   -2    0   -5   -5   -7    0   -7
+Mantis     +9   +2   +8   +8   +5   +5    0   -3    0    0   +3
+Tiger      +9   +7   +6   +6   +3   +5   +3    0   -2    0   +1
+Dragon     +10  +9   +1   +1   +3   +7    0   +2    0    0   -2
+Monkey      0    0    0    0    0    0    0    0    0    0    0
+Swallow    +10  +4   +3   +3   +5   +7   -3   -1   +2    0    0
+~
+
+-1 STARRANK~
+#0The ranks among the worshippers of the stars are :#n
+
+#GThe Priests of the Stars#n are the holy men/women these are the tellers
+of the stars. they speak what the astrologers tell them to speak.
+
+#GThe Astrologers of the Stars#n are the readers of the stars, they read
+the stars so that the priests can pass on the knowledge to those 
+who are open minded.
+
+#GThe Seers of the Stars#n are a small group that are known as the knowledge
+keepers of the stars, they write and catalog all the stories the stars tells.
+
+#GThe Prophets of the Stars#n are the guardians of the stars, the warriors
+chosen to protect the knowledge of the stars.
+
+#GThe Visionaries of the Stars#n, little is known of these few, but it is
+known that the visionaries seem to have the ability to see into future and are
+often recruited by royalty, and hunted by those who do not wish their future
+be known.
+
+~
+
+-1 STARRELICS~
+#0This is the only known relic of the star religion :#n
+
+#GSceptre of the Stars#n - little is know of this ancient relic other then
+                       it was originally endowed with a gem, most believe 
+                       the gem is a star that fell from the sky.
+
+~
+
+-1 STARS~
+#0The Worshippers of The Stars#n
+
+The worshippers believe that each star is a piece of one being, they believe that
+this being is the one who created the world and uses the stars to tell humanity
+secrets and help those who are willing to listen. Although not many know how to
+listen to what is being said through the stars the few who can obtain a higher
+understanding of life and use the knowledge gained to benefit themselves
+and others who wish to listen.
+
+The Worshippers oppose The Loa and The Pantheon of the Wild in the circle of balance.
+
+Read help on STARRANK and STARRELICS
+~
+
+1 STATCAP~
+The statcap is 20K + 4K for each pkill you have,
+to a max of 120K, please enjoy.
+
+~
+
+1 STEAL~
+Syntax: STEAL coins <character>
+Syntax: STEAL <object> <character>
+
+STEAL attempts to steal coins, or an object, from a character.
+
+There are *NO* penalties for using STEAL on other players.
+
+In order to STEAL successfully, you must practice the appropriate skill.
+~
+
+1 STONESHAPE~
+Stoneshaping is a special giant ability, which is used to enhance weapons
+and armors. It costs the giant 50 quest points each time the power is
+used.
+
+Syntax : stoneshape <item>
+
+~
+
+-1 SUMMARY~
+#RMOVEMENT                          GROUP#n
+north south east west up down     follow group gtell split
+exits scan spy recall
+sleep wake rest stand
+
+#ROBJECTS                           INFORMATION / COMMUNICATION#n
+get put drop give sacrifice       help areas commands socials title
+wear wield hold                   report score time where who yell
+recite quaff zap brandish         channels config description password
+lock unlock open close pick       auction chat music question answer shout
+inventory equipment look          emote pose say tell clan classes
+eat drink fill empty              bug idea typo note board
+
+#RCOMBAT                            OTHER#n
+kill flee kick rescue disarm      save quit
+backstab cast wimpy               practice train
+
+
+For more help, type 'help <topic>' for any command, skill, or spell.
+Also help on: #GCHANGES OLDCHANGES TICK WIZLIST CREDITS#n
+              #GSUPERSTANCE GENERATION PKPOWER UPGRADE#n
+              #GMCCP MCCLIENT ARENA DCREDITS#n
+~
+
+0 SUMMON~
+Syntax: cast summon <character>
+
+This spell summons a character from anywhere else in your zone into your room.
+Characters who are fighting may not be summoned.
+~
+
+1 SUPERSTANCES SETSTANCE~
+When you have grandmastered all you normal stances, you can create your
+own stances with the setstance command. The setstance command will tell
+you how to create a new stance, and how much xp it costs; but beware,
+once you have finished your superstance, your stuck with it forever.
+
+example on creating superstance one would be :
+
+setstance dodge               (20 mill exp)
+setstance damcap lesser       (20 mill exp)
+setstance resist lesser       (20 mill exp)
+setstance done
+
+This would buy a superstance with dodge, damcap and toughness,
+costing a total of 60 million exp.
+
+Minimum and Maximum amount of experience that can be spend on the creation
+of a superstance depends on what superstance it it.
+
+SS1    Min :  40 mill.     Max : 240 mill.
+SS2    Min :  80 mill.     Max : 280 mill.
+SS3    Min : 120 mill.     Max : 300 mill.
+SS4    Min : 160 mill.     Max : 360 mill.
+SS5    Min : 200 mill.     Max : 380 mill.
+
+~
+
+0 TANARRI TANAR~
+#n #n
+The Tanar'ri are a fierce breed of demonkind, who spends eternity fighting
+in the Blood Wars, a neverending struggle between the Tanar'ri and their
+abyssal enemies the Baatezu. Life for a Tanar'ri is mostly about wrecking
+havoc, killing Baatezu, and the occasional raids on the prime material
+plane. If you happen to stumble upon a True Tanar'ri or even worse
+a Tanar'ri Balor, run like you've never done before, these creatures
+are known to destroy entire cities single handed before they return
+to the Abyss to continue fighting in the Blood Wars.
+
+Bloodsacrifice   - Sacrifice to gain powers.
+Tornado		 - Summon a powerful lightning storm.
+Infernal flames  - Summon the abyssal flames to strike your enemy.
+Earthquake       - Quake the earth and damge the landdwellers.
+Booming	voice	 - Let your booming voice strike fear into the hearts of mortals.
+Enmity		 - Cause discord among friends.
+Enrage		 - Remove their sanity and let them fight like beasts.
+Truesight	 - Truesight.
+Web		 - Web the ugly mortals in icky demonic strands on power.
+Claws		 - Grow claws to tear the limbs of mortals.
+Chaosgate	 - Open a portal to far away places.
+Fury		 - Let your beastial side take over.
+Chaossurge       - Destroy the pure of heart with the power of chaos.
+Lavablast	 - Shower the enemy with lava, and eat the corpses for dinner.
+Tantalk		 - Talk with other Tanar'ri.
+Taneq		 - Make class eq.
+
+Also remember to train the status among the Tanar'ri, strive to
+become a True Tanar'ri Balor, so you can lead your own army
+against the puny Baatezu.
+
+~
+
+0 TELEPORT~
+Syntax: cast <teleport>
+
+This spell takes you from your current location to a random location somewhere
+in the world.
+~
+
+0 THANATOSIS~
+<<*>> #rHagswrinkles#n This allows you to mask anything.
+<<*>> #rPutrefaction#n This allows you to rot the skin of your vicitm.
+<<*>> #rAshes#n You can transform into a pile of ashes.
+<<*>> #rWither#n You can wither the limbs of your victims with this power.
+<<*>> #rDrain#n This allows you to drain the life of your victim.
+
+~
+
+0 THAUMATURGY~
+<<*>> #rTaste#n This allows you to see what a player has for stats.
+<<*>> #rCauldron#n This allows you to boil the blood of your victim.
+<<*>> #rTheft#n This is used to drain blood from your victims.
+<<*>> #rTide#n This gives you the strength of the kindred for a day.
+
+~
+
+1 TICK~
+Many of the game actions are based upon interval timers, including combat,
+most autonomous monster actions, hp/mana/move regeneration, spell duration,
+weather, and area resetting.
+
+for these timers, the hp/mana/move regeneration timer is popularly called the
+'tick'.  Ticks on this mud average 30 seconds of real time, but the actual
+amount varies randomly from 15 seconds to 45 seconds.
+
+Area resetting happens roughly every 3 minutes if no one is in the area; less
+often (15 minutes) if some one is.  Also note that objects lying on the ground
+will not be regenerated if anyone is in the area when it resets.
+~
+
+0 TIE UNTIE GAG BLINDFOLD~
+Syntax: tie <target>
+Syntax: untie <target>
+Syntax: gag <target>
+Syntax: blindfold <target>
+
+TIE allows you yo tie up another player, who must be stunned, 
+incapitated, or mortally wounded.  While tied up, a players actions are 
+limited - they cannot move, quit, or do many other commands.
+
+UNTIE will untie a player who is currently tied up.  A player cannot 
+untie themself.
+
+GAG places a gag over the mouth of the target player, who must first be 
+tied up.  This command will also remove a gag.  A player can only remove 
+a gag from themself if they are no longer tied up.  It is not possible 
+to talk or use any of the channels while gagged.
+
+BLINDFOLD places a blindfold over the eyes of the target player, who must 
+first be tied up.  The blindfold can also be removed with this command.  
+A player can only remove a blindfold from themself if they are no longer 
+tied up.  Unsurprisingly, blindfolded players cannot see.
+~
+
+1 TITLE~
+Syntax: title <string>
+
+Sets your title to a given string.
+
+The game supplies a title when your character is created.  You can use 
+TITLE to set your title to something else. 
+~
+
+1 TITLES STATUS LEVELS~
+#7 Almighty#n
+#C Ruler#n
+#o Supreme#n
+#p King#n
+#R Baron#n
+#y Duke#n
+#g General#n
+#C Captain#n
+#R Master#n
+#y Legendary#n
+#G Hero#n
+#L Adventurer#n
+#r Veteran#n
+#y Private#n
+#o Cadet#n
+#p Wannabe#n
+
+Each rank beyond Wannabe gains an extra 10% exp bonus from killing mobs,
+and people with Wannabe rank cannot pk. The title itself is based on the
+might of that player (Hitpoints, upgradestatus, skills with weapons, stances,
+spells, and alot of other stuff).
+
+~
+
+1 TOKEN QUESTTOKEN~
+Syntax: token <value>
+
+TOKEN will allow you to create a quest token, with the value of the token 
+set to the value specified.  The tokens value must be within 1 and 50, 
+and it cannot be greater than the number of quest points you currently 
+have.
+~
+
+0 TOTEM TOTEMS~
+Each totem spirit grants the werewolf certian powers depentant on their
+devotion to the spirit. May the spirits grant your wishes.
+
+#GLuna#n    - Flame claws, Moonarmour, Motherstouch, Grandmotherstouch,
+          Silverclaws, Moongate, Moonbeam.
+#GBoar#n    - Rend
+#GBear#n    - Quills, Roar, Skin, Slam.
+#GRaptor#n  - Run, Perception, Devour, Shred, Jawlock, Talons.
+#GOwl#n     - Vanish, Shield, Shadowplane, Staredown, Disquiet, Reshape, Cocoon.
+#GHawk#n    - Nightsight, Shadowsight, Truesight, Quills, Burrow, Wither.
+#GWolf#n    - Calm, Razorclaws, Claws, Fangs.
+#GSpider#n  - Web.
+
+~
+
+1 TRAIN~
+Syntax: train <str/int/wis/dex/con>
+Syntax: train <avatar/primal/hp/mana/move>
+Syntax: train <slash/stab/smash/beast/grab>
+Syntax: train <charm/heat/cold/lightning/acid/sleep/drain/voodoo>
+Syntax: train <hurl/backstab/kick/steal/disarm>
+
+TRAIN increases one of your attributes.  When you start the game, your
+character has standard attributes based on your class.  You can increase 
+your attributes by spending experience points (exp) at a trainer.
+
+It costs 200 exp to train a stat (str, int, etc), except that it costs 
+only 100 exp to train your primary stat.  Primal costs 500 exp for the 
+first point, 1000 for the second, 1500 for the third, etc, and 
+hp/mana/move cost your current amount in that particular area minus your 
+con (for hp and move) or wis (for mana) per point.  Becoming a mortal or 
+an avatar costs 1000 exp each.
+
+You can also train weapon resistances (reduces between 1 and all of the 
+damage per blow for that weapon type), spell immunities (those types 
+of spell do no damage to you), and skill immunities (they no long have 
+any affect on you).  These cost 10000 exp for the first, 20000 for the 
+second, 30000 for the third, and so on.
+~
+
+0 TRANSPORT~
+Syntax: cast transport <object> <character>
+
+This spell will transport the specified object from your inventory to 
+that of the specified character.
+~
+
+1 TRUESIGHT~
+This is a common power that all classes have. It enables them to see
+through most illusions, as well as see in the dark. Always remember
+to enable your truesight power.
+
+~
+
+8 TRUST~
+Syntax: trust <character> <level>
+
+TRUST sets a character's trust to the specified level.  This is similar to
+advancing the character for accessing immortal commands, but has no effect
+on combat strength, et cetera.  You can give more trust to mortal (or
+immortal) characters to give them access to more power without messing up
+the character.  You can also restrict a player's trust to less than their
+natural level.
+
+A trust of 0 means to use the character's natural level again.
+~
+
+1 UNDEAD KNIGHTS~
+The Undead Knights where great knights fighting for good when they lived,
+but a tragic twist in their life made them fail on some important mission,
+and they have been cursed to spend eternity earthbound.
+
+These creatures command many dark forces, and study the arts of necromancy.
+
+Knightarmor    - Creates the ancient armor that the knights used when they lived.
+Gain           - Gain acces to the darker and more powerful magics.
+Weaponpractice - Improves your fighting skills.
+Powerword      - The most feared of the knights powers.
+Aura           - Enable or disable some of the knights fearsome auras.
+Command        - Command the living to do your bidding.
+Unholysight    - Truesight.
+Bloodrite      - Make a blood sacrifice to gain health.
+Knighttalk     - Class Channel.
+Soulsuck       - Drain the lifeforce of good people.
+
+Also read HELP AURAS.
+
+Prompt info : Special 1 will tell if a new powerword can be cast.
+
+~
+
+1 UPGRADE~
+Upgrading is a way to choose among some of the more powerful classes;
+to upgrade you need to max your char first, then you can choose to
+exchange that char for a new char of that class's upgrade class...
+
+CLASS                        UPGRADES TO
+------------------------------------------------
+#R[#0Demon#R]#n                      #y{#RTanar'ri#y}#n
+#y((#LWerewolf#y))#n                 #0[#P*#0]#rShapeshifter#0[#P*#0]#n
+#P.o0#0Drow#P0o.#n                   #p{#0-#p}#0Spider Droid#p{#0-#p}#n
+#y-*(#7S#0hadow #7N#0inja#y)*-#n           #C-=#RSamu#yrai#C=-#n
+#0<<#RVampire#0>>#n                  #0|[#LUndead Knight#0]|#n
+#0.x[#lMonk#0]x.#n                   #y.x#0(#7Angel#0)#yx.#n
+#n{{#CBattlemage#n}}#n               #G>*<#7Lich#G>*<#n
+#o(#c*#o)#RHobbit#o(#c*#o)#n                 #G<<#R(#yFae#R)#G>>#n
+#c<>#GG#gian#Gt#c<>#n                    #G<#0=#y{#0Drone#y}#0=#G>#n
+
+
+#RThe reqs for upgrading is #0:#n
+50K hp, 35K mana, 35K move, 40K Questpoints and generation 1.
+
+For each 100 pkscore you have less than 1000, you must pay an extra
+3K in hp/move/mana to upgrade, you cannot pay more than 30K extra.
+
+Having more than 1000 pkscore will not reduce the cost for upgrading.
+
+When you upgrade you get set to 5K across and loose ALL class powers,
+then you get your new class. You've been warned, so don't whine when
+you lose all your old powers, that's just life.
+
+It is possible for an upgrade to improve their powers even
+more, read HELP UPGRADE2 to check out the facts.
+
+~
+
+1 UPGRADE2~
+When a player have upgrade to his new class, he/she can upgrade
+again and again, though instead of losing his or her old class and
+gaining a new one, they keep their class and powers, but gets set
+to 5K across. In return for this, they gain additional damcap/dodge/
+parry/attacks/etc.
+
+#GThe reqs for the next upgrade #0:#n
+
+ #Rlevel  #0| #RHP/MOVE/MANA #0| #Rqps  #0| #Rpkscore#n
+#0 --------------------------------------#n
+   #G2    #0|  #G80K across  #0|  #G40K #0|  #G2000#n
+   #G3    #0|  #G90K across  #0|  #G80K #0|  #G2500#n
+   #G4    #0| #G100K across  #0| #G120K #0|  #G3000#n
+   #G5    #0| #G110K across  #0| #G160K #0|  #G3500#n
+
+If you are missing pkscore, you can "pay" 1500 in stats
+for each 100 missing pkscore. (e.g. if your missing 400
+in pkscore, then you need 6000 extra move/mana/hps to
+upgrade again). You can never pay more than 120K in stats
+to upgrade, no matter how low your pkscore is.
+
+#CThe maximum level is 5#n
+
+~
+
+7 USERS~
+Syntax: users
+
+USERS reports all of the visible users connected to the server, including users
+in the process of logging in.  The two numbers inside brackets are the channel
+number and the 'connected' state.  The 'connected' states are listed in merc.h:
+0 is CON_PLAYING; non-zero values are various states of logging in.
+~
+
+-1 VAMPIRE VAMPIRES~
+#0Vampires#n are the creatures of the night and thus take damage if exposed
+to daylight.  Vampires cannot eat food, or drink any liquids except for
+blood.  If they cannot drink blood for a long duration of time they will
+start taking damage or maybe even go berserk, so it's a good idea to store
+some blood in a drinking container.  Vampires take half damage from cold,
+none from gas, and double from fire, although those with the Heat
+immunity take normal fire damage rather than double.
+
+#0Embrace#n     - embrace a mob to drain their blood, use embrace again to
+              release. (embrace depends on red spell level)
+#0Vamparmor#n   - create vampire eq. (make a ring for rage/regen)
+#0Vamptalk#n    - the channel for the vampire.
+#0Fangs#n       - use to extend and retract your fangs.
+#0Inconnu#n     - an inconnu vampire has to be diabed instead of decapped by
+              other vampires.
+#0Regenerate#n  - when unraged use this to regen.
+#0Disciplines#n - use research to begin a discipline when done train the
+              discipline. (theres 10 levels of each discipline)
+#0Age#n         - use train to increase your age the older the vamp the better.
+
+For more information on vamp disciplines type 'help #0disciplines#n'.
+~
+
+0 VICISSITUDE~
+<<*>> #rZuloform#n This allows you to transform into a giant monster.
+<<*>> #rFleshcraft#n This allows you to pull fins,tail and other things out of
+      your body.
+<<*>> #rBonemod#n You can pull horns,wings, and other things out of your body
+      with this power.
+<<*>> #rDragonform#n This makes you a giant dragon.
+<<*>> #rPlasma#n This allows you to transform into a pool of blood.
+
+~
+
+0 VOODOO~
+Syntax: Spell:   cast voodoo <victim>
+        Ability: voodoo <victim> <action>
+
+Voodoo magic allows the caster to do things to another player indirectly.
+First, a body part of the victim is needed.  The caster should hold this 
+part and cast the spell on the target (they don't have to be in the same 
+room).  This will create the voodoo doll, which the caster the voodoo 
+commands on to interfere with the victim.
+There are three voodoo actions.  The first, 'Stab', is only of use as a 
+warning to the victim, or to cause annoyance.  The second, 'Throw', will 
+hurl the victim from their feet and cause a small amount of damage.  The 
+third and final action, 'Burn', will set the victim on fire, as well as 
+destroy the doll itself.
+~
+
+1 VOTE POLL~
+Dystopia has a voting system. Just remember, this is not a democracy,
+and any final rulings will be made by me.
+
+To vote, you need to be at least 10 hours old, and have killed 1000
+mobs; also you can only vote once (ie. no alts) - if you try to use an
+alt, any votes you have cast will simply be removed.
+
+Type 'vote' to get a list of current polls. To vote on any of the polls
+simply follow this example : Theres a poll called 'mages', and you want
+to cast your vote on the 2nd option, so you type 'vote mages 2'.
+
+Can it be any simpler ?
+
+~
+
+1 VT100~
+If your client supports the vt100 protocol, you can make your
+prompt stay at the bottom of your screen permanent. This is
+done by typing 'vt100' while standing in a safe room. The mud
+will then talk to your mudclient, asking it for your screen
+size. If your client responds, the mud will figure out where
+on your screen it should "trap" your prompt.
+
+To disable vt100, simply type vt100 again (this can be done
+anywhere, so you don't need a safe room for this).
+
+~
+
+1 WARLORD~
+The Warlord is a powerful mob, which is able to actually behead players.
+Taking out The Warlord is not easy, and it usually requires teamwork.
+
+The Warlord gives 5 million experience points to every single member
+of the group that kills him, and he is usually carrying some powerful
+and useful items.
+
+Beware The Warlord.
+
+~
+
+1 WARPS~
+All warps are automatic, so you don't need any commands to activate them, just the command
+obtain to get new warps. Theres a total of 18 warps, some have an affect, others don't.
+
+These are the possible warps :
+
+Your body is protected by a indestructable crystal shell.
+Your skin is as hard as steel.
+Your arms are incredibly strong.
+Your legs are incredibly strong.
+Your tongue is long and venomous.
+Your tail fires deadly spikes during combat.
+Your breath is putrid and deadly.
+You have incredible speed.
+You have increased stamina, reducing the damage you take.
+Your heightened senses enable you to hunt people. (*)
+You have the ability to devour your opponents, sending them into the pits of Hell. (*)
+Your features are so horrid that they may stun those who look at you. (*)
+Your body has the ability to regenerate incredibly fast.
+Your mounts transform into hideous Demons. (use the mount spell)
+You have the power to transform into a deadly battle axe. (*)
+Your body is composed of deadly magma.
+Your skin is covered with shards of ice.
+A pair of leathery wings protrude from your back.
+
+The warps with (*) doesn't have any affect, and some of the warps are
+used together with inparts or disciplines, most are just extra attacks
+in combat or extra toughnes.
+
+Maybe some day when I have some spare time, I'll clean up the demon powers,
+but currently you'll just have to live with the mess.
+
+~
+
+1 WEREWOLF WEREWOLVES WW WOLF~
+The werewolf is a species of halfman, halfwolf beings that hunt down
+and destroy the wyrm.  The wyrm composed of vampires and the like
+have been a bane to the wolf society long enough.  From now on vile
+wyrm fear the wolves for they will destroy you all.
+
+#R*#n #GHowl#n        - A channel for the werewolf community.
+#R*#n #GTribe#n       - Shows information on other werewolves logged on.
+#R*#n #GDisciplines#n - Lists discipline spirits, use research to begin your
+                training in one and use train to improve your
+                discipline when its ready..
+#R*#n #GRage#n        - sends a werewolf into a violent rage that attacks
+                everyone in the room and gives increased hit/dam
+
+for more information on the discipline spirits type 'help #Gtotem#n'.
+~
+
+1 WHERE~
+Syntax: where
+Syntax: where <character>
+
+WHERE without an argument tells you the location of visible players in the same
+area as you are.
+
+WHERE with an argument tells you the location of one character with that name
+within your area, including monsters.
+~
+
+1 WHO~
+Typing who will show a list of the players online that you can see, using the following style :
+
+#p  Title#n      #y(#Gx.xx#y)#n     #0<<#RCLASS#0>>#n         PlayerName      #C-= #PFAITH #C=-#n
+
+* The Title is based on the players size, and who is sorted somewhat after this.
+  The lowest title is 'Wannabe' and they cannot kill nor be killed by other players.
+  If your a wannabe and want to pk, then you need to grow in size first, this is
+  done by either training more hitpoints or training more skills (weapons, stances, etc).
+
+* The (x.xx) is the pkratio of that player, and the colors around the numbers shows
+  whether you can kill that player and if she/he can kill you, heres the deal :
+
+  if the #R()#n's are red, that means you can #Gboth#n kill eachother.
+  if the #0()#n's are black, that means that the player can #Gkill you#n, but you can't kill him/her.
+  if the #y()#n's are yellow, that means you can #Gkill them#n, but they can't kill you.
+  if the #L()#n's are blue, #Gneither#n of you can kill eachother.
+
+* The Class and PlayerName are obvious.
+
+* The religion tag will show what god/deity that player worships, and will also show
+  the rank of that player within the given Church/Coven.
+
+Enjoy!
+
+~
+
+-1 WILD~
+#GThe Pantheon of the Wild#n
+
+The Pantheon is formed by the three gods of nature, each controlling a their of the
+world. Wind, earth and water divided amongst them, they fight the onslaught of
+civilization, and the scourge of mankind. Few are the followers of the Pantheon,
+but those few are the most devoted of worshippers, fighting their own kind to
+let nature rule the realms of Dystopia once more. There are no real churches to
+the Pantheon, rather small shrines are erected whereever the followers travel.
+The Pantheon doesn't allow their worshippers to settle, rather they are encouraged
+to travel the wilds, preaching the words of nature, and fighting those that abuse
+or hurt the nature in any way. The core of worshipping The Pantheon is allowing
+yourself to be truly free, relinquishing property and material desires, living
+from day to day, in perfect harmony with nature.
+
+The Worshippers oppose The Stars and The Crawling Chaos in the circle of balance.
+
+Read help on WILDRANK.
+~
+
+-1 WILDRANK~
+#GThe ranks in The Pantheon of the Wild#n
+
+#GThe Weeds of The Wild#n are the most common of the worshippers; they call themselfs
+the weeds to indicate that even weed have more right to exist than man. Living with
+nature, and protecting it mankind is the first principle of the weeds.
+
+#GThe Hunters of The Wild#n live in harmony with nature, and has become a part of the
+big circle of life, feasting of the riches of nature, and finally dying so that nature
+can feast on them, completing the circle. These people are much feared, for they themselds
+fear nothing. Rebirth is the main structure in the belief system, and those that fear
+not dying, have no reason to fear anything.
+
+#GThe Protectors of The Wild#n have risen from the ranks of the worshippers of the Wild,
+and taken upon themselfs to protect the nature from those that does not understand.
+Death to mankind and their beloved cities are one of many cries that can be heard
+while The Protectors savegely demolishes a manmade city.
+
+#GThe Harmonists of The Wild#n are those that have begun their sojourn. A journey unlike
+many others, for this journey starts from within and ends within. As The Harmonist
+explore his or her own essence and belief, and find his or her place in the world,
+they evolve beyond that of normal man, becoming truly one with their beloved nature.
+
+#GThe Forces of The Wild#n are those that have survived the passage within, and have come
+to terms with who and what they are. The Forces are no longer considered to be a
+part of mankind, but are rather revered as elemental forms, creatures who have risen
+from the slavery of the flesh, and has chosen to fight beside nature as a part of it,
+instead of protecting it from the outside.
+
+~
+
+-1 WIZLIST~
+#y <#G{#0----=== #GThe Adminstration #0===----#G}#y>#n
+
+    #GBrian Graversen  #0as  #GJobo#n
+    #GHenrik Jensen    #0as  #GDracknuur#n
+    #GThomas Andersen  #0as  #GVladd#n
+    #GDennis Aagaard   #0as  #GTarasque#n
+
+
+
+Also read HELP DCREDITS.
+
+~
+
+0 $~
+
+#$

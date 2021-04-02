@@ -1,0 +1,45 @@
+#Gthe #0Loa#G=#n~
+Loa~
+#G=#0Disciple of#n~
+#G=#0Tongue of#n~
+#G=#0Horse of#n~
+#G=#0Vessel of#n~
+#G=#0Loremaster of#n~
+#7%s #0drops dead, while #7%s #0stands gloating over the corpse.#n~
+#0{#R*#0}#R%s#0{#R*#0}#n '#G$t#n'.~
+#0of #LT#0he #LS#0tars#L-#yX#L-#n~
+Stars~
+#L-#yX#L-#LP#0riest#n~
+#L-#yX#L-#LA#0strologer#n~
+#L-#yX#L-#LS#0eer#n~
+#L-#yX#L-#LP#0rophet#n~
+#L-#yX#L-#LV#0isionary#n~
+#p%s's #osoul was sent to the #LStars#o by #p%s#o.#n~
+#y(#0>>#R%s#0<<#y)#n '#G$t#n'.~
+#yT#ohe #yO#one #yT#orue#C::#n~
+Crusaders~
+#C::#yN#oeonate #yo#of#n~
+#C::#yP#oeacekeeper #yo#of#n~
+#C::#yI#onquisitor #yo#of#n~
+#C::#yG#orand #yK#onight #yo#of#n~
+#C::#yC#orusader #yo#of#n~
+#G%s #ywas killed in #CThe Crusade #yby #G%s#y.#n~
+#y[#o<>#y]#G%s#y[#o<>#y]#n '#7$t#n'.~
+#Gof #0T#Ghe #0W#Gild#g=#y*#g=#n~
+Wild~
+#g=#y*#g=#0W#Geed#n~
+#g=#y*#g=#0H#Gunter#n~
+#g=#y*#g=#0P#Grotector#n~
+#g=#y*#g=#0H#Garmonist#n~
+#g=#y*#g=#0F#Gorce#n~
+#G%s #gwas impaled by #G%s#g, returning their soul to the Wild.#n~
+#G/#R^#G\#g%s#G/#R^#G\#n '#y$t#n'.~
+#7G#0ahr#R<\#n~
+Gahr~
+#R/>#7S#0layer of#n~
+#R/>#7D#0iabolist of#n~
+#R/>#7E#0ye of#n~
+#R/>#7V#0oice of#n~
+#R/>#7A#0bomination of#n~
+#7%s #0was dismembered by #7%s#0, who starts feasting on the carcass.#n~
+#y-#7<>#y-(#0%s#y)-#7<>#y-#n '#2$t#n'~

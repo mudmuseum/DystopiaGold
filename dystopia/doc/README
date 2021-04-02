@@ -1,0 +1,22 @@
+This is basicly what my MUD looked like when it was shutdown in the summer 
+of 2001 (due to lack of time to maintain it). This means that the code 
+contains much halfdone/halfbaked code as well as messy stuff here and 
+there which was never intended to stay for long. If you want to make a 
+successful and stable MUD, I suggest getting the dystopia 1.4 codebase, 
+which is also based on this code (but with cleanups, better documentation 
+and a stabler code). On the other hand, if you just want to start a MUD 
+and play around, I guess this is a decent way to do it - just don't get 
+surprised when stuff stops working, monsters explode at random and other 
+nasty stuff (consider yourself warned). I take no responsibility for any 
+harm this code may cause to anyone reading it.
+
+At the time of this release, I have not looked at this mess for 2 years, 
+so I'm most likely unable to answer any questions you may have. I have 
+since moved on and begun work on something much more worthwhile (visit the 
+SocketMud(tm) website for details - http://www.socketmud.dk/)
+
+Regards
+
+Brian Graversen (jobo@daimi.au.dk)
+
+http://www.daimi.au.dk/~jobo/dystopia/

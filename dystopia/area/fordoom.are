@@ -1,0 +1,3434 @@
+#AREADATA
+Name        Forest of Doom~
+Builders    None~
+VNUMs       12000 12109
+Security    1
+Areabits    0
+End
+
+
+
+#MOBILES
+#12000
+drove killer bees~
+a drove of killer bees~
+A bunch of yellow and black insects swarm at you!
+~
+A bunch of yellow and black insects swarm at you!
+~
+67 524936 0 142
+0 0 0
+0
+S
+#12001
+goblin~
+a goblin~
+A small goblin leaps for you!
+~
+A small goblin leaps for you!
+~
+195 98432 -500 98
+0 0 0
+1
+S
+#12002
+sting worm~
+the sting worm~
+A sting worm's barbed tail lunges for you!
+~
+A sting worm's barbed tail lunges for you!
+~
+99 680 0 161
+0 0 0
+0
+S
+#12003
+orc~
+an orc~
+An orc growls under his breath and attacks!
+~
+An orc growls under his breath and attacks!
+~
+103 32896 -500 103
+0 0 0
+1
+S
+#12004
+wild hill man~
+the wild hill man~
+The wild hill man draws his axe and charges for you!
+~
+The wild hill man draws his axe and charges for you!
+~
+103 128 0 141
+0 0 0
+1
+S
+#12005
+gremlin~
+the gremlin~
+A green skinned humanoid with a large head attacks!
+~
+A green skinned humanoid with a large head attacks!
+~
+231 98432 -750 78
+0 0 0
+1
+S
+#12006
+vampire bat~
+the vampire bat~
+A swarm of fanged bats swoops down on you.
+~
+A swarm of fanged bats swoops down on you.
+~
+99 680 -750 96
+0 0 0
+1
+S
+#12007
+boulder beast~
+the boulder beast~
+A boulder beast with huge stumpy legs plods over to you.
+~
+A boulder beast with huge stumpy legs plods over to you.
+~
+67 128 0 153
+0 0 0
+0
+S
+#12008
+hunting dog~
+the hunting dog~
+A leashed hunting dog strained to be released.
+~
+A leashed hunting dog strained to be released.
+~
+195 168 0 138
+0 0 0
+1
+S
+#12009
+masked man~
+the masked man~
+The masked man threatens to release the dogs on you.
+~
+The mob looks back at you!
+~
+71 128 -500 159
+0 0 0
+1
+S
+#12010
+bandit leader~
+the bandit leader~
+The bandit leader charges forward shouting 'Death to the Intruder!'
+~
+The bandit leader charges forward shouting 'Death to the Intruder!'
+~
+103 98464 -500 146
+0 0 0
+2
+S
+#12011
+bandit~
+the bandit~
+The bandit draws his dagger and attacks!
+~
+The bandit draws his dagger and attacks!
+~
+103 98440 -500 143
+0 0 0
+1
+S
+#12012
+fire demon~
+the fire demon~
+The Lord of the Clones raises his weapons and attacks!
+~
+The mob looks back at you!
+~
+99 557736 -1000 495
+0 0 0
+0
+S
+#12013
+wild boar~
+the wild boar~
+The wild boar sees you and charges!
+~
+The wild boar sees you and charges!
+~
+99 168 0 121
+0 0 0
+1
+S
+#12014
+treeman~
+the treeman~
+A tree lashes out with a branch and tries to trip you up.
+~
+The mob looks back at you!
+~
+99 680 0 164
+0 0 0
+1
+S
+#12015
+barbarian~
+the barbarian~
+A rugged barbarian eyes you up and down and sneers.
+~
+A rugged barbarian eyes you up and down and sneers.
+~
+71 128 0 179
+0 0 0
+1
+S
+#12016
+cat woman~
+the catwoman~
+A furry black female humanoid purrs at you.
+~
+A furry black female humanoid purrs at you.
+~
+67 680 0 156
+0 0 0
+2
+S
+#12017
+wyvern~
+the wyvern~
+The wyvern circles above your head.
+~
+The wyvern circles above your head.
+~
+71 680 -500 198
+0 0 0
+0
+S
+#12018
+fish man~
+the fish man~
+An amphibious humanoid struggles with a chair trying not to sit on his fins.
+~
+An amphibious humanoid struggles with a chair trying not to sit on his fins.
+~
+67 136 0 136
+0 0 0
+1
+S
+#12019
+eel~
+the blood eel~
+A wriggley eel wraps itself around your leg.
+~
+A wriggley eel wraps itself around your leg.
+~
+99 0 0 101
+0 0 0
+1
+S
+#12020
+shape changer~
+the shape changer~
+The goblin twists and distorts into a great demonic ... thing...
+~
+The goblin twists and distorts into a great demonic ... thing...
+~
+71 680 -750 199
+0 0 0
+1
+S
+#12021
+clone warrior~
+the clone warrior~
+A clone warrior raises his spear and attacks!
+~
+A clone warrior raises his spear and attacks!
+~
+99 680 -750 99
+0 0 0
+1
+S
+#12022
+ghoul~
+the ghoul~
+The ghoul reaches out for your brain!
+~
+The ghoul reaches out for your brain!
+~
+99 168 -750 174
+0 0 0
+0
+S
+#12023
+death hawk~
+the death hawk~
+A death hawk swoops down on you!
+~
+A death hawk swoops down on you!
+~
+99 557736 -750 99
+0 0 0
+0
+S
+#12024
+bear~
+the bear~
+A grizzley bear attempts to give you the bear hug of your life!
+~
+A grizzley bear attempts to give you the bear hug of your life!
+~
+99 136 0 142
+0 0 0
+1
+S
+#12025
+forest giant~
+the forest giant~
+Suddenly, a huge leg appears in front of you!
+~
+Suddenly, a huge leg appears in front of you!
+~
+67 128 0 178
+0 0 0
+1
+S
+#12026
+werewolf~
+the werewolf~
+A half-man, half-wolf leaps at you! 
+~
+A half-man, half-wolf leaps at you!
+~
+99 680 -500 162
+0 0 0
+1
+S
+#12027
+ogre~
+the ogre~
+A ogre grunts at his dinner and ignores you.
+~
+A ogre grunts at his dinner and ignores you.
+~
+71 128 -750 160
+0 0 0
+1
+S
+#12028
+giant spider~
+the giant spider~
+A gigantic, creepy, furry spider crawls over to you, its fangs dripping venom.
+~
+The mob looks back at you!
+~
+67 33448 0 142
+0 0 0
+0
+S
+#12029
+pterodactyl~
+the pterodactyl~
+A reptilian bird with huge wings swoops at you!
+~
+A reptilian bird with huge wings swoops at you!
+~
+99 648 -250 136
+0 0 0
+0
+S
+#12030
+cave troll~
+the cave troll~
+The cave troll stands up and growls loudly.
+~
+The cave troll stands up and growls loudly.
+~
+71 640 0 160
+0 0 0
+1
+S
+#12031
+hobgoblin~
+the hobgoblin~
+A tall, spindly humanoid creature leers at you.
+~
+A tall, spindly humanoid creature leers at you.
+~
+67 0 -250 98
+0 0 0
+0
+S
+#12032
+wolf~
+the wolf~
+A silver-grey wolf growls at you as you pass.
+~
+A silver-grey wolf growls at you as you pass.
+~
+67 648 0 139
+0 0 0
+1
+S
+#12033
+dwarf~
+the dwarf~
+A grumpy looking dwarf sits on a log.
+~
+A grumpy looking dwarf sits on a log.
+~
+67 8832 0 163
+0 0 0
+1
+S
+#12034
+ape man~
+the ape man~
+An ape man leaps at you screaming loudly.
+~
+An ape man leaps at you screaming loudly.
+~
+67 640 0 167
+0 0 0
+1
+S
+#12035
+pygmy~
+the pgymy~
+A short humanoid aims a blow dart at you.
+~
+A short humanoid aims a blow dart at you.
+~
+67 162 0 102
+0 0 0
+1
+S
+#12036
+yaztromo wizard~
+Yaztromo the Wizard~
+An elderly wizard sits in an oak chair in the middle of the room.
+~
+An elderly wizard sits in an oak chair in the middle of the room.
+~
+67 8872 1000 1000
+0 0 0
+1
+S
+#12037
+arragon~
+Arragon the Archmage~
+An old wizard sits behind the desk in the far corner of the room.
+~
+An old wizard sits behind the desk in the far corner of the room.
+~
+67 631466 0 702
+0 0 0
+1
+S
+#12038
+quin~
+Quin the Strongman~
+Quin the Strongman extends a friendly hand.
+~
+Quin the Strongman extends a friendly hand.
+~
+67 32896 0 456
+0 0 0
+1
+S
+#0
+
+
+
+#OBJECTS
+#12000
+ring light~
+the Ring of Light~
+A glowing ring shoots a halo of light into the air.~
+~
+1 1091 3
+0 0 -1 0
+1 0 0
+A
+3 2
+A
+13 5
+A
+18 5
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#12001
+potion anti poison~
+potion of Anti-Poison~
+A green swirling liquid fizzles in a test tube.~
+~
+10 65 16385
+30 -1 -1 -1
+1 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#12002
+coin gold~
+a single gold coin~
+A measley gold coin rests on the floor.~
+~
+20 0 16385
+1 0 0 0
+1 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#12003
+book leather gold~
+an ornate book~
+An ornate leather book etched with gold sigils rests here.~
+~
+15 0 16385
+20 5 -1 0
+5 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#12004
+armband strength~
+armband of Strength~
+A glowing gold armband shoots a halo of light upwards into the sky~
+~
+1 1025 257
+0 0 -1 0
+2 0 0
+A
+1 3
+A
+19 5
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#12005
+pear~
+a purple pear~
+A juicy purple pear looks ripe for plucking from this fruit tree.~
+~
+19 0 8193
+5 0 0 -1
+1 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#12006
+blue egg~
+a light blue egg~
+A light blue egg opens slowly, and a fountain shoots into the air.~
+~
+25 0 0
+0 0 0 0
+100 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#12007
+dagger~
+a goblin's dagger~
+A rusty dagger lies forgotten on the floor.~
+~
+5 128 8193
+0 1 3 11
+5 0 0
+A
+1 -2
+A
+19 -5
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#12008
+sword~
+dust of Levitation~
+Some glowing dust sparkles in the light.~
+~
+26 0 16385
+50 -1 -1 -1
+1 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#12009
+holy water~
+a vial of holy Water~
+A vial of holy water lies intact on the floor.~
+~
+10 64 16385
+50 -1 -1 -1
+5 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#12010
+bronze hammer head~
+a bronze hammer head~
+A bronze hammer head inscribed with a 'G' has fallen to the floor.~
+~
+5 1089 8193
+0 5 10 8
+10 0 0
+A
+14 -25
+A
+2 -2
+A
+1 4
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#12011
+green fungus~
+green-topped fungus~
+A slimy green-topped fungus grows from the ground.~
+~
+26 0 16385
+40 -1 -1 -1
+3 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#12012
+red fungus~
+red-topped fungus~
+A slimy red-topped fungus grows from the walls.~
+~
+19 0 16385
+0 0 0 -1
+3 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#12013
+sword~
+an enchanted sword~
+A silver glowing sword of enchantment glows in the dirt.~
+~
+5 0 8193
+0 5 12 3
+5 0 0
+A
+1 2
+A
+2 2
+A
+13 5
+A
+18 5
+A
+19 5
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#12014
+brass bell~
+a small brass bell~
+A small brass bell has been knocked onto the floor.~
+~
+13 0 16385
+0 0 0 0
+5 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#12015
+belladonna~
+belladonna~
+A small leafy plant with a small white half-open bud grows here.~
+~
+26 0 8193
+0 -1 -1 -1
+5 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#12016
+hammer handle rod~
+the hammer handle~
+On the floor lies a rod made of ebony which has been inscribed with a 'G'.~
+~
+5 1088 8193
+0 1 6 7
+2 0 0
+A
+2 2
+A
+18 10
+A
+19 -5
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#12017
+eye amber chain~
+the Eye of Amber~
+A small jewel on a silver chain lies in the dust.~
+~
+9 1089 5
+0 0 0 0
+3 0 0
+A
+23 -5
+A
+24 -5
+A
+3 2
+A
+5 2
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#12018
+sword~
+a flaming sword~
+A fiery glowing sword illuminates the room.~
+~
+5 513 8193
+0 5 12 1
+5 0 0
+A
+2 2
+A
+13 10
+A
+18 5
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#12019
+sparking whip~
+a sparking whip~
+A whip crackles and sparks in the dust.~
+~
+5 512 8193
+0 5 8 4
+3 0 0
+A
+2 1
+A
+14 50
+A
+17 -25
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#12020
+backpack gremlin~
+a gremlin's leather backpack~
+A tatty leather backpack lies forgotten in the mud.~
+~
+15 0 9
+25 5 -1 0
+3 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#12021
+gold leather collar~
+a gold-studded leather collar~
+A studded collar has been left in the dirt here.~
+~
+9 64 5
+0 0 0 0
+4 0 0
+A
+18 4
+A
+19 4
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#12022
+golden ring nose~
+a large gold nose ring~
+A large shiny golden ring lies in the dirt.~
+~
+9 0 3
+0 0 0 0
+2 0 0
+A
+18 3
+A
+19 3
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#12023
+ring slowness~
+the Ring of Slowness~
+An enticing ring with a sapphire in the centre lies in the dust.~
+~
+9 4288 3
+0 0 0 0
+10 0 0
+A
+3 -3
+A
+14 -40
+A
+18 -50
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#12024
+gauntlet iron plate~
+the Gauntlet of Weapon Skill~
+A strong looking gauntlet made of plate iron lies in the dirt.~
+~
+9 0 129
+0 0 0 0
+5 0 0
+A
+18 5
+A
+1 3
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#12025
+flute wooden~
+a charming flute~
+A pretty little flute made of wood lies in the dirt.~
+~
+3 577 16385
+30 2 2 -1
+3 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#12026
+glove~
+a Glove of Dexterity~
+A silky purple glove lies in the dirt.~
+~
+9 66 129
+0 0 0 0
+2 0 0
+A
+2 3
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#12027
+crown mastery~
+the Crown of Mastery~
+An innocent looking crown lies in the dirt - how many have worn it?~
+~
+9 6867 17
+0 0 0 0
+5 0 0
+A
+9 10
+A
+5 -5
+A
+4 2
+A
+2 2
+A
+1 2
+A
+13 25
+A
+12 25
+A
+14 -50
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#12028
+lantern light~
+a Lantern of Wishing~
+A battered looking lantern is lying on the ground.~
+~
+1 0 8193
+0 0 -1 0
+5 0 0
+A
+4 3
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#12029
+head band silver ~
+the Headband of Concentration~
+A thin circular strip of silver lies in the dirt.~
+~
+9 0 17
+0 0 0 0
+5 0 0
+A
+3 3
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#12030
+vase~
+a ming vase~
+An ornate ming vase is lacking some flowers to brighten up the room.~
+~
+15 0 16385
+15 0 -1 0
+5 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#12031
+chest~
+a rusty iron chest~
+A rusty old iron chest teases you with its possible treasures.~
+~
+15 0 0
+50 5 -1 0
+5 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#12032
+boulder~
+the large boulder~
+A sword sticks out of a large rocky boulder.~
+~
+15 0 0
+25 0 -1 0
+200 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#12033
+hide loin cloth~
+an animal-hide loin cloth~
+A furry loin cloth lies in the dirt.~
+~
+9 0 2049
+0 0 0 0
+1 0 0
+A
+17 20
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#12034
+gold ear rings~
+a pair of golden earrings~
+A pair of shiny golden earrings have been forgotten here.~
+~
+9 0 17
+0 0 0 0
+1 0 0
+A
+17 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#12035
+leather pouch~
+a small leather pouch~
+A small leather pouch on a leather strap lies in the dirt.~
+~
+15 0 5
+10 5 -1 0
+1 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#12036
+bracelet skill coppery~
+a Bracelet of Skill~
+A green coppery bracelet lies in the dirt.~
+~
+9 64 4097
+0 0 0 0
+2 0 0
+A
+18 5
+A
+19 5
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#12037
+suit armour leather~
+a suit of leather armour~
+A suit of leather armour lies in the dirt.~
+~
+9 0 9
+0 0 0 0
+5 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#12038
+spear wooden~
+a long spear~
+A wooden spear lies in the dirt.~
+~
+5 0 8193
+0 1 6 2
+5 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#12039
+shield~
+an Emperor's shield~
+A heavy iron shield lies in the dirt.~
+~
+9 66 513
+0 0 0 0
+5 0 0
+A
+9 5
+A
+13 50
+A
+2 -1
+A
+17 -75
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#12040
+clear potion~
+an effervescent clear potion~
+A small corked bottle containing a colourless liquid lies in the dirt.~
+~
+10 64 16385
+0 -1 -1 -1
+5 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#12041
+silver dart~
+a silver dart~
+A small silver dart protrudes out of the ground.~
+~
+5 0 8193
+0 1 3 2
+1 0 0
+A
+2 1
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#12042
+silver band~
+a silver band~
+A silver band inscribed with 'Death awaits you' lies in the dirt.~
+~
+9 4224 3
+0 0 0 0
+1 0 0
+A
+17 50
+A
+18 -15
+A
+19 -15
+A
+13 -50
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#12043
+red potion~
+a red fizzley potion~
+A bubbley warm red potion fizzles away in a vial here.~
+~
+10 64 16385
+0 -1 -1 -1
+5 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#12044
+gold ingot~
+a gold ingot~
+An ingot of gold lies in the dirt.~
+~
+8 0 8193
+0 0 0 0
+50 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#12045
+wooden chest~
+a wooden chest~
+A barred wooden chest sits in the corner.~
+~
+15 0 0
+50 5 -1 0
+50 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#12046
+boots leather~
+boots of Leaping~
+A pair of tattered leather boots lie in the dirt.~
+~
+9 0 65
+0 0 0 0
+2 0 0
+A
+14 100
+A
+2 1
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#12047
+garlic buds~
+some garlic buds~
+Some garlic buds attempt to ward off vampires here.~
+~
+19 1152 16385
+1 0 0 0
+1 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#12048
+silver box~
+a nondescript silver box~
+A small silvery box rests on a table here.~
+~
+15 0 16385
+10 15 -1 0
+5 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#12049
+purple fungus~
+purple-topped fungus~
+A purple-topped fungus grows from the ceiling.~
+~
+26 0 16385
+0 -1 -1 -1
+3 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#12050
+club wooden~
+a large wooden club~
+A large wooden giant's club lies forgotten on the floor.~
+~
+5 0 8193
+0 1 6 8
+5 0 0
+A
+2 -2
+A
+1 2
+A
+19 5
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#12051
+golden medallion~
+a golden medallion~
+An golden medallion with a picture of a goblin head on lies in the dirt.~
+~
+9 128 5
+0 0 0 0
+5 0 0
+A
+1 -1
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#12052
+bronze helmet golden~
+a bronze and golden flying helmet~
+A bronze and golden helmet with little white wings lies in the dirt.~
+~
+9 0 17
+0 0 0 0
+5 0 0
+A
+14 50
+A
+2 1
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#12054
+barrel rain~
+a barrel~
+A rain barrel stands in the corner of the room.~
+~
+17 0 0
+5 5 9 1
+5 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#12055
+mouse skull necklace~
+a mouse-skull necklace~
+A necklace made of mous skulls lies in the dirt.~
+~
+9 128 5
+0 0 0 0
+5 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#12057
+chain mail jacket~
+a chainmail jacket~
+A tatty chainmail jacket lies in the dirt.~
+~
+9 0 9
+0 0 0 0
+5 0 0
+A
+9 1
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#12058
+dragon tooth~
+a dragon's tooth~
+An oversized fang tooth lies in the dirt.~
+~
+5 64 8193
+0 2 8 2
+5 0 0
+A
+2 1
+A
+13 25
+A
+18 7
+A
+19 3
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#12059
+potion blue~
+a deep blue potion~
+A deep blue transparent liquid bubbles in a test tube.~
+~
+10 0 16385
+50 -1 -1 -1
+5 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#12060
+box coffin stone~
+a large stone box~
+A gigantic stone coffin rests in the centre of the room.~
+~
+15 0 0
+250 5 -1 0
+500 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#12061
+clear potion bottle~
+a boring clear potion~
+A corked bottle containing a clear liquid.~
+~
+10 0 16385
+0 -1 -1 -1
+5 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#12062
+hand clay~
+a clay hand~
+A hand made of clay lies in the dirt.~
+~
+13 0 16385
+0 0 0 0
+5 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#12063
+copper~
+a copper vase~
+A small copper vase holds unknown secrets here.~
+~
+15 0 16385
+10 0 -1 0
+5 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#12064
+wooden whistle~
+a small wooden whistle~
+A small wooden whistle lies in the dirt.~
+~
+13 0 16385
+0 0 0 0
+5 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#12065
+rabbit spit~
+a spit-roast rabbit~
+A juicy-looking rabbit spit-roasts over a campfire.~
+~
+19 0 16385
+10 0 0 0
+3 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#12066
+silver key~
+a silver key~
+A tiny silver key for a tiny keyhole lies in the dirt.~
+~
+18 0 5
+0 0 0 0
+5 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#12067
+hole tree~
+the hole in the tree~
+A hole in the tree hides possible treasures..~
+~
+15 0 0
+50 0 -1 0
+50 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#12068
+boat portal~
+a bobbing boat~
+A small wooden boat is tied to a post to your right where the river is calm.~
+~
+27 0 0
+0 0 0 0
+5 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#0
+
+
+
+#ROOMDATA
+#12000
+Entrance to the Darkwood Forest~
+You stand before a large tower on the end of the Darkwood Forest. An oak door before you awaits your entry into the tower. There are no sounds of birds or animals to be heard.
+~
+0 4 2
+D0
+~
+~
+0 -1 12002
+D2
+~
+~
+0 0 6002
+S
+#12001
+Upstairs in the Tower~
+You walk up the spiral stairs and into a large room at the top of the tower. Shelves, cupboards and cabinets line the wall, all filled with bottles, jars, armour and all manner of strange artifacts.
+~
+0 648 0
+D5
+~
+~
+0 -1 12002
+S
+#12002
+Inside the Tower~
+You find yourself at the bottom of a set of short but winding stairs. You see light shining down from the upper floor. North of you lies a door that leads into the Darkwood Forest.
+~
+0 9 0
+D0
+~
+~
+0 -1 12003
+D2
+~
+~
+0 -1 12000
+D4
+~
+~
+0 -1 12001
+S
+#12003
+At an old tree~
+Back outside in the bright light you notice the dead quietness again. A narrow path forks east and west either side of a huge old tree.
+~
+0 0 3
+D1
+~
+~
+0 -1 12004
+D2
+~
+~
+0 -1 12002
+D3
+~
+~
+0 -1 12042
+S
+#12004
+At a signpost~
+The narrow path continues to cut its way through the tangled forest. Strange animal cries and noises echo through the trees. In front of you lies a signpost.
+~
+0 0 3
+E
+signpost~
+An arm points north and the other points to the east.~
+D0
+~
+~
+0 -1 12021
+D1
+~
+~
+0 -1 12005
+D3
+~
+~
+0 -1 12003
+S
+#12005
+The fruit tree~
+The path continues to cut its way through the dense undergrowth and turns sharply towards the north at a tree bearing strange fruit.
+~
+0 0 3
+D0
+~
+~
+0 -1 12006
+D3
+~
+~
+0 -1 12004
+S
+#12006
+On the Path~
+To the right of the path you hear voices arguing in a strange archaic language. The path continues northwards.
+~
+0 0 3
+D0
+~
+~
+0 -1 12008
+D1
+~
+~
+0 -1 12007
+D2
+~
+~
+0 -1 12005
+S
+#12007
+In a Clearing~
+You find yourself in a small clearing amidst the trees.
+~
+0 0 3
+D3
+~
+~
+0 -1 12006
+S
+#12008
+On the Path~
+As you continue down the path, you hear a loud growl to your left, perhaps you'd better hurry along!
+~
+0 0 3
+D0
+~
+~
+0 -1 12010
+D2
+~
+~
+0 -1 12006
+D3
+~
+~
+0 -1 12009
+S
+#12009
+In the Trees~
+As you wend your way thourgh the trees in the direction of the growling, you suddenly come face to face with...
+~
+0 0 3
+D1
+~
+~
+0 -1 12008
+S
+#12010
+The Edge of the Forest~
+Lights shine out through the trees on either side of the path. The forest is thinning out. Ahead you see a large plain with tall grasses. In the distance you can make out some low hills. The path branches off to the west.
+~
+0 0 3
+D0
+~
+~
+0 -1 12011
+D2
+~
+~
+0 -1 12008
+D3
+~
+~
+0 -1 12029
+S
+#12011
+On a plain~
+As you walk along the path through the waist-high grasses you watch the grass rippling in the wind. It seems serene here, but how long can that last?
+~
+0 0 2
+D0
+~
+~
+0 -1 12012
+D2
+~
+~
+0 -1 12010
+S
+#12012
+By a river~
+As the path proceeds northwards, the grass becomes shorter and the ground starts to rise gently. You find yourself at the edge of a river.
+~
+0 0 2
+D0
+~
+~
+0 -1 12013
+D2
+~
+~
+0 -1 12011
+S
+#12013
+On a wooden bridge~
+You cross a rickety bridge over the river and find yourself at the foot of some hills. Ahead you see that the path winds up into the hills.
+~
+0 0 2
+D0
+~
+~
+0 -1 12015
+D1
+~
+~
+0 -1 12014
+D2
+~
+~
+0 -1 12012
+S
+#12014
+The Campsite under the Old Oak Tree~
+A very large, old oak tree with huge branches stands here offering shelter from the rain.
+~
+0 0 3
+D3
+~
+~
+0 -1 12013
+S
+#12015
+At the foot of the hills~
+The ground becomes quite steep as the path wends its way up into the hills. All around in the distance you see the tight green circle of Darkwood Forest. Mist hangs in the tall grasses behind you but ahead you see a valley floor. All is quiet, and ahead l
+ies a junction in the path.
+~
+0 0 2
+D0
+~
+~
+0 -1 12018
+D1
+~
+~
+0 -1 12016
+D2
+~
+~
+0 -1 12013
+S
+#12016
+Near the Cave Entrance~
+The path here leads to a large cave entrance and does not appear to go much further eastwards. The junction lies back to the west.
+~
+0 0 1
+D1
+~
+~
+0 -1 12017
+D3
+~
+~
+0 -1 12015
+S
+#12017
+In the Cavern~
+You step into the dark cavern. The air is cold and moist and you hear a loud snoring in the darkness.
+~
+0 9 0
+D3
+~
+~
+0 -1 12016
+S
+#12018
+On the Valley Floor~
+Eventually the path levels out and you find yourself on the valley floor. The path continues north but a new branch leads off to the west.
+~
+0 0 2
+D0
+~
+~
+0 -1 12019
+D2
+~
+~
+0 -1 12015
+D3
+~
+~
+0 -1 12037
+S
+#12019
+On the Valley Floor~
+The valley floor is green and pleasant and you wonder how such a tranquil place could be the home of so many loathsome creatures.
+~
+0 0 2
+D0
+~
+~
+0 -1 12020
+D2
+~
+~
+0 -1 12018
+S
+#12020
+The edge of Darkwood Forest~
+You suddenly find yourself at a dark brown wall of trees. A path leads into the forest and branches off north and west.
+~
+0 1 3
+D0
+~
+~
+0 -1 12092
+D2
+~
+~
+0 -1 12019
+D3
+~
+~
+0 -1 12091
+S
+#12021
+In Darkwood Forest~
+The bushes and vines tangle around your feet threatening to trip you up. Ahead of you, you hear footsteps and arguing voices ahead of you.
+~
+0 1 3
+D0
+~
+~
+0 -1 12022
+D2
+~
+~
+0 -1 12004
+S
+#12022
+By the hole in the ground~
+Just off the path and to your left, you notice a large hole in the ground with a diameter of some three metres. It appears to slope downwards into the depths of the earth.
+~
+0 1 3
+D0
+~
+~
+0 -1 12025
+D2
+~
+~
+0 -1 12021
+D5
+~
+~
+0 -1 12023
+S
+#12023
+In the hole~
+As you descend into the hole, you notice large amounts of slime secreted by some huge creature. The hole continues downwards.
+~
+0 9 0
+D4
+~
+~
+0 -1 12022
+D5
+~
+~
+0 -1 12024
+S
+#12024
+At the bottom of a slippery slope~
+You slide down the last bit of the slope and find yourself in a large earthen cavern.
+~
+0 1 0
+D4
+~
+~
+0 -1 12023
+S
+#12025
+Near the Cave Entrance~
+Here the trees begin to thin out and shafts of light beam down through the gaps in the trees on either side of the path. As the path widens you see a large cave entrance set a few yards away on the right. The path continues northwards.
+~
+0 0 2
+D0
+~
+~
+0 -1 12026
+D2
+~
+~
+0 -1 12022
+S
+#12026
+Trap?~
+You narrowly miss a noose trap left on the ground - watch out! Someone around here obviously wants some dinner!
+~
+0 0 2
+D0
+~
+~
+0 -1 12027
+D2
+~
+~
+0 -1 12025
+S
+#12027
+Under a tree house~
+You notice a knotted vine hanging down to the ground from a tree on your left. You look up to see a roughly made tree house amid the branches.
+~
+0 0 3
+D0
+~
+~
+0 -1 12029
+D2
+~
+~
+0 -1 12026
+D4
+~
+~
+0 -1 12028
+S
+#12028
+In the Tree house~
+You reach the top of the vine and scramble on to a wooden platform. A sheet made from leaves and ferns covers the entrance to a small covered living area.
+~
+0 9 0
+D5
+~
+~
+0 -1 12027
+S
+#12029
+At a four-way junction~
+You arrive at a four-way junction in the path. South leads back into the forest.
+~
+0 0 2
+D0
+~
+~
+0 -1 12030
+D1
+~
+~
+0 -1 12010
+D2
+~
+~
+0 -1 12027
+D3
+~
+~
+0 -1 12048
+S
+#12030
+The waist high grass~
+The path cuts through the grass which is about waist height. You feel eyes on either side of you, watching your every move.
+~
+0 0 1
+D0
+~
+~
+0 -1 12032
+D1
+~
+~
+0 -1 12031
+D2
+~
+~
+0 -1 12029
+S
+#12031
+Pygmy Attack!~
+All around you the long grass ripples in the wind. The surroundings seem quiet, almost too quiet...
+~
+0 0 2
+D3
+~
+~
+0 -1 12030
+S
+#12032
+Near the river~
+As the path proceeds northwards, the grass becomes shorter and the ground rises slowly. Ahead you hear the sounds of flowing water. However, you also hear another sound, above you in the sky - a loud buzzing..
+~
+0 0 1
+D0
+~
+~
+0 -1 12033
+D2
+~
+~
+0 -1 12030
+S
+#12033
+Beside the river~
+You arrive at the bank of a gently flowing river. The path continues north over the river via a rickety old wooden bridge.
+~
+0 0 2
+D0
+~
+~
+0 -1 12034
+D2
+~
+~
+0 -1 12032
+S
+#12034
+Across the river~
+The bridge is in a terrible state of repair, but you manage to cross it safely despite the persistent squeaks and groans it utters. The path continues northwards and some rocks lie off to the west of the path.
+~
+0 0 2
+D0
+~
+~
+0 -1 12036
+D1
+~
+~
+0 -1 12035
+D2
+~
+~
+0 -1 12033
+S
+#12035
+Behind the rocks~
+You find yourself in a campsite hidden by the rocks. However, it hasn't been used for quite some time.
+~
+0 0 2
+D3
+~
+~
+0 -1 12034
+S
+#12036
+A panoramic view to the horizon~
+Walking down the hill path you see the valley floor stretching out ahead and beyond that the sinister wall of trees - Darkwood! On the horizon lies a foreboding looking mansion. As you reach the foot of the hills you see many large boulders on each side o
+f the path.
+~
+0 0 2
+D0
+~
+~
+0 -1 12037
+D2
+~
+~
+0 -1 12034
+S
+#12037
+At a junction in the trees~
+You find yourself at a four-way junction.
+Overhead, the birds in the trees twitter away ignorantly.
+~
+0 0 3
+D0
+~
+~
+0 -1 12038
+D1
+~
+~
+0 -1 12018
+D2
+~
+~
+0 -1 12036
+D3
+~
+~
+0 -1 12056
+S
+#12038
+The odd grey raincloud~
+A tiny grey cloud zips about threatening to rain on your head. Don't hang about!
+~
+0 0 2
+D0
+~
+~
+0 -1 12039
+D2
+~
+~
+0 -1 12037
+S
+#12039
+Another junction~
+You find yourself at another junction. The path continues north. West leads to a small cottage.
+~
+0 0 2
+D0
+~
+~
+0 -1 12040
+D2
+~
+~
+0 -1 12038
+D3
+~
+~
+0 -1 12041
+S
+#12040
+Entering the Darkwood Forest~
+Walking across the green valley you see the dark green wall of Darkwood Forest looming up before you. The path leads straight into the thick undergrowth and you find yourself walking between tall dark trees and thorny bushes.The path abruptly ends at a ju
+nction leading east and west.
+~
+0 0 3
+D1
+~
+~
+0 -1 12091
+D2
+~
+~
+0 -1 12039
+D3
+~
+~
+0 -1 12090
+S
+#12041
+In Arragon's Cottage~
+You walk into a well-furnished room adorned with fine objects and woollen rugs. A desk rests over by the far wall.
+~
+0 8 0
+D1
+~
+~
+0 -1 12039
+S
+#12042
+The overgrown junction~
+The narrow, overgrown path continues to weave its way through the crowded forest. Strange animal cries echo through the trees. Another junction appears before you with paths leading east, west and north.
+~
+0 1 3
+D0
+~
+~
+0 -1 12043
+D1
+~
+~
+0 -1 12003
+D3
+~
+~
+0 -1 12066
+S
+#12043
+The thick forest~
+The path heads north into the thick forest. Through the trees you see smoke rising from the chimney of a wooden hut to your right.
+~
+0 0 1
+D0
+~
+~
+0 -1 12045
+D1
+~
+~
+0 -1 12044
+D2
+~
+~
+0 -1 12042
+S
+#12044
+In the wooden hut~
+You enter the hut and find yourself surrounded by shelves of old books, charts and scrolls. In the corner of the room a fire is going and an inviting looking chair bids you to rest your weary feet.
+~
+0 8 0
+D3
+~
+~
+0 -1 12043
+S
+#12045
+The big old tree~
+Walking along the narrow path you notice a big old tree to your left with a large hole in its trunk just above head height.
+~
+0 0 2
+D0
+~
+~
+0 -1 12046
+D2
+~
+~
+0 -1 12043
+S
+#12046
+Yet another junction~
+You find yourelf at another junction leading to the south and to the east.
+~
+0 0 3
+D1
+~
+~
+0 -1 12047
+D2
+~
+~
+0 -1 12045
+S
+#12047
+The crowded trees~
+The trees begin to crown in on the path even more than usual and a tingling down your spine makes you think something is not quite right.
+~
+0 0 3
+D0
+~
+~
+0 -1 12048
+D3
+~
+~
+0 -1 12046
+S
+#12048
+The edge of the forest~
+The forest begins to thin out here and ahead you see the path leading out of the trees and onto a large plain with tall grasses. A new branch off the path leads east.
+~
+0 0 3
+D0
+~
+~
+0 -1 12049
+D1
+~
+~
+0 -1 12029
+D2
+~
+~
+0 -1 12047
+S
+#12049
+A junction in the grass~
+Walking along the path through waist-high grass, you arrive at another junction in the path. The main path continues north, and another path leads to the west.
+~
+0 0 2
+D0
+~
+~
+0 -1 12050
+D2
+~
+~
+0 -1 12048
+D3
+~
+~
+0 -1 12074
+S
+#12050
+On the Path~
+As you wander down the path you see some large birds circling in the sky to your right. They appear to be vultures.
+~
+0 0 3
+D0
+~
+~
+0 -1 12052
+D1
+~
+~
+0 -1 12051
+D2
+~
+~
+0 -1 12049
+S
+#12051
+On the plains~
+You find yourself on the grassy plains. Above you, a flock of vultures circle waiting for something...
+~
+0 0 1
+D3
+~
+~
+0 -1 12050
+S
+#12052
+By the riverside~
+Gradually the grass around you becomes shorter as the ground gently starts to rise. Ahead you can see a shallow river with stepping stones leading to the far bank.
+~
+0 0 2
+D0
+~
+~
+0 -1 12053
+D2
+~
+~
+0 -1 12050
+S
+#12053
+Across the river~
+You step carefully along the slippery stones to the other side of the river. You see the path heading north into the hills.
+~
+0 0 1
+D0
+~
+~
+0 -1 12054
+D2
+~
+~
+0 -1 12052
+S
+#12054
+The steep path~
+The ground is quite steep as the path wends its way into the hills. All around in the distance you see the green circle of Darkwood Forest. Mist hangs in the grasses behind you and all is quiet.
+~
+0 0 2
+D0
+~
+~
+0 -1 12055
+D2
+~
+~
+0 -1 12053
+S
+#12055
+Between the rocks~
+The path runs north down the hill between large boulders and rocks. You get the feeling you're being watched.
+~
+0 0 2
+D0
+~
+~
+0 -1 12056
+D2
+~
+~
+0 -1 12054
+D3
+~
+~
+0 -1 12081
+S
+#12056
+A scenic viewpoint~
+Walking down the hill you see the valley floor stretching out ahead and beyond that, a sinister wall of trees - Darkwood! On the other side of those trees lies a dark and foreboding looking mansion. Just to your north and off the path you see a stone well
+ with a bucket and turning handle.
+~
+0 0 1
+D0
+~
+~
+0 -1 12057
+D1
+~
+~
+0 -1 12037
+D2
+~
+~
+0 -1 12055
+D3
+~
+~
+0 -1 12058
+S
+#12057
+Well~
+As you peer down the well you see a ladder leads down into the murky depths.
+However, there appears to be a tunnel just above the surface of the water, running north.
+~
+0 0 2
+D2
+~
+~
+0 -1 12056
+D5
+~
+~
+0 -1 12103
+S
+#12058
+The Valley Floor~
+The valley floor is covered with lush green grass and is very flat. You soon find yourself at another junction in the path. You may either go east, west or continue north.
+~
+0 0 2
+D0
+~
+~
+0 -1 12059
+D1
+~
+~
+0 -1 12056
+D3
+~
+~
+0 -1 12085
+S
+#12059
+The mud pool~
+To the left of the path lies a large mud pool which bubbles away loudly. Steam rises from the thick bubbles breaking the surface of the mud.
+~
+0 0 2
+D0
+~
+~
+0 -1 12060
+D2
+~
+~
+0 -1 12058
+S
+#12060
+In the Valley~
+Here you notice a yellow painted arrow on the grass beside the path, pointing west.
+~
+0 0 2
+D0
+~
+~
+0 -1 12065
+D2
+~
+~
+0 -1 12059
+D3
+~
+~
+0 -1 12061
+S
+#12061
+By the dead tree~
+You follow some more arrows to the trunk of an old dead tree still rooted in the ground. You see that the trunk is hollow and that the hole continues through the trunk into the ground to make a tunnel. It is dark down the hole and you can't quite see how 
+far it is to the bottom.
+~
+0 0 2
+D1
+~
+~
+0 -1 12060
+D5
+~
+~
+0 -1 12062
+S
+#12062
+In the tree tunnel~
+You are inside the tree. Minimal light shines down from outside and the bottom of the tunnel appears to be about 5 meters below.
+~
+0 1 0
+D4
+~
+~
+0 -1 12061
+D5
+~
+~
+0 -1 12063
+S
+#12063
+In the tunnel~
+You climb down into the tunnel below. Here you notice that the tunnel is very small.
+~
+0 1 0
+D4
+~
+~
+0 -1 12062
+D5
+~
+~
+0 -1 12064
+S
+#12064
+A vast cavern~
+The tunnel opens out into a vast cavern with green slimy walls. A shaft of light shines down from the roof of the cavern illuminating the floor. Small, pale-skinned humanoids are scattered about and they appear to be tending crops of fungi. A stream trick
+les through the cavern.
+~
+0 8 0
+D4
+~
+~
+0 -1 12063
+S
+#12065
+The wall of Darkwood Forest~
+Continuing your walk along the valley floor you see the dark wall of Darkwood Forest looming up at you once again. The path leads directly into the thick undergrowth and then branches east and west. It is dark and quiet here.
+~
+0 0 3
+D1
+~
+~
+0 -1 12090
+D2
+~
+~
+0 -1 12060
+D3
+~
+~
+0 -1 12089
+S
+#12066
+The dense undergrowth~
+The path turns suddenly to the right and proceeds northwards into the dense undergrowth.
+~
+0 1 1
+D0
+~
+~
+0 -1 12067
+D1
+~
+~
+0 -1 12042
+S
+#12067
+On the Path in the Forest~
+Suddenly off the path to your left you hear cries for help. The path continues to the north.
+~
+0 1 3
+D0
+~
+~
+0 -1 12069
+D2
+~
+~
+0 -1 12066
+D3
+~
+~
+0 -1 12068
+S
+#12068
+The old trees~
+Clambering over the gnarled roots of the old trees you head in the direction of the cries. You see a snare trap in a clearing of trees.
+~
+0 0 3
+D1
+~
+~
+0 -1 12067
+S
+#12069
+The twisting path~
+You follow the twisty, turning path around into another clearing. The path continues to the north.
+~
+0 0 1
+D0
+~
+~
+0 -1 12070
+D2
+~
+~
+0 -1 12067
+S
+#12070
+The dense trees~
+You are surrounded by dense trees suddenly and find that the path is getting very thin, almost loseable.
+~
+0 1 3
+D0
+~
+~
+0 -1 12071
+D2
+~
+~
+0 -1 12069
+S
+#12071
+The thinning trees~
+The path leads ever northwards but at last the trees are beginning to thin out and appear less menacing as light streams through between them. On the right hand side of the path you see an old oak chair covered with moss.
+~
+0 0 3
+D0
+~
+~
+0 -1 12072
+D2
+~
+~
+0 -1 12070
+S
+#12072
+A vast plain~
+The path eventually emerges from the trees on to a vast plain. beyond you see rising ground leading to low hills. The waist-high grasses on either side of the path sway gently in the warm breeze. You are almost relaxing when suddenly the sound of squealin
+g breaks the silence...
+~
+0 0 2
+D0
+~
+~
+0 -1 12073
+D2
+~
+~
+0 -1 12071
+S
+#12073
+The crossroads~
+You soon arrive at a crossroads. South leads back into the forest, east leads onto a narrow path and the main path continues north.
+~
+0 0 2
+D0
+~
+~
+0 -1 12077
+D1
+~
+~
+0 -1 12074
+D2
+~
+~
+0 -1 12072
+D3
+~
+~
+0 -1 12075
+S
+#12074
+On the Path~
+Walking along the path you notice marks in the ground made by the hooves of a horse heading east. You soon arrive at another junction in the path.
+~
+0 0 2
+D1
+~
+~
+0 -1 12049
+D3
+~
+~
+0 -1 12073
+S
+#12075
+Outside a domed hut~
+The path ends at the door of a large hut made of dried mud.
+~
+0 0 2
+D1
+~
+~
+0 -1 12073
+D3
+~
+~
+0 -1 12076
+S
+#12076
+Hut~
+As you enter the hut a man inside smiles. He looks pleased to see you.
+~
+0 8 0
+D1
+~
+~
+0 -1 12075
+S
+#12077
+By the waterfall~
+You find yourself on the bank of a wide river split on two levels. To your right the water is calm but ahead of you it tumbles noisily down a great waterfall to a gorge below where the river narrows and runs quickly west over rocks and boulders. Steps lea
+d down by the side of the waterfall to the bottom of the gorge, although it is difficult to see where they end due to the spray from the waterfall. Across the river you see the path heading north into the distance.
+
+Ahead you hear the sound of crashing water.
+~
+0 0 5
+D2
+~
+~
+0 -1 12073
+D5
+~
+~
+0 -1 12078
+S
+#12078
+Slippery steps~
+You walk down the slippery stone steps to the bottom of the waterfall. You look up and see a magnificent rainbow reflected in the spray. It is dark in the gorge and impossible to see though the wall of water where the steps end.
+~
+0 0 1
+D0
+~
+~
+0 -1 12080
+D1
+~
+~
+0 -1 12079
+D4
+~
+~
+0 -1 12077
+S
+#12079
+Through the water curtain~
+You walk along the steps through the waterfall into a large cavern where there is a pool of still water. The steps run round the side of the pool and there is a stone chair on the far side.
+~
+0 0 2
+D3
+~
+~
+0 -1 12078
+S
+#12080
+Bottom of the Slippery Steps~
+A huge tree offers its shelter. People must have been here recently, a small fire circle has been burnt into the ground.
+~
+0 0 2
+D0
+~
+~
+0 -1 12081
+D2
+~
+~
+0 -1 12078
+S
+#12081
+Between the Hills~
+The gorund is quite steep as the path wends its way into the hills. All around in the distance you see the dark green circle of Darkwood Forest. As you start down the far side of the hill you see a junction in the path, which heads to the east.
+~
+0 0 2
+D0
+~
+~
+0 -1 12082
+D1
+~
+~
+0 -1 12055
+D2
+~
+~
+0 -1 12080
+S
+#12082
+A narrow gorge~
+The path runs through a narrow gorge between two hills. You narrowly miss a hole in the ground - it was covered with leaves and branches.
+~
+0 0 4
+D0
+~
+~
+0 -1 12083
+D2
+~
+~
+0 -1 12081
+S
+#12083
+The Entrance to the Tunnel~
+You find yourself by a tunnel entrance. It is lit by torches at regular intervals along its length.
+~
+0 0 2
+D0
+~
+~
+0 -1 12084
+D2
+~
+~
+0 -1 12082
+S
+#12084
+In the Hills~
+The tunnel opens out onto a flat green valley floor stretching ahead of you and, beyond, a sinister wall of trees - Darkwood Forest! On the other side of the trees lies a huge foreboding mansion.
+~
+0 0 2
+D1
+~
+~
+0 -1 12085
+D2
+~
+~
+0 -1 12083
+D3
+~
+~
+0 -1 12086
+S
+#12085
+A junction~
+Your walk along the green valley floor brings you to a junction in the path.
+~
+0 0 2
+D1
+~
+~
+0 -1 12058
+D3
+~
+~
+0 -1 12084
+S
+#12086
+Near a hut~
+The path makes a sudden turn to the right and heads north across the valley floor. To the left of the path you see a large pond and a small wooden hut with a thatched roof by its edge.
+~
+0 0 2
+D0
+~
+~
+0 -1 12088
+D1
+~
+~
+0 -1 12084
+D3
+~
+~
+0 -1 12087
+S
+#12087
+The front of the hut~
+You walk round to the front of the hut but there is nobody about. Through an open door you can see that the hut appears to be also devoid of any furniture or objects.
+~
+0 0 1
+D1
+~
+~
+0 -1 12086
+S
+#12088
+Entering the Forest~
+As you walk across the valley floor the dark wall of the Forest looms in front of you. The path leads you directly into thick undergrowth and you find yourself at a fork in the path.
+~
+0 1 3
+D0
+~
+~
+0 -1 12097
+D1
+~
+~
+0 -1 12089
+D2
+~
+~
+0 -1 12086
+S
+#12089
+By the gnarled trees~
+The path forces its way through the gnarled trees and thorny bushes.
+~
+0 1 3
+D1
+~
+~
+0 -1 12065
+D3
+~
+~
+0 -1 12088
+S
+#12090
+In the trees~
+Walking along the path, you notice a fallen log. Looks just the place to rest your feet.
+~
+0 1 3
+D1
+~
+~
+0 -1 12040
+D3
+~
+~
+0 -1 12065
+S
+#12091
+Another Junction~
+Your walk is arduous but currently uneventful. You pass a dead-end branch from the path leading south and arrive at a junction.
+~
+0 1 3
+E
+junction~
+These things get everywhere!!!!~
+D1
+~
+~
+0 -1 12020
+D3
+~
+~
+0 -1 12040
+S
+#12092
+The creaky branches~
+Ahead you hear the thumping of heavy footsteps and the noise of branches breaking. it sounds as though some huge creature is coming down the path towards you!
+~
+0 1 3
+D0
+~
+~
+0 -1 12093
+D2
+~
+~
+0 -1 12020
+S
+#12093
+The twisty path~
+The path twists and turns and then makes a suddensharp turn to the west. Following the new course you are aware of squaking in the trees all aorund you.
+~
+0 1 3
+D2
+~
+~
+0 -1 12092
+D3
+~
+~
+0 -1 12094
+S
+#12094
+Another Junction~
+You soon arrive at another junction in the path but a small path north leads nowhere.
+~
+0 1 3
+D1
+~
+~
+0 -1 12093
+D3
+~
+~
+0 -1 12095
+S
+#12095
+The overgrown forest~
+The path presses onwards through the dense trees. It is so overgrown in places that you have to force your way through the low tree branches.
+~
+0 0 1
+D0
+~
+~
+0 -1 12100
+D1
+~
+~
+0 -1 12094
+D3
+~
+~
+0 -1 12096
+S
+#12096
+The tree trail~
+Behind a tree you find a trail leading off to the north.
+~
+0 0 1
+D1
+~
+~
+0 -1 12095
+D2
+~
+~
+0 -1 12097
+S
+#12097
+By the stone building~
+Amidst the trees to the left of the path you see a small stone building covered wih ivy and moss.
+~
+0 1 2
+D0
+~
+~
+0 -1 12096
+D2
+~
+~
+0 -1 12088
+D3
+~
+~
+0 -1 12098
+S
+#12098
+The entrance to the stone building~
+The building only measures three metres by three metres and has no windows. The door is made of stone and looks very solid. There is no handle and there appears to be no other way into the building. Then you spot the tiny keyhole in the door.
+~
+0 0 1
+D1
+~
+~
+0 -1 12097
+D5
+~
+~
+0 12066 12099
+S
+#12099
+On stone steps~
+You step carefully down the stone stairs. As your eyes adjust you can make out shapes at the bottom of the stairs. You are standing in a small, square room with a low ceiling. The floor is thick with dust and there are cobwebs everywhere.
+~
+0 9 0
+D4
+~
+~
+0 -1 12098
+S
+#12100
+In the clearing~
+The path opens out into a small clearing. To your right you see a pile of branches, grass and pieces of rag, possibly the lair of some large creature. Amongst the debris and old bones scattered about you catch sight of something glittering.
+~
+0 0 2
+D0
+~
+~
+0 -1 12101
+D2
+~
+~
+0 -1 12095
+S
+#12101
+On the narrow path~
+Walking along the narrow path you suddenly hear the sharp crack of a twig breaking and the whispering of low voices.
+~
+0 0 3
+D0
+~
+~
+0 -1 12102
+D2
+~
+~
+0 -1 12100
+S
+#12102
+Approaching the Mansion~
+The path leads out of the forest and through a cornfield to a stone bridge over a murky stream. Beyond the bridge you can see a large creepy looking mansion.
+~
+0 0 2
+D0
+~
+~
+0 0 31200
+D2
+~
+~
+0 -1 12101
+S
+#12103
+Bottom of the ladder~
+At the bottom of the ladder you see that the tunnel runs quite a distance north. It is lit by torches at regular intervals along its length
+~
+0 9 1
+D0
+~
+~
+0 -1 12104
+D4
+~
+~
+0 -1 12057
+S
+#12104
+The Tunnel Junction~
+The tunnel continues north until you arrive at a junction leading to the west and the east.
+~
+0 9 1
+D1
+~
+~
+0 -1 12105
+D2
+~
+~
+0 -1 12103
+D3
+~
+~
+0 -1 12107
+S
+#12105
+Cave Entrance~
+The tunnel ends at a cave entrace. A curtain hangs over the entrance.
+~
+0 9 1
+D1
+~
+~
+0 -1 12106
+D3
+~
+~
+0 -1 12104
+S
+#12106
+Behind the Curtain~
+A small barren room containing only a table and chair.
+~
+0 0 1
+D3
+~
+~
+0 -1 12105
+S
+#12107
+Another Tunnel Junction~
+You soon arrive at another junction in the tunnel.
+~
+0 0 1
+D0
+~
+~
+0 -1 12108
+D1
+~
+~
+0 -1 12104
+D2
+~
+~
+0 -1 12109
+S
+#12108
+A Cave~
+You press on down the tunnel and into another cave. The roof is no higher than the tunnel and its quite cramped. The cave is very small and filled with tiny bits of furniture and objects
+~
+0 0 1
+D2
+~
+~
+0 -1 12107
+S
+#12109
+Cave Entrance~
+The tunnel ends at a cave entrace. On entering the cave you see that the roof is very low. The room is littered with various objects.
+~
+0 0 1
+D0
+~
+~
+0 -1 12107
+S
+#0
+
+
+
+#SPECIALS
+M 12036 spec_cast_mage
+S
+
+
+
+#RESETS
+M 0 12036 1 12001
+G 0 12043 0
+G 0 12001 0
+G 0 12009 0
+G 0 12000 0
+G 0 12046 0
+G 0 12004 0
+G 0 12026 0
+G 0 12047 0
+G 0 12029 0
+O 0 12005 0 12005
+M 0 12003 1 12007
+E 0 12064 0 17
+O 0 12065 0 12007
+M 0 12003 1 12007
+M 0 12024 1 12009
+E 0 12041 0 16
+M 0 12028 1 12014
+M 0 12030 1 12017
+E 0 12033 0 13
+E 0 12050 0 16
+G 0 12014 0
+M 0 12002 1 12024
+O 0 12020 0 12024
+P 0 12020 0 12061
+M 0 12007 1 12025
+M 0 12034 1 12028
+E 0 12036 0 15
+M 0 12035 2 12031
+E 0 12035 0 3
+M 0 12000 1 12032
+M 0 12032 1 12035
+E 0 12021 0 3
+M 0 12032 2 12035
+M 0 12007 1 12036
+O 0 12002 0 12037
+M 0 12037 1 12041
+G 0 12040 0
+G 0 12043 0
+G 0 12059 0
+G 0 12061 0
+O 0 12003 0 12044
+P 0 12017 0 12003
+O 0 12067 0 12045
+P 0 12052 0 12067
+M 0 12014 1 12047
+M 0 12015 1 12051
+E 0 12033 0 13
+M 0 12006 3 12053
+M 0 12004 1 12055
+M 0 12004 1 12055
+E 0 12066 0 4
+M 0 12029 1 12060
+O 0 12051 0 12062
+M 0 12012 1 12062
+E 0 12018 0 16
+E 0 12027 0 6
+G 0 12019 0
+O 0 12054 0 12063
+O 0 12045 0 12063
+P 0 12039 0 12045
+M 0 12021 3 12063
+E 0 12037 0 5
+E 0 12038 0 16
+O 0 12049 0 12064
+O 0 12011 0 12064
+O 0 12012 0 12064
+M 0 12011 1 12068
+M 0 12001 1 12069
+E 0 12016 0 16
+M 0 12013 1 12072
+G 0 12022 0
+M 0 12038 1 12075
+E 0 12008 0 17
+O 0 12068 0 12077
+M 0 12018 1 12079
+M 0 12026 1 12080
+O 0 12002 0 12085
+O 0 12063 0 12087
+P 0 12063 0 12058
+P 0 12063 0 12059
+M 0 12016 1 12089
+E 0 12034 0 6
+M 0 12033 1 12090
+E 0 12057 0 5
+M 0 12023 1 12093
+E 0 12042 0 1
+M 0 12023 2 12093
+O 0 12060 0 12099
+M 0 12022 1 12099
+P 0 12010 0 12060
+M 0 12010 1 12101
+E 0 12037 0 5
+E 0 12013 0 16
+M 0 12011 4 12101
+E 0 12037 0 5
+M 0 12005 1 12106
+E 0 12051 0 4
+E 0 12020 0 5
+M 0 12005 2 12108
+O 0 12048 0 12109
+P 0 12044 0 12048
+S
+
+
+
+#$

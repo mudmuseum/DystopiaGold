@@ -1,0 +1,53 @@
+Jobo
+Jul  9~
+Made some changes to banishment (rank 3 Stars power)~
+Jobo
+Jul  8~
+Finished all the rank 4 religion powers.~
+Jobo
+Jul  7~
+Added yet another rank 4 power, this time for Stars~
+Jobo
+Jul  7~
+Added the rank 4 power for Gahr~
+Jobo
+Jul  7~
+Redid one rank 4 religion power~
+Jobo
+Jul  3~
+Wannabe's can no longer use artifacts~
+Jobo
+Jul  3~
+The religion power callwild has no lag, but can only be
+                         used once every 2 mud hours~
+Jobo
+Jul  1~
+Added a new system, read HELP PKRULES~
+Jobo
+Jun 29~
+Remember the pk tourney tomorrow (theres a note on
+                         board 3 with all the details)~
+Jobo
+Jun 29~
+Added some vt100 support (help vt100)~
+Jobo
+Jun 26~
+Fixed a bug in the custom messages (login, decap, etc),
+                         that made the sex of players go wrong (the $e, $m and
+                         $s flags). It should work fine now~
+Jobo
+Jun 26~
+Just so you people know - The muds homepage has a
+                         guestbook~
+Jobo
+Jun 26~
+Timer gives a rough estimate of the time left for HH
+                         and QD~
+Jobo
+Jun 26~
+New help file in town, called HELP UPCOMING~
+Jobo
+Jun 26~
+Ok, the bet command can be used now (bettercook command
+                         was in the way)~
+END

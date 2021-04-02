@@ -1,0 +1,2309 @@
+#AREADATA
+Name        The House of Hell~
+Builders    None~
+VNUMs       31200 31275
+Security    1
+Areabits    0
+End
+
+
+
+#MOBILES
+#31200
+fire sprite~
+the fire sprite~
+A small ball of fire catches you off-guard.
+~
+This small darting ball of fire momentarily seems to have a face.
+~
+99 0 -100 138
+0 0 0
+0
+S
+#31201
+great dane~
+the Great Dane~
+The Great Dane snarls angrily at you.
+~
+Its mouth curls back and it snarls, angry at having its meal interrupted.
+~
+99 0 -250 136
+0 0 0
+1
+S
+#31202
+master servant~
+the master's servant~
+The master's servant lunges for you.
+~
+The master's servant lunges for you.
+~
+67 0 -750 156
+0 0 0
+1
+S
+#31203
+earl drumer~
+the Earl of Drumer~
+The Earl of Drumer stands here,  grinning evilly at you.
+~
+He is a tall man with piercing eyes. His lips soften to a wide smile 
+when he sees you. 
+~
+67 33448 -1000 185
+0 0 0
+1
+S
+#31204
+skeleton~
+the skeleton~
+The skeleton advances towards you.
+~
+It's partially dressed in tattered clothes.
+~
+67 0 -750 132
+0 0 0
+1
+S
+#31205
+hunchback shekou~
+Shekou the hunchback~
+A hunchback lumbers around here.
+~
+A hunchback lumbers around in tatty clothes.
+~
+65 0 -400 142
+0 0 0
+1
+S
+#31206
+devil worshipper man~
+the devil worshipper~
+A man wearing a goats head mask looms ominously.
+~
+A man wearing a goats head mask looms ominously.
+~
+67 0 -1000 158
+0 0 0
+1
+S
+#31207
+hell demon~
+the Hell Demon~
+The Hell Demon appears from a tacky smoke effect.
+~
+A huge demonic being rises up before you. Upon seeing you it lets out a 
+blood-curdling scream and lunges towards you 
+~
+99 623274 -1000 504
+0 0 0
+1
+S
+#31208
+ghoul~
+the ghoul~
+An ugly green-faced monster grins evilly at you.
+~
+Its face and hands are in a state of semi-decay, and the odour of death 
+fills your nostrils. 
+~
+67 0 -1000 165
+0 0 0
+1
+S
+#31209
+man white~
+the man in white~
+A man dressed in white pulls a dagger from his robes.
+~
+A man dressed in white pulls a dagger from his robes.
+~
+67 0 0 142
+0 0 0
+1
+S
+#31210
+invisible enemy~
+the invisible enemy~
+Something laughs behind you as you enter the room.
+~
+You see straight through him.
+~
+67 2 -1000 199
+0 0 0
+1
+S
+#31211
+leader~
+the leader~
+A man wearing a goats head mask looms ominously.
+~
+A man wearing a goats head mask looms ominously.
+~
+67 0 -1000 200
+0 0 0
+1
+S
+#31212
+white man~
+the white-haired man~
+The white-haired man mumbles under his breath.
+~
+The white-haired man mumbles under his breath.
+~
+67 0 500 143
+0 0 0
+1
+S
+#31213
+zombie~
+a zombie~
+The zombie steps out of the cupboard..
+~
+The hideous, grey-green zombie follows you around the room as you step away.
+~
+67 0 -750 138
+0 0 0
+1
+S
+#31215
+franklins butler~
+Franklins the Butler~
+The butler runs errands for the Earl of Drumer.
+~
+Kill him! Everyone knows that the butler always does it!
+~
+65 0 -1000 202
+0 0 0
+1
+S
+#31216
+ghost bride~
+the ghost of the bride~
+A ghostly white female materialises before you.
+~
+This apparition is a young woman in her early twenties, with long 
+flowing hair. She is dressed in a white bridal dress which has seen 
+better days; it is ripped and torn. 
+~
+67 0 1000 104
+0 0 0
+2
+S
+#31217
+vampire~
+the vampire~
+The vampire waves his cloak over you.
+~
+He's dressed in a long black cape, which fastens across the neck.
+~
+67 0 -1000 255
+0 0 0
+1
+S
+#31218
+nurse girl~
+a pretty young girl~
+A pretty young girl is in tears in this cell.
+~
+A pretty young girl is in tears in this cell.
+~
+67 0 1000 98
+0 0 0
+2
+S
+#31219
+bats~
+some bats~
+Some bats squeak around you, flapping wildly.
+~
+The bats swarm and squeak around you, flapping wildly.
+~
+67 33280 0 80
+0 0 0
+1
+S
+#0
+
+
+
+#OBJECTS
+#31200
+golden key~
+a intricate golden key~
+An intricately carved golden key waits for a lock to open.~
+~
+18 0 16385
+0 0 0 0
+2 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#31201
+clove garlic~
+a clove of garlic~
+A clove of garlic wards you away.~
+~
+26 0 16385
+50 -1 -1 -1
+2 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#31202
+kris knife~
+the Kris Knife~
+A silvery wavy blade rests on the table.~
+~
+5 1091 8193
+0 10 20 11
+5 0 0
+A
+19 5
+A
+18 10
+A
+13 25
+A
+5 1
+A
+2 1
+A
+1 1
+E
+kris blade knife~
+Its silver blade is wavy but it is finely polished and razor-sharp.~
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#31203
+box wood~
+a wooden box with brass fastenings~
+A handsome wooden box with brass fastenings invites you to open it.~
+~
+15 0 1
+100 5 -1 0
+25 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#31204
+box~
+a box~
+A small box rests on the mantelpiece.~
+~
+15 0 8193
+10 5 -1 0
+5 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#31205
+key~
+a small key~
+A small key has been left in a box.~
+~
+18 0 1
+0 0 0 0
+5 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#31206
+loaf bread~
+a loaf of bread~
+A loaf of bread is beginning to look stale here.~
+~
+19 0 1
+20 0 0 0
+3 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#31207
+block cheese~
+a block of cheese~
+A block of cheese looks tasty here.~
+~
+19 0 1
+0 0 0 1
+3 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#31208
+piece cake~
+a piece of cake~
+A piece of cherry cake looks good enough to eat.~
+~
+19 0 1
+20 0 0 0
+3 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#31209
+bottle red wine~
+a bottle of red wine~
+A bottle filled with a red liquid is here.~
+~
+17 0 1
+3 3 2 1
+5 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#31210
+gold ring rubies~
+a gold ring edged with rubies~
+An expensive looking ruby encrusted ring lies here.~
+~
+9 0 3
+0 0 0 0
+2 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#31211
+wood~
+a piece of wood~
+A piece of wooden plank has broken off here.~
+~
+5 0 8193
+0 5 10 7
+5 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#31213
+book hypnotism~
+the book of Hypnotism~
+A book with an eye on the front cover has been dropped on the floor.~
+~
+2 0 8193
+0 -1 -1 -1
+5 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#31214
+desk~
+a desk~
+An ornately carved wooden desk rests in the corner.~
+~
+15 0 0
+100 5 -1 0
+100 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#31215
+letter opener~
+a letter opener~
+A letter opener looks sharp enough to use as a weapon.~
+~
+5 0 8193
+0 5 10 2
+3 0 0
+A
+19 -5
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#31216
+meat knife~
+a sharp meat-knife~
+A sharp meat-knife looks like a good weapon.~
+~
+5 0 8193
+0 5 10 2
+5 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#31217
+dagger~
+a pearl-handled dagger~
+A dagger with a pearl handle catches your eye.~
+~
+5 0 8193
+0 5 10 11
+5 0 0
+A
+19 5
+A
+18 3
+A
+23 -5
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#31218
+box wood~
+a wooden box with brass fastenings~
+A handsome wooden box with brass fastenings invites you to open it.~
+~
+15 0 1
+75 5 -1 0
+25 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#31219
+bottle dark ale~
+a small bottle of dark ale~
+A small bottle of dark ale lies in the dirt.~
+~
+17 0 1
+1 1 4 1
+3 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#31221
+knife~
+a knife~
+A small knife hangs from the wall.~
+~
+5 0 8193
+0 1 6 2
+5 0 0
+A
+19 -5
+A
+18 -5
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#31222
+goat corpse~
+a goat's corpse~
+The corpse of a goat has lost its head.~
+~
+23 0 1
+0 0 0 0
+25 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#31223
+brandy decanter~
+a brandy-filled decanter~
+A brandy-filled decanter tempts you to drink.~
+~
+17 0 16385
+5 5 5 0
+5 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#31224
+bunch keys~
+a bunch of keys~
+A bunch of keys hang on a hook on the wall.~
+~
+15 0 16385
+25 1 -1 0
+5 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#31225
+silver key~
+a rusty silver key~
+A rusty silver key has been removed from a keychain.~
+~
+18 0 1
+0 0 0 0
+5 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#31226
+bronze key~
+a rusty bronze key~
+A rusty bronze key has been removed from a keychain.~
+~
+18 0 8193
+0 0 0 0
+5 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#31227
+copper key~
+a green coppery key~
+A green copper key has been removed from a keychain.~
+~
+18 0 8193
+0 0 0 0
+5 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#31228
+bed~
+a four poster bed~
+A four poster bed tempts you to sleep for just a minute...~
+~
+12 0 0
+0 0 0 0
+500 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#31229
+book magic~
+the Book of Mystical Symbols~
+A book titled 'Mystical Symbols' rests on a shelf.~
+~
+15 0 16385
+10 1 -1 0
+5 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#31230
+pentacle chain metal~
+a metal pentacle~
+A metal pentacle on a long chain lies in the dirt.~
+~
+9 1024 5
+0 0 0 0
+5 0 0
+A
+3 2
+A
+12 10
+A
+19 5
+A
+18 5
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#31231
+vial yellow~
+a vial of yellow fizzing liquid~
+A vial of yellow fizzing liquid bubbles away merrily.~
+~
+10 0 16385
+50 -1 -1 -1
+5 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#31232
+silver tray~
+a silver tray~
+A silver tray rests on the bedside table.~
+~
+15 0 16385
+10 1 -1 0
+5 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#31233
+candle~
+a white candle~
+A glowing candle lights the room.~
+~
+1 1 16385
+0 0 10 0
+5 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#31234
+mug tea~
+a mug of tea~
+A hot mug of tea steams away on the tea tray.~
+~
+17 0 16385
+1 1 11 0
+2 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#31235
+leg lamb~
+a leg of lamb~
+A leg of lamb looks mouth-wateringly good.~
+~
+19 0 16385
+20 0 0 0
+5 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#31236
+paper~
+a piece of paper~
+A piece of paper has been left on the desk.~
+~
+13 0 1
+0 0 0 0
+1 0 0
+E
+paper piece~
+The piece of paper says, 'Find Shekou'.~
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#31237
+cape~
+a long black cape~
+A piece of black cloth lies folded over a chair.~
+~
+9 0 1025
+0 0 0 0
+5 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#31238
+key iron~
+a cast iron key~
+An ornate iron key has been left here.~
+~
+18 0 16385
+0 0 0 0
+3 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#31239
+black white photo~
+a black and white photograph~
+A black and white photograph lies in the coals.~
+~
+13 0 16385
+0 0 0 0
+5 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#31240
+table~
+a sturdy table~
+A sturdy sixteenth-century table is set against the wall.~
+~
+15 0 0
+0 5 -1 0
+100 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#31241
+purple smoking jacket~
+a purple smoking jacket~
+The Earl's smoking jacket rests over a chair in the corner.~
+~
+9 2576 1025
+0 0 0 0
+5 0 0
+A
+24 -5
+A
+4 2
+A
+9 10
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#31242
+knotted rope~
+a frayed length of knotted rope~
+A frayed length of knotted rope lies on the floor.~
+~
+13 0 8193
+0 0 0 0
+4 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#31243
+mirror portal haze curtain~
+a mirror portal~
+A shimmering haze hangs on the wall, like a curtain of sparkling water.~
+~
+27 0 0
+31235 0 0 0
+1 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#31244
+mirror portal haze curtain~
+a mirror portal~
+A shimmering haze hangs on the wall, like a curtain of sparkling water.~
+~
+27 0 0
+312327 0 0 0
+1 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#31245
+stone brick wall~
+a loose stone~
+A stone appears to be loose in the wall.~
+~
+15 0 16385
+10 5 -1 0
+10 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#31246
+goat head mask~
+a goat's head mask~
+A goat's head mask lies on the table.~
+~
+9 528 17
+0 0 0 0
+10 0 0
+A
+19 -5
+A
+3 1
+A
+12 10
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#31247
+rack~
+a rack~
+A stretching rack is in the centre of the room.~
+~
+12 16 0
+0 0 0 0
+500 0 0
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#31248
+purple cloth robes~
+a set of purple robes~
+A set of purple robes lies folded here.~
+~
+9 528 1025
+0 0 0 0
+5 0 0
+A
+3 1
+A
+12 50
+A
+4 1
+A
+5 1
+Q
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+(null)~
+0 0
+#0
+
+
+
+#ROOMDATA
+#31200
+Entrance to the House~
+You climb the creaking steps up to the front door and pause to catch 
+your breath. An eerie silence hangs in the air, and there are no lights 
+on in the house. The whole place seems deserted until from the left hand 
+side of the house, the dull glow of a light that has just been switched 
+on, catches your attention. You notice a path leading round the side of 
+the house. 
+~
+0 5 1
+D0
+~
+~
+0 -1 31201
+D2
+~
+~
+0 0 6002
+D3
+~
+~
+0 -1 31202
+S
+#31201
+The Reception Hall~
+You enter an elegant reception hall, decorated with rich tapestries and
+fine oak panels.  A number of portraits line the walls.  A magnificent wide
+staircase with carved wooden banisters leads upstairs.  
+~
+0 8 0
+E
+portrait~
+A plaque beneath one of the the paintings reads 'Lady Margaret of 
+Danvers: 1802-1834'. As you stare at her face, you see her lips move! 
+'Stranger, beware of this place, for it is cursed. Escape while you may!'
+~
+D0
+~
+~
+0 -1 31274
+D2
+~
+~
+0 -1 31200
+D3
+~
+~
+0 -1 31205
+D4
+~
+~
+0 -1 31208
+S
+#31202
+The Side of the House~
+You walk from the porch round the side of the house. A light is indeed 
+on, and it's shining through a window at the back of the building. Your 
+eye catches a large window which looks like it may not be quite closed 
+but there are heavy bars across it. The house looks well protected from 
+intruders. The path continues round to the back of the house. 
+~
+0 1 1
+D0
+~
+~
+0 -1 31203
+D1
+~
+~
+0 -1 31200
+S
+#31203
+The Back of the House~
+The lit window is next to a back door which leads into a kitchen. You 
+hear voices coming from the kitchen but you cannot see anyone through 
+the window. 
+~
+0 0 1
+D1
+~
+~
+0 -1 31204
+D2
+~
+~
+0 -1 31202
+S
+#31204
+The Kitchen~
+You enter a small servants kitchen. A table and two chairs rest along 
+one wall and pots and pans hang from the cupboards and hooks on the walls.
+~
+0 8 0
+D0
+~
+~
+0 -1 31207
+D1
+~
+~
+0 -1 31205
+D3
+~
+~
+0 -1 31203
+S
+#31205
+A Hallway~
+You find yourself in a small hallway, west leads to a kitchen, east to a 
+large reception hallway and north lies a door. 
+~
+0 8 0
+D0
+~
+~
+0 -1 31206
+D1
+~
+~
+0 -1 31201
+D3
+~
+~
+0 -1 31204
+S
+#31206
+The Drawing Room~
+You have entered the drawing room, where the Earl entertains his guests. 
+A fire burns merrily in the corner of the room. A bulge under the carpet 
+reveals a trapdoor in the floor. There is also a door in the east wall. 
+~
+0 8 0
+D1
+~
+~
+0 -1 31274
+D2
+~
+~
+0 -1 31205
+D3
+~
+~
+0 -1 31207
+D5
+~
+~
+0 -1 31275
+S
+#31207
+The Dining Room~
+The dining-room looks magnificent. A long table stretches between two 
+fine chairs and is laid with gleaming silver cutlery. A rich red 
+wallpaper covers the walls and the room is lit by a sparkling 
+chandalier, bristling with candles, which hangs from the ceiling.
+~
+0 8 0
+D1
+~
+~
+0 -1 31206
+D2
+~
+~
+0 -1 31204
+S
+#31208
+At the top of the stairs~
+You are on a landing overlooking the entrance hall. Eastwards, the 
+passageway ends at a door. To the west, the landing turns right past a 
+couple of doors. In front of you, lies a room with a name-plaque that 
+reads 'Eramus Room'. 
+~
+0 8 0
+D1
+~
+~
+0 -1 31210
+D2
+~
+~
+0 -1 31209
+D3
+~
+~
+0 -1 31212
+D5
+~
+~
+0 -1 31201
+S
+#31209
+The Erasmus Room~
+You find yourself in a bedroom that has been prepared for someone. The 
+room is not large, but a huge mirror appears to double its size. Crisp 
+white sheets have been folded back on the bed, and a warm fire burns in 
+the fireplace. 
+~
+0 8 0
+D0
+~
+~
+0 -1 31208
+S
+#31210
+In the Corridor~
+At the end of the corridor ahead of you is a stout wooden door. While 
+you are considering whether or not to open this door, a ghostly figure 
+materialises before you... 
+~
+0 8 0
+D1
+~
+~
+0 -1 31211
+D3
+~
+~
+0 -1 31208
+S
+#31211
+The Apollyon Room~
+This room is an elegant bedroom. Fine floor-length curtains hang along 
+one wall. An enormous bed with lace coverings is along another wall; and 
+opposite stands a beautiful dressing-table with a huge mirror. 
+~
+0 8 0
+D3
+~
+~
+0 -1 31210
+S
+#31212
+On the Landing~
+As you walk down the landing you spot two doors on your left. The 
+closest door bears the name 'Azazel'. 
+~
+0 8 0
+D0
+~
+~
+0 -1 31213
+D1
+~
+~
+0 -1 31208
+D3
+~
+~
+0 -1 31215
+S
+#31213
+On the Landing~
+You find yourself outside a door labelled 'Mephisto Room'. The landing 
+turns eastwards. 
+~
+0 8 0
+D1
+~
+~
+0 -1 31216
+D2
+~
+~
+0 -1 31212
+D3
+~
+~
+0 -1 31214
+S
+#31214
+The Mephisto Room~
+The room is small and bare; and a cold, damp wind swirls through it, 
+billowing the curtains. The window pane is smashed and the floor beneath 
+the window is sodden from the rain. 
+~
+0 8 0
+D1
+~
+~
+0 -1 31213
+S
+#31215
+The Azazel Room~
+You find yourself in a roomful of clutter. It seems to be a crude 
+scientific laboratory of some sort. A brass telescope points through the 
+window towards the sky. Charts and mathematical tables are pinned to the 
+walls. A bench is covered with glass vials and apparatus.
+~
+0 8 0
+D1
+~
+~
+0 -1 31212
+S
+#31216
+On the Landing~
+Ahead of you, you see a door marked 'Balthus Room'. A set of stairs lead 
+back down to the main hallway. 
+~
+0 8 0
+D0
+~
+~
+0 -1 31217
+D1
+~
+~
+0 -1 31219
+D3
+~
+~
+0 -1 31213
+D5
+~
+~
+0 -1 31201
+S
+#31217
+The Balthus Room~
+The room you have entered is bare. Pin-striped wallpaper covers the 
+wall. A hearth is set in the centre of one wall. 
+~
+0 8 0
+D2
+~
+~
+0 -1 31216
+S
+#31218
+The Nameless Room~
+The door opens into a narrow passageway which ends at a window. There is 
+a door halfway along the left wall, and a sign on the door identifies it 
+as the 'Diabolus Room.' 
+~
+0 8 0
+E
+window~
+As you peer out of the window the words 'Mordana in Abaddon' appear in 
+the condensation!~
+D2
+~
+~
+0 -1 31219
+D3
+~
+~
+0 -1 31225
+S
+#31219
+On the Landing~
+Ahead of you, and also to your east, lie an pair of unmarked doors. The 
+passageway continues south.
+~
+0 8 0
+D0
+~
+~
+0 -1 31218
+D1
+~
+~
+0 -1 31220
+D2
+~
+~
+0 -1 31221
+D3
+~
+~
+0 -1 31216
+S
+#31220
+Behind the Unmarked Door~
+You step into a small storeroom. There are shelves on the walls, on 
+which various household objects are stored. In front of you, in the wall 
+facing the door, is another door. 
+~
+0 8 0
+D1
+~
+~
+0 -1 31226
+D3
+~
+~
+0 -1 31219
+S
+#31221
+On the Landing~
+To your east lies another unmarked door. The passageway continues south 
+and back north. 
+~
+0 8 0
+D0
+~
+~
+0 -1 31219
+D1
+~
+~
+0 -1 31222
+D2
+~
+~
+0 -1 31223
+S
+#31222
+Behind the Unmarked Door~
+As you open the door, a body falls out.
+~
+0 8 0
+D3
+~
+~
+0 -1 31221
+S
+#31223
+On the Landing~
+The landing turns to the west and a passage branches off to the east.
+~
+0 8 0
+D0
+~
+~
+0 -1 31221
+D1
+~
+~
+0 -1 31224
+D3
+~
+~
+0 -1 31249
+S
+#31224
+In a Passage~
+To the north lies a door titled 'Asmodeus Room' and the passage 
+continues east. 
+~
+0 8 0
+D0
+~
+~
+0 -1 31250
+D1
+~
+~
+0 -1 31251
+D3
+~
+~
+0 -1 31223
+S
+#31225
+The Diabolus Room~
+You step into an empty room.
+~
+0 8 0
+D1
+~
+~
+0 -1 31218
+S
+#31226
+Through a Door~
+You step out of the storeroom into a hallway. To your left, the hallway 
+ends at a door which leads into the 'Shaitan Room'. Almost opposite is 
+the 'Mammon Room'. 
+~
+0 8 0
+D0
+~
+~
+0 -1 31227
+D1
+~
+~
+0 -1 31254
+D2
+~
+~
+0 -1 31228
+D3
+~
+~
+0 -1 31220
+S
+#31227
+The Shaitan Room~
+This room is a large, elegantly decorated bedroom, with a four-poster 
+bed in one corner. There is a three-piece suite in the centre of the 
+room, facing a fireplace. A fire is smouldering, but the room appears to 
+be empty. There is a door on the east wall, and also one on the west.
+~
+0 8 0
+D1
+~
+~
+0 -1 31230
+D2
+~
+~
+0 -1 31226
+D3
+~
+~
+0 -1 31229
+S
+#31228
+The Mammon Room~
+The room you enter looks well lived in. It is a bedroom, and a large bed 
+dominates the room. Clothes are strewn about the floor and a tap is 
+running in a wash-basin in the corner. The clothes suggest it is a 
+woman's room but no-one is about. 
+~
+0 8 0
+D0
+~
+~
+0 -1 31226
+S
+#31229
+A Cupboard~
+A pair of hideous zombies step out of a small cupboard..
+~
+0 8 0
+D1
+~
+~
+0 -1 31227
+S
+#31230
+A Closet~
+You open the door to discover the back wall of this closet has slid 
+aside, revealing a secret passageway. 
+~
+0 8 0
+D0
+~
+~
+0 -1 31231
+D3
+~
+~
+0 -1 31227
+S
+#31231
+A Passageway~
+The passageway is narrow and only the faintest glow lights your way. 
+After a short distance you come to a staircase which leads downwards. 
+There is also a door in the west wall. 
+~
+0 8 0
+D2
+~
+~
+0 -1 31230
+D3
+~
+~
+0 -1 31232
+D5
+~
+~
+0 -1 31233
+S
+#31232
+A small room~
+The door opens and you find yourself in a small room. There is another 
+door leading off the room but in front of you is a strange sight.. 
+~
+0 8 0
+D1
+~
+~
+0 -1 31231
+D2
+~
+~
+0 31200 31234
+S
+#31233
+The stairway~
+The narrow stairway splits and offers you two ways down.
+~
+0 8 0
+D1
+~
+~
+0 -1 31243
+D3
+~
+~
+0 -1 31242
+D4
+~
+~
+0 -1 31231
+S
+#31234
+A dusty room~
+The door opens to let you into another small room. The dust and cobwebs 
+suggest that this room is very rarely used, and it certainly looks 
+fairly uninteresting. But in the thick dust on the floor, you notice one 
+footprint, then another. Someone has been in here recently. The 
+footprints lead to the wall and stop. 
+~
+0 8 0
+E
+wall~
+As you examine the wall, you notice a loose stone.~
+D0
+~
+~
+0 -1 31232
+S
+#31235
+Through the Mirror~
+You find yourself in a large reception room. On the wall opposite is a 
+huge mural of a country scene and standing in the middle of the room are 
+a table and six chairs. 
+~
+0 8 0
+D0
+~
+~
+0 -1 31236
+D2
+~
+~
+0 -1 31270
+S
+#31236
+A Hallway~
+You are in a narrow hallway. An ornate brass-handled door lies on the 
+south wall and the hallway continues eastwards. 
+~
+0 8 0
+D1
+~
+~
+0 -1 31238
+D2
+~
+~
+0 -1 31235
+S
+#31238
+A Hallway~
+The hallway begins to widen and you reach two doors opposite each other.
+~
+0 8 0
+D0
+~
+door~
+0 31238 31240
+D2
+~
+~
+0 -1 31239
+D3
+~
+~
+0 -1 31236
+S
+#31239
+A Kitchen~
+The door opens and you enter the kitchen. The room is empty and 
+immaculately tidy, with all the knives, pots and pans hanging in neat 
+rows along the walls. A double sink is set under a window, next to a 
+large cooker and fridge. There is a door in the west wall that looks like 
+a pantry door. 
+~
+0 8 0
+D0
+~
+~
+0 -1 31238
+D3
+~
+~
+0 -1 31241
+S
+#31240
+The Red Room~
+The door opens into a dining room. The long table has been set for two 
+with fine silver. A sparkling chandalier, festooned with candles lights 
+the room. The walls are covered with plush red wallpaper. Full-length 
+curtains are drawn across one of the walls .
+~
+0 8200 0
+D2
+~
+~
+0 -1 31238
+S
+#31241
+A Pantry~
+You step into a pantry. But the sight that greets you makes you step 
+back momentarily. You have awoken a hideous-looking decayed monster.. 
+~
+0 8 0
+D1
+~
+~
+0 -1 31239
+S
+#31242
+The stairway~
+As you enter the room you hear the sound of human voices chanting in a 
+monotonous drone. You see a group of people gathered around a large 
+fire. They all seem to be wearing goats-head masks. In the centre, 
+standing over an altar, is a tall man dressed in purple robes.
+~
+0 8 0
+D1
+~
+~
+0 -1 31233
+D3
+~
+~
+0 -1 31246
+S
+#31243
+The stairway~
+You follow the stairs downwards. Running across the bottom is a short 
+passageway that ends at two doors, opposite each other. 
+~
+0 8 0
+D0
+~
+~
+0 -1 31244
+D2
+~
+~
+0 -1 31245
+D3
+~
+~
+0 -1 31233
+S
+#31244
+A foodstore~
+You have found a food store of some kind; the room is lined with shelves 
+with various foodstuffs on them. 
+~
+0 520 0
+D2
+~
+~
+0 -1 31243
+S
+#31245
+A Cell~
+As you peer around the room, you notice that the walls are bare and it 
+is sparsely furnished, with only a table and a chair. 
+~
+0 8 0
+D0
+~
+~
+0 -1 31243
+S
+#31246
+The small passage~
+The door opens into a small room which is pitch-black. As your eyes 
+adjust you spy two doors facing each other. The secret panel has closed 
+up behind you. 
+~
+0 8 0
+D0
+~
+~
+0 -1 31248
+D2
+~
+~
+0 -1 31247
+S
+#31247
+A small room~
+The smell from within the room catches off balance and stops you dead in 
+your tracks for a moment. The room itself is unexciting, with bare rocky 
+walls and floor. But strewn about the floor are the bodies of two goats. 
+Standing over the goats are three huge dogs.
+~
+0 8 0
+D0
+~
+~
+0 -1 31246
+S
+#31248
+A small room~
+You open the door and cast your eyes over the room inside. The floor is 
+dusty and the rocky walls are bare. A rough wooden table and chair are 
+placed against one wall. 
+~
+0 8 0
+D2
+~
+~
+0 -1 31246
+S
+#31249
+On the Landing~
+You follow the landing round to a door which bears the name Tuttivillus. 
+Ahead of you the landing ends at a panelled wall and the passageway 
+turns to the left. 
+~
+0 8 0
+D0
+~
+~
+0 -1 31255
+D1
+~
+~
+0 -1 31223
+D2
+~
+~
+0 -1 31256
+S
+#31250
+The Asmodeus Room~
+You step into a dimly lit room. A single candle burns on a table on the 
+far side of the room, in front of a window. Two packing creates have 
+been turned upside down to make seats on either side of the table and 
+there is no other furniture. 
+~
+0 8 0
+D2
+~
+~
+0 -1 31224
+S
+#31251
+In a Passage~
+To the north lies a door titled 'Eblis Room'. There is a turning in the 
+passageway ahead of you. 
+~
+0 8 0
+D0
+~
+~
+0 -1 31252
+D1
+~
+~
+0 -1 31253
+D3
+~
+~
+0 -1 31224
+S
+#31252
+The Eblis Room~
+You enter a dimly lit bedroom. It's empty apart from a dressing-table 
+and a large bed, but you can hear music playing somewhere... 
+~
+0 8 0
+D2
+~
+bed door~
+0 -1 31251
+D5
+~
+~
+0 -1 31261
+S
+#31253
+At the turning in the Passage~
+The passageway turns left towards the north.
+~
+0 8 0
+D0
+~
+~
+0 -1 31254
+D3
+~
+~
+0 -1 31251
+S
+#31254
+In a Passage~
+The passageway ends at a door to the west. Back south is the turning.
+~
+0 8 0
+D2
+~
+~
+0 -1 31253
+D3
+~
+~
+0 -1 31226
+S
+#31255
+The Tuttivillus Room~
+You step into the room which seems to be a stylish bedchamber, 
+beautifully decorated. The windows are barred, and in the centre of the 
+room is a four-poster bed. 
+~
+0 8 0
+D2
+~
+~
+0 -1 31249
+S
+#31256
+On the Landing~
+You follow the passageway round the corner to the left. Two doors face 
+each other across the passage bearing the names Belial and Abaddon. The 
+passageway ends before you at an unmarked door. 
+~
+0 8 0
+D0
+~
+~
+0 -1 31249
+D1
+~
+~
+0 -1 31258
+D2
+~
+~
+0 -1 31259
+D3
+~
+~
+0 -1 31257
+S
+#31257
+The Belial Room~
+You enter the room and study its contents. It seems that this room is 
+used very little and is perhaps a storeroom. 
+~
+0 8 0
+D1
+~
+~
+0 -1 31256
+S
+#31258
+The Abaddon Room~
+You enter a bedroom which is lit by a single candle burning by the 
+bedside. A heavy, musty odour hangs in the air, which could come from 
+all the plants which are standing in pots on the mantelpiece, bedside 
+table and shelves. 
+~
+0 8 0
+D3
+~
+~
+0 -1 31256
+S
+#31259
+Behind the Unmarked Door~
+The room you enter is another bedroom which looks as though it is 
+waiting for someone to come in and go to bed. The sheets are folded 
+back, the fire in the fireplace is warm but dying. Velvet curtains are 
+pulled across the window, and along the left-hand wall are fitted 
+cupboards. The overall picture seems quite cosy. 
+~
+0 8 0
+D0
+~
+~
+0 -1 31256
+D3
+~
+~
+0 -1 31260
+S
+#31260
+In the Cupboard~
+You began examining the cupboard when up from under the piles of clothes 
+jump two skeletons! 
+~
+0 8 0
+D1
+~
+~
+0 -1 31259
+S
+#31261
+A Passageway~
+You find yourself in a small passageway. The walls are made of rough 
+stone and must run along the outside of the house. The air is cooler 
+here and it feels like you may be in the cellars beneath the house. 
+~
+0 8 0
+D0
+~
+~
+0 -1 31262
+D2
+~
+~
+0 -1 31275
+S
+#31262
+Cells~
+This room seems to be a dungeon of some sort, for along the walls are 
+two cells with heavy iron bars locking their occupants in. 
+~
+0 8 0
+D0
+~
+~
+0 -1 31263
+D1
+~
+~
+0 -1 31267
+D2
+~
+~
+0 -1 31261
+D3
+~
+~
+0 -1 31266
+S
+#31263
+In the Passageway~
+As you continue up the passage you spot another door in the righthand wall.
+~
+0 8 0
+D0
+~
+~
+0 -1 31264
+D1
+~
+~
+0 -1 31265
+D2
+~
+~
+0 -1 31262
+S
+#31264
+The small Chamber~
+The passageway widens into a small chamber. Although it is dark, you see 
+a staircase going up a few metres ahead of you. To your right, the 
+chamber opens out into a wide area. 
+~
+0 8 0
+D1
+~
+~
+0 -1 31269
+D2
+~
+~
+0 -1 31263
+D4
+~
+~
+0 -1 31270
+S
+#31265
+The underground Torture Room~
+The door opens wide and you step inside. You appear to be in an 
+underground torture room. In one corner stands a formidable iron maiden, 
+its deadly door standing ajar. Hanging from the ceiling is a cage. 
+~
+0 8 0
+D3
+~
+~
+0 -1 31263
+D4
+~
+~
+0 -1 31268
+S
+#31266
+West Cell~
+As you enter the cell the door slams behind you, and melts away forming 
+a solid wall. You are trapped! 
+~
+0 1048588 0
+S
+#31267
+East Cell~
+As you enter the cell the door slams behind you, and melts away forming 
+a solid wall. You are trapped! 
+~
+0 1048588 0
+S
+#31268
+In the Cage~
+This cage is a tight fit and you are forced up against the bars as the 
+door slams behind you. The restricting cage does not even allow you to 
+sit down. You will probably hang here until you die of starvation. 
+~
+0 2060 9
+S
+#31269
+The Bats' Chamber~
+As you enter the chamber, a door slides open in the back wall.
+~
+0 8 0
+D1
+~
+~
+0 -1 31246
+D3
+~
+~
+0 -1 31264
+S
+#31270
+At the top of the stairs~
+Facing you is a door, and a hallway runs east-west ending to the east at 
+a door. 
+~
+0 8 0
+D0
+~
+~
+0 -1 31235
+D5
+~
+~
+0 -1 31264
+S
+#31274
+The Study~
+This room is a study. Old leather-bound books line the walls and the 
+only source of light comes from a single candle burning on an antique 
+desk. The desk is made from beautiful wood and has brass-handled drawers.
+~
+0 8 0
+D2
+~
+~
+0 -1 31201
+D3
+~
+~
+0 -1 31206
+S
+#31275
+Under the Drawing Room~
+Down you fall for several metres until you land in aheap on something 
+soft. You have landed on a mound of earth and hay and you realise that 
+you are in a cellar under the house. The room is fairly small, with only 
+one door out. 
+~
+0 8 0
+D0
+~
+~
+0 -1 31261
+S
+#0
+
+
+
+#SPECIALS
+M 31200 spec_breath_fire
+M 31207 spec_breath_fire
+S
+
+
+
+#RESETS
+O 0 31240 0 31201
+M 0 31203 1 31201
+E 0 31241 0 12
+M 0 31215 1 31206
+M 0 31200 2 31206
+O 0 31223 0 31206
+O 0 31214 0 31206
+P 0 31215 0 31214
+M 0 31205 1 31209
+O 0 31228 0 31209
+P 0 31200 0 31204
+M 0 31216 1 31210
+M 0 31201 2 31211
+O 0 31242 0 31214
+O 0 31215 0 31215
+O 0 31231 0 31215
+M 0 31213 1 31217
+O 0 31204 0 31217
+P 0 31205 0 31204
+O 0 31216 0 31220
+O 0 31201 0 31220
+O 0 31209 0 31220
+O 0 31222 0 31222
+M 0 31217 1 31227
+E 0 31237 0 12
+O 0 31228 0 31227
+O 0 31239 0 31228
+O 0 31210 0 31228
+M 0 31213 2 31229
+O 0 31243 0 31232
+O 0 31245 0 31234
+P 0 31238 0 31245
+M 0 31210 1 31234
+O 0 31218 0 31235
+P 0 31217 0 31218
+O 0 31224 0 31239
+P 0 31225 0 31224
+P 0 31226 0 31224
+P 0 31227 0 31224
+M 0 31207 1 31240
+O 0 31203 0 31240
+P 0 31202 0 31203
+M 0 31208 1 31241
+M 0 31211 1 31242
+E 0 31248 0 12
+E 0 31216 0 16
+M 0 31206 5 31242
+E 0 31246 0 6
+E 0 31221 0 16
+O 0 31206 0 31244
+O 0 31207 0 31244
+O 0 31208 0 31244
+O 0 31209 0 31244
+O 0 31219 0 31244
+M 0 31209 1 31245
+M 0 31206 1 31245
+E 0 31246 0 6
+M 0 31201 3 31247
+O 0 31222 0 31247
+O 0 31246 0 31248
+M 0 31212 1 31250
+O 0 31228 0 31252
+O 0 31232 0 31259
+O 0 31233 0 31259
+P 0 31234 0 31232
+P 0 31235 0 31232
+P 0 31235 0 31232
+P 0 31206 0 31232
+M 0 31204 2 31260
+M 0 31211 1 31262
+E 0 31246 0 6
+E 0 31221 0 16
+M 0 31206 4 31262
+E 0 31246 0 6
+M 0 31219 1 31264
+O 0 31247 0 31265
+M 0 31218 1 31266
+O 0 31236 0 31274
+O 0 31213 0 31274
+O 0 31229 0 31274
+P 0 31230 0 31229
+M 0 31202 1 31274
+O 0 31211 0 31275
+S
+
+
+
+#$
