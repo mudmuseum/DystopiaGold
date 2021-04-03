@@ -1350,7 +1350,6 @@ void do_spew( CHAR_DATA *ch, char *argument )
 char  buf[MAX_INPUT_LENGTH];
 int   sn;  
 int   level;
-int   spelltype;
  
  
     if ( IS_NPC(ch) )return;
@@ -1384,7 +1383,6 @@ return;
  
 }
  
-spelltype = skill_table[sn].target;
 level = ch->power[DISC_VAMP_THAU];
 (*skill_table[sn].spell_fun) ( sn, level, ch, NULL);
 WAIT_STATE( ch, 12 );
@@ -1924,7 +1922,6 @@ void do_entrance( CHAR_DATA *ch, char *argument )
     char arg [MAX_INPUT_LENGTH];
     int sn;
     int level;
-    int spelltype;
     char buf[MAX_STRING_LENGTH];
     argument = one_argument( argument, arg );
  
@@ -1965,7 +1962,6 @@ sprintf(buf,"A look of concentration crosses over $n's face.\n\r");
 act(buf,ch,NULL,victim,TO_ROOM);
  
     if ( ( sn = skill_lookup( "charm" ) ) < 0 ) return;
-    spelltype = skill_table[sn].target;
     level = ch->power[DISC_VAMP_PRES] * 40;
     (*skill_table[sn].spell_fun) ( sn, level, ch, victim );
     WAIT_STATE( ch, 12 );
@@ -2931,7 +2927,6 @@ void do_bloodagony(CHAR_DATA *ch, char *argument)
 {
     char arg[MAX_STRING_LENGTH];
     int value;
-    int pcost;
     OBJ_DATA *obj; 
     one_argument( argument,arg);
 
@@ -2942,7 +2937,6 @@ void do_bloodagony(CHAR_DATA *ch, char *argument)
     }
 
     value = ch->power[DISC_VAMP_QUIE];
-    pcost = ch->power[DISC_VAMP_QUIE] * 60;
  
     if ( arg[0] == '\0')
     {
@@ -2988,14 +2982,10 @@ void do_embrace(CHAR_DATA *ch, char *argument  )
     char arg[MAX_INPUT_LENGTH];
     CHAR_DATA *victim;
     char buf[MAX_STRING_LENGTH];
-    int bloodpool;
     one_argument( argument, arg );
 
     
     if (IS_SET(ch->newbits, NEW_TIDE))
-    bloodpool = (3000 / ch->generation);
-    else bloodpool = (2000 / ch->generation);
-    
  
     if (IS_NPC(ch)) return;
 
@@ -3217,32 +3207,30 @@ void do_infirmity( CHAR_DATA *ch, char *argument )
     char  buf[MAX_INPUT_LENGTH];
     int   sn;
     int   level;
-    int   spelltype;
     
     argument = one_argument (argument, arg);
 
     if ( IS_NPC(ch) )
 	return;
 
-	
-  	if (!IS_CLASS(ch, CLASS_VAMPIRE))
+    if (!IS_CLASS(ch, CLASS_VAMPIRE))
         {
   	send_to_char("Huh?\n\r", ch);
         return;
         }
-     	if ( IS_CLASS(ch, CLASS_VAMPIRE) && ch->power[DISC_VAMP_QUIE] < 2 )
+    if ( IS_CLASS(ch, CLASS_VAMPIRE) && ch->power[DISC_VAMP_QUIE] < 2 )
         {
         send_to_char("You need level 2 Quietus to use this power.\n\r",ch);
         return; 
         }
-       if (arg[0] == '\0')
+    if (arg[0] == '\0')
 	{
 	   send_to_char("Who do you wish to use Infirmity on?\n\r",ch);
 	   return;
 	}
   
   	
-      if ( ( victim = get_char_room( ch, arg ) ) == NULL )
+    if ( ( victim = get_char_room( ch, arg ) ) == NULL )
     {
 	send_to_char( "They aren't here.\n\r", ch );
 	return;
@@ -3256,7 +3244,6 @@ return;
 
 }  
 
-    spelltype = skill_table[sn].target;
     level = ch->power[DISC_VAMP_QUIE];
     (*skill_table[sn].spell_fun) ( sn, level, ch, victim );
     WAIT_STATE( ch, 12 );
