@@ -390,8 +390,9 @@ bool can_mmodify( CHAR_DATA *ch, CHAR_DATA *mob )
 	   if ( get_trust( ch ) >= MAX_LEVEL - 1 && get_trust(ch) > 
 		get_trust( mob ) )
 	     return TRUE;
-	   else
+	   else {
 	     send_to_char( "You can't do that.\n\r", ch );
+	   }
 	     return FALSE;
 	}
 
@@ -580,7 +581,7 @@ void edit_buffer( CHAR_DATA *ch, char *argument )
 	    char word1[MAX_INPUT_LENGTH];
 	    char word2[MAX_INPUT_LENGTH];
 	    char *sptr, *wptr, *lwptr;
-	    int x, count, wordln, word2ln, lineln;
+	    int x, count, wordln, lineln;
 
 	    sptr = one_argument( argument, word1 );
 	    sptr = one_argument( sptr, word1 );
@@ -595,7 +596,7 @@ void edit_buffer( CHAR_DATA *ch, char *argument )
 		send_to_char( "Done.\n\r> ", ch );
 		return;
 	    }
-	    count = 0;  wordln = strlen(word1);  word2ln = strlen(word2);
+	    count = 0;  wordln = strlen(word1);
 	    sprintf( buf, "Replacing all occurrences of %s with %s...\n\r", word1, word2 );
 	     stc(buf, ch);
 	    for ( x = edit->on_line; x < edit->numlines; x++ )
@@ -911,7 +912,7 @@ char *copy_buffer( CHAR_DATA *ch )
       strcpy( tmp, ch->editor->line[x] );
       smush_tilde( tmp );
       len = strlen(tmp);
-      if ( tmp && tmp[len-1] == '~' )
+      if ( *tmp && tmp[len-1] == '~' )
         tmp[len-1] = '\0';
       else
         strcat( tmp, "\n\r" );
