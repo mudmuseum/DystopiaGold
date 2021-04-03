@@ -416,9 +416,8 @@ void do_chaosport( CHAR_DATA *ch, char *argument )
 char buf[MAX_STRING_LENGTH];
 CHAR_DATA *victim;
 
- /*if (!victim = ch->fighting)
-   return; */
- 
+if (ch->fighting != NULL) {
+    victim = ch->fighting;
  
     if (ch->power[DISC_DAEM_DISC] < 4)
     {
@@ -452,6 +451,11 @@ IS_SET(ch->fighting->newbits,NEW_JAWLOCK) && number_percent( ) > 30)
 sprintf(buf,"Not with god holding you!");
 send_to_char(buf,ch);
 act("$n cant escape god's mighty hold!",ch,NULL,victim,TO_ROOM);
+}
+
+else {
+    send_to_char("Not currently fighting. Must be in combat.", ch);
+}
 return;
 }
 
@@ -1599,8 +1603,9 @@ void frost_breath(CHAR_DATA *ch, CHAR_DATA *victim, bool all)
 	    if (vch == ch) continue;
 
 	    if (is_safe(ch,vch) 
-	    &&   (ch->fighting != vch || vch->fighting != ch))
+	    &&   (ch->fighting != vch || vch->fighting != ch)) {
 		continue;
+	    }
 
 		cold_effect(vch,ch->explevel,dam,TARGET_CHAR);
 		damage(ch,vch,dam,skill_lookup("frost breath"));
