@@ -798,7 +798,7 @@ bool aedit_builder( CHAR_DATA *ch, char *argument )
 
     name[0] = UPPER( name[0] );
 
-    if ( strstr( pArea->builders, name ) != '\0' )
+    if ( *strstr( pArea->builders, name ) != '\0' )
     {
 	pArea->builders = string_replace( pArea->builders, name, "\0" );
 	pArea->builders = string_unpad( pArea->builders );
@@ -814,7 +814,7 @@ bool aedit_builder( CHAR_DATA *ch, char *argument )
     else
     {
 	buf[0] = '\0';
-	if ( strstr( pArea->builders, "None" ) != '\0' )
+	if ( *strstr( pArea->builders, "None" ) != '\0' )
 	{
 	    pArea->builders = string_replace( pArea->builders, "None", "\0" );
 	    pArea->builders = string_unpad( pArea->builders );
@@ -1179,7 +1179,7 @@ bool change_exit( CHAR_DATA *ch, char *argument, int door )
     char arg[MAX_INPUT_LENGTH];
     char total_arg[MAX_STRING_LENGTH];
     int  rev;
-    int  value;
+    int  value = 3001;
 
     EDIT_ROOM(ch, pRoom);
 
@@ -1262,6 +1262,7 @@ bool change_exit( CHAR_DATA *ch, char *argument, int door )
 	    pRoom->exit[door] = new_exit();
 
 	pRoom->exit[door]->to_room = pLinkRoom;	/* Assign data.		*/
+	log_format("Issue with change_exit() in olc_act.c, value is uninitialized, set to 3001. Requires refactor.");
 	pRoom->exit[door]->vnum = value;
 
 	pExit			= new_exit();	/* No remote exit.	*/
@@ -3000,7 +3001,6 @@ bool oedit_ed( CHAR_DATA *ch, char *argument )
 
     if ( !str_cmp( command, "format" ) )
     {
-	EXTRA_DESCR_DATA *ped = NULL;
 
 	if ( keyword[0] == '\0' )
 	{
@@ -3012,7 +3012,6 @@ bool oedit_ed( CHAR_DATA *ch, char *argument )
 	{
 	    if ( is_name( keyword, ed->keyword ) )
 		break;
-	    ped = ed;
 	}
 
 	if ( !ed )
