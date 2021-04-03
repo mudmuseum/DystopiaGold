@@ -395,7 +395,6 @@ void save_resets( FILE *fp, AREA_DATA *pArea )
 {
     RESET_DATA *pReset;
     MOB_INDEX_DATA *pLastMob = NULL;
-    OBJ_INDEX_DATA *pLastObj;
     ROOM_INDEX_DATA *pRoomIndex;
     char buf[MAX_STRING_LENGTH];
     int vnum;
@@ -425,14 +424,12 @@ void save_resets( FILE *fp, AREA_DATA *pArea )
             break;
 
 	case 'O':
-            pLastObj = get_obj_index( pReset->arg1 );
 	    fprintf( fp, "O 0 %d 0 %d\n", 
 	        pReset->arg1,
                 pReset->arg3 );
             break;
 
 	case 'P':
-            pLastObj = get_obj_index( pReset->arg1 );
 	    fprintf( fp, "P 0 %d 0 %d\n", 
 	        pReset->arg1,
                 pReset->arg3  );

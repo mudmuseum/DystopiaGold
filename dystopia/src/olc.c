@@ -924,11 +924,9 @@ void display_resets( CHAR_DATA *ch )
     RESET_DATA		*pReset;
     MOB_INDEX_DATA	*pMob = NULL;
     char 		buf   [ MAX_STRING_LENGTH ];
-    char 		final [ MAX_STRING_LENGTH ];
     int 		iReset = 0;
 
     EDIT_ROOM(ch, pRoom);
-    final[0]  = '\0';
     
     send_to_char ( 
   " No.  Loads    Description       Location         Vnum    Max  Description"
@@ -1396,6 +1394,7 @@ void hedit( CHAR_DATA *ch, char *argument )
     strcpy( arg, argument );
     argument = one_argument( argument, command );
 
+    log_format("Working on %s in void hedit.", pHelp->keyword);
     if ( command[0] == '\0' )
     {
         return;
