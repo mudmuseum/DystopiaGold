@@ -1,0 +1,5 @@
+**/*.o
+dystopia/src/dystopia
+player/*
+player/backup/*
+log/*
