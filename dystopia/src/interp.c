@@ -1366,8 +1366,9 @@ void interpret( CHAR_DATA *ch, char *argument )
      */
     while ( isspace(*argument) )
 	argument++;
-    if ( argument[0] == '\0' )
+    if ( argument[0] == '\0' ) {
 	return;
+    }
 
 	strcpy(cmd_copy,argument);
 
