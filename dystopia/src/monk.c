@@ -682,7 +682,6 @@ void do_godsbless( CHAR_DATA *ch, char *argument )
 {
   int sn;
   int level;
-  int spelltype;
 
   if (IS_NPC(ch)) return;
   if (!IS_CLASS(ch, CLASS_MONK))
@@ -701,7 +700,6 @@ void do_godsbless( CHAR_DATA *ch, char *argument )
     return;
   }
   if ( ( sn = skill_lookup( "godbless" ) ) < 0 ) return;
-  spelltype = skill_table[sn].target;
   level = 500;
   (*skill_table[sn].spell_fun) ( sn, level, ch, ch );
   WAIT_STATE( ch, 12 );

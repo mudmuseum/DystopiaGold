@@ -74,7 +74,7 @@ void improve_spl( CHAR_DATA *ch, int dtype, int sn )
     if ((dice1 > ch->spl[dtype] || dice2 > ch->spl[dtype]) || (dice1==100 || dice2==100)) ch->spl[dtype] += 1;
     else return;
 
-         if (ch->spl[dtype] == 1  ) sprintf(bufskill,"an apprentice of");
+    if      (ch->spl[dtype] == 1  ) sprintf(bufskill,"an apprentice of");
     else if (ch->spl[dtype] == 26 ) sprintf(bufskill,"a student at");
     else if (ch->spl[dtype] == 51 ) sprintf(bufskill,"a scholar at");
     else if (ch->spl[dtype] == 76 ) sprintf(bufskill,"a magus at");
@@ -636,8 +636,8 @@ void obj_cast_spell( int sn, int level, CHAR_DATA *ch, CHAR_DATA *victim, OBJ_DA
 
     if ( sn <= 0 )
 	return;
-
-	if (IS_NPC(ch)) return;
+    
+    if (IS_NPC(ch)) return;
 
 
     if ( sn >= MAX_SKILL || skill_table[sn].spell_fun == 0 )
@@ -1572,7 +1572,7 @@ void spell_dispel_magic( int sn, int level, CHAR_DATA *ch, void *vo )
     while (victim->affected)
 	affect_remove(victim,victim->affected);
 
-	if (dark == TRUE) REMOVE_BIT(ch->in_room->room_flags, ROOM_TOTAL_DARKNESS);
+    if (dark == TRUE) REMOVE_BIT(ch->in_room->room_flags, ROOM_TOTAL_DARKNESS);
 
     if ( ch == victim )
     {
@@ -3395,7 +3395,7 @@ void spell_gas_breath( int sn, int level, CHAR_DATA *ch, void *vo )
 	    dam  = number_range( hpch/6 + 1, hpch/3 );
 	    if ( saves_spell( level, vch ) )
 		dam /= 2;
-		dam /= 2;    
+	    dam /= 2;    
 	chhp = vch->hit;
       if (dam > ch->damcap[DAM_CAP]) dam = number_range( (ch->damcap[DAM_CAP] - 200), (ch->damcap[DAM_CAP] + 100) );
        if ( IS_AFFECTED(vch, AFF_SANCTUARY) ) dam /=2;
