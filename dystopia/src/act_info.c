@@ -985,7 +985,6 @@ void do_look( CHAR_DATA *ch, char *argument )
     ROOM_INDEX_DATA *location;
     char *pdesc;
     int door;
-    bool found;
 
     if ( ch->desc == NULL && (wizard = ch->wizard) == NULL) return;
 
@@ -1184,14 +1183,12 @@ void do_look( CHAR_DATA *ch, char *argument )
 	    char_from_room(ch);
 	    char_to_room(ch,pRoomIndex);
 
-	    found = FALSE;
 	    for ( portal = ch->in_room->contents; portal != NULL; portal = portal_next )
 	    {
 		portal_next = portal->next_content;
 		if ( ( obj->value[0] == portal->value[3]  )
 		    && (obj->value[3] == portal->value[0]) )
 		{
-		    found = TRUE;
 		    if (IS_AFFECTED(ch, AFF_SHADOWPLANE) &&
 			!IS_SET(portal->extra_flags, ITEM_SHADOWPLANE) )
 		    {
@@ -1523,8 +1520,9 @@ void do_far( CHAR_DATA *ch, char *argument )
 
    argument = one_argument (argument, arg1);
 
-    if ( IS_NPC(ch) )
+    if ( IS_NPC(ch) ) {
 	return;
+    }
 
 	if (arg1[0] == '\0')
 	{
@@ -2461,7 +2459,6 @@ void do_inventory( CHAR_DATA *ch, char *argument )
     OBJ_DATA *portal_next;
     ROOM_INDEX_DATA *pRoomIndex;
     ROOM_INDEX_DATA *location;
-    bool found;
 
     if (!IS_NPC(ch) && IS_HEAD(ch,LOST_HEAD))
         {send_to_char( "You are not a container.\n\r", ch ); return;}
@@ -2486,14 +2483,12 @@ void do_inventory( CHAR_DATA *ch, char *argument )
 	    char_from_room(ch);
 	    char_to_room(ch,pRoomIndex);
 
-	    found = FALSE;
 	    for ( portal = ch->in_room->contents; portal != NULL; portal = portal_next )
 	    {
 		portal_next = portal->next_content;
 		if ( ( obj->value[0] == portal->value[3]  )
 		    && (obj->value[3] == portal->value[0]) )
 		{
-		    found = TRUE;
 		    if (IS_AFFECTED(ch, AFF_SHADOWPLANE) &&
 			!IS_SET(portal->extra_flags, ITEM_SHADOWPLANE) )
 		    {
@@ -3077,11 +3072,12 @@ void do_practice( CHAR_DATA *ch, char *argument )
       }
       send_to_char("#n\n\r", ch);
 
-      if ( col % 3 != 0 )
+      if ( col % 3 != 0 ) {
         send_to_char( "\n\r", ch );
+      }
 
-	sprintf( buf, "You have %d exp left.\n\r", ch->exp );
-	send_to_char( buf, ch );
+      sprintf( buf, "You have %d exp left.\n\r", ch->exp );
+      send_to_char( buf, ch );
     }
     else if (!strcmp(argument,"all"))
     {
