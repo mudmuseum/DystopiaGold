@@ -52,15 +52,11 @@ void  fae_shield      args((CHAR_DATA *ch, CHAR_DATA *victim, int dam));
 void violence_update( void )
 {
   CHAR_DATA *ch;
-  CHAR_DATA *ch_next;
   CHAR_DATA *emb;
   CHAR_DATA *victim;
   CHAR_DATA *rch;
   CHAR_DATA *rch_next;
   CHAR_DATA *mount;
-  int chance;
-
-  chance = number_percent();
 
   for ( ch = char_list; ch != NULL; ch = ch->next )
   {
@@ -108,7 +104,6 @@ void violence_update( void )
       }
     }
     } /*end of blink*/
-    ch_next = ch->next;
     if (!IS_NPC(ch))
     {
       if (ch->fight_timer > 0) ch->fight_timer--;
@@ -3233,13 +3228,7 @@ void update_pos( CHAR_DATA *victim )
   {
     if (victim->position <= POS_STUNNED)
     {
-      bool gm_stance = FALSE;
       victim->position = POS_STANDING;
-      if (!IS_NPC(victim) && victim->stance[0] > 0)
-      {
-        int stance = victim->stance[0];
-        if (victim->stance[stance] >= 200) gm_stance = TRUE;
-      }
       if (IS_NPC(victim) || victim->max_hit * 0.25 > victim->hit)
       {
         act( "$n clambers back to $s feet.", victim, NULL, NULL, TO_ROOM);
@@ -3609,7 +3598,6 @@ void group_gain( CHAR_DATA *ch, CHAR_DATA *victim )
   char buf[MAX_STRING_LENGTH];
   char buf2[MAX_STRING_LENGTH];
   CHAR_DATA *gch;
-  CHAR_DATA *lch;
   CHAR_DATA *mount;
   bool warlord = FALSE;
   int xp;
@@ -3635,7 +3623,6 @@ void group_gain( CHAR_DATA *ch, CHAR_DATA *victim )
     members = 1;
   }
   if (IS_NPC(victim) && victim->pIndexData->vnum == MOB_VNUM_WARLORD) warlord = TRUE;
-  lch = (ch->leader != NULL) ? ch->leader : ch;
   for ( gch = ch->in_room->people; gch != NULL; gch = gch->next_in_room )
   {
     int xp_modifier = 100;
@@ -4011,7 +3998,7 @@ void dam_message( CHAR_DATA *ch, CHAR_DATA *victim, int dam, int dt )
     dt  = TYPE_HIT;
     attack  = attack_table[0];
   }
-  if ( attack == "slash" || attack == "slice" )
+  if ( !str_cmp(attack, "slash") || !str_cmp(attack, "slice" ))
   {
     damp=number_range(1,8);
     if ( damp == 1 )
@@ -4127,7 +4114,7 @@ void dam_message( CHAR_DATA *ch, CHAR_DATA *victim, int dam, int dt )
       }
     }
   }
-  else if ( attack == "stab" || attack == "pierce" )
+  else if ( !str_cmp(attack, "stab") || !str_cmp(attack, "pierce" ))
   {
     damp=number_range(1,5);
     if ( damp == 1 )
@@ -4165,7 +4152,7 @@ void dam_message( CHAR_DATA *ch, CHAR_DATA *victim, int dam, int dt )
       else if (!IS_HEAD(victim,LOST_EYE_L)) SET_BIT(victim->loc_hp[0],LOST_EYE_L);
     }
   }
-  else if ( attack == "blast" || attack == "pound" || attack == "crush" )
+  else if ( !str_cmp(attack, "blast") || !str_cmp(attack, "pound") || !str_cmp(attack, "crush" ))
   {
     damp=number_range(1,3);
     bodyloc = 0;
@@ -4212,7 +4199,7 @@ void dam_message( CHAR_DATA *ch, CHAR_DATA *victim, int dam, int dt )
       }
     }
   }
-  else if ( !IS_NPC( ch ) && (attack == "bite" ||IS_VAMPAFF(ch,VAM_FANGS)))
+  else if ( !IS_NPC( ch ) && (!str_cmp(attack, "bite") ||IS_VAMPAFF(ch,VAM_FANGS)))
   {
     act("You sink your teeth into $N's throat and tear out $S jugular vein.\n\rYou wipe the blood from your chin with one hand.", ch, NULL, victim, TO_CHAR);
     act("$n sink $s teeth into $N's throat and tears out $S jugular vein.\n\r$n wipes the blood from $s chin with one hand.", ch, NULL, victim, TO_NOTVICT);
@@ -4221,7 +4208,7 @@ void dam_message( CHAR_DATA *ch, CHAR_DATA *victim, int dam, int dt )
     if (!IS_BODY(victim,CUT_THROAT)) SET_BIT(victim->loc_hp[1],CUT_THROAT);
     if (!IS_BLEEDING(victim,BLEEDING_THROAT)) SET_BIT(victim->loc_hp[6],BLEEDING_THROAT);
   }
-  else if ( !IS_NPC(ch) && (attack == "claw" || IS_VAMPAFF(ch,VAM_CLAWS)))
+  else if ( !IS_NPC(ch) && (!str_cmp(attack, "claw") || IS_VAMPAFF(ch,VAM_CLAWS)))
   {
     damp=number_range(1,2);
     if ( damp == 1 )
@@ -4267,14 +4254,14 @@ void dam_message( CHAR_DATA *ch, CHAR_DATA *victim, int dam, int dt )
       }
     }
   }
-  else if ( attack == "whip" )
+  else if ( !str_cmp(attack, "whip" ))
   {
     act("You entangle $N around the neck, and squeeze out $S life.", ch, NULL, victim, TO_CHAR);
     act("$n entangles $N around the neck, and squeezes out $S life.", ch, NULL, victim, TO_NOTVICT);
     act("$n entangles you around the neck, and squeezes the life out of you.", ch, NULL, victim, TO_VICT);
     if (!IS_BODY(victim,BROKEN_NECK)) SET_BIT(victim->loc_hp[1],BROKEN_NECK);
   }
-  else if ( attack == "suck" || attack == "grep" )
+  else if ( !str_cmp(attack, "suck") || !str_cmp(attack, "grep" ))
   {
     act("You place your weapon on $N's head and suck out $S brains.", ch, NULL, victim, TO_CHAR);
     act("$n places $s weapon on $N's head and suck out $S brains.", ch, NULL, victim, TO_NOTVICT);
