@@ -50,9 +50,9 @@ void improve_wpn( CHAR_DATA *ch, int dtype, int right_hand )
     else if (IS_CLASS(ch, CLASS_DROID)) max_skl = 450;
     else if (IS_CLASS(ch, CLASS_UNDEAD_KNIGHT)) max_skl = UMAX(200, ch->pcdata->powers[WEAPONSKILL] * 50);
     else if (IS_CLASS(ch, CLASS_SAMURAI)) max_skl = 1000;
-    else if( IS_CLASS(ch, CLASS_SHAPESHIFTER) || IS_CLASS(ch, CLASS_TANARRI)) max_skl = 400;
+    else if (IS_CLASS(ch, CLASS_SHAPESHIFTER) || IS_CLASS(ch, CLASS_TANARRI)) max_skl = 400;
 
-         if (right_hand == 1) 
+    if (right_hand == 1) 
 	    wield = get_eq_char( ch, WEAR_WIELD );
     else if (right_hand == 2)           
 	    wield = get_eq_char( ch, WEAR_HOLD );
@@ -137,7 +137,8 @@ void improve_stance( CHAR_DATA *ch )
     else if (ch->stance[stance] == 176) sprintf(bufskill,"a master of");
     else if (ch->stance[stance] == 200) sprintf(bufskill,"a grand master of");
     else return;
-         if (stance == STANCE_VIPER   ) sprintf(stancename,"viper"   );
+
+    if      (stance == STANCE_VIPER   ) sprintf(stancename,"viper"   );
     else if (stance == STANCE_CRANE   ) sprintf(stancename,"crane"   );
     else if (stance == STANCE_CRAB    ) sprintf(stancename,"crab"    );
     else if (stance == STANCE_MONGOOSE) sprintf(stancename,"mongoose");
