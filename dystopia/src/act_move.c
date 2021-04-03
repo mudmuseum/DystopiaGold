@@ -70,7 +70,6 @@ void move_char( CHAR_DATA *ch, int door )
     char poly [MAX_STRING_LENGTH];
     char mount2 [MAX_INPUT_LENGTH];
     char leave [20];
-    int revdoor;
     bool bad_wall = FALSE;
 
     if ( door < 0 || door > 5 )
@@ -479,12 +478,12 @@ IS_SET(ch->pcdata->powers[1], DPOWER_LEVITATION)))
     }
     char_from_room( ch );
     char_to_room( ch, to_room );
-    if      ( door == 0 ) {revdoor = 2;sprintf(buf,"the south");}
-    else if ( door == 1 ) {revdoor = 3;sprintf(buf,"the west");}
-    else if ( door == 2 ) {revdoor = 0;sprintf(buf,"the north");}
-    else if ( door == 3 ) {revdoor = 1;sprintf(buf,"the east");}
-    else if ( door == 4 ) {revdoor = 5;sprintf(buf,"below");}
-    else                  {revdoor = 4;sprintf(buf,"above");}
+    if      ( door == 0 ) { sprintf(buf,"the south"); }
+    else if ( door == 1 ) { sprintf(buf,"the west");  }
+    else if ( door == 2 ) { sprintf(buf,"the north"); }
+    else if ( door == 3 ) { sprintf(buf,"the east");  }
+    else if ( door == 4 ) { sprintf(buf,"below");     }
+    else                  { sprintf(buf,"above");     }
 
     for ( d = descriptor_list; d != NULL; d = d->next )
     {
@@ -900,7 +899,6 @@ void do_enter(CHAR_DATA *ch, char *argument)
   CHAR_DATA *mount;
   CHAR_DATA *gch;
   CHAR_DATA *gch_next;
-  bool found;
 
   argument = one_argument( argument, arg );
 
@@ -963,13 +961,11 @@ void do_enter(CHAR_DATA *ch, char *argument)
     else sprintf(poly,"$n steps out of $p.");
     act(poly,  ch, obj, NULL, TO_ROOM );
 
-    found = FALSE;
     for (portal = ch->in_room->contents; portal != NULL; portal = portal_next)
     {
       portal_next = portal->next_content;
       if ((obj->value[0] == portal->value[3]) && (obj->value[3] == portal->value[0]))
       {
-        found = TRUE;
 
         if (IS_AFFECTED(ch, AFF_SHADOWPLANE) && !IS_SET(portal->extra_flags, ITEM_SHADOWPLANE))
         {
@@ -1980,7 +1976,6 @@ void gain_disc_points(CHAR_DATA *ch, int points)
 void do_research(CHAR_DATA *ch, char *argument)
 {
     int i;
-    int needed;
     int maxlevel;
     char buf[MAX_STRING_LENGTH];
 
@@ -2045,7 +2040,6 @@ void do_research(CHAR_DATA *ch, char *argument)
 	if (discipline[i][0] != '\0'
 	    && !str_prefix(argument, discipline[i]) )
 	{
-		needed = ((ch->power[i] - 5) * 10);
 	    if (ch->power[i] < 0)	    
 	    {
     		stc("You don't know any disciplines of that name.\n\r", ch);
@@ -2476,7 +2470,6 @@ void do_train( CHAR_DATA *ch, char *argument )
     int cost;
     int magic;
     int immcost;
-    int primal;
     int silver;
     int gnosis;
     int ancilla;
@@ -2485,19 +2478,8 @@ void do_train( CHAR_DATA *ch, char *argument )
     int trueblood;
     int elder;
     int beast;
-    int belt1;
-    int belt2;
-    int belt3;
-    int belt4;
-    int belt5;
-    int belt6;
-    int belt7;
-    int belt8;
-    int belt9;
-    int belt10;
     int max_stat = 25;
     bool last = TRUE;
-    bool is_ok = FALSE;
     int loop;
     int pow;
 
@@ -2961,50 +2943,6 @@ return;
 	send_to_char( buf, ch );
 	sprintf(arg1,"foo");
     }
-         if (!str_cmp(arg1,"str")   ) is_ok = TRUE;
-    else if (!str_cmp(arg1,"int")   ) is_ok = TRUE;
-    else if (!str_cmp(arg1,"wis")   ) is_ok = TRUE;
-    else if (!str_cmp(arg1,"dex")   ) is_ok = TRUE;
-    else if (!str_cmp(arg1,"con")   ) is_ok = TRUE;
-    else if (!str_cmp(arg1,"hp")    ) is_ok = TRUE;
-    else if (!str_cmp(arg1,"mana")  ) is_ok = TRUE;
-    else if (!str_cmp(arg1,"move")  ) is_ok = TRUE;
-    else if (!str_cmp(arg1,"slash") || !str_cmp(arg1,"smash") ||
-!str_cmp(arg1,"beast") || !str_cmp(arg1,"grab") ||
-!str_cmp(arg1,"heat") || !str_cmp(arg1,"cold") || !str_cmp(arg1,"lightning") ||
-!str_cmp(arg1,"acid") || !str_cmp(arg1,"drain") || !str_cmp(arg1,"hurl") ||
-!str_cmp(arg1,"backstab") || !str_cmp(arg1,"kick") || !str_cmp(arg1,"disarm") ||
-!str_cmp(arg1,"steal") || !str_cmp(arg1,"stab")) 	is_ok = TRUE;
-	else if (!str_cmp(arg1,"sunlight") && IS_CLASS(ch, CLASS_VAMPIRE))
-	is_ok = TRUE;
-    else if (!str_cmp(arg1,"ancilla") && IS_CLASS(ch,CLASS_VAMPIRE) && 
-    (ch->pcdata->rank == AGE_NEONATE))
-        is_ok = TRUE;
-    else if (!str_cmp(arg1,"ancilla") && IS_CLASS(ch,CLASS_VAMPIRE) &&
-    (ch->pcdata->rank == AGE_CHILDE))
-        is_ok = TRUE;
-    else if (!str_cmp(arg1,"silver") && IS_CLASS(ch,CLASS_WEREWOLF))
-        is_ok = TRUE;
-    else if (!str_cmp(arg1,"gnosis") && IS_CLASS(ch, CLASS_WEREWOLF) )
-	is_ok = TRUE;
-    else if (!str_cmp(arg1,"control") && IS_CLASS(ch, CLASS_VAMPIRE)
-	&& ch->beast > 0 )
-	is_ok = TRUE;
-
-    else if (!str_cmp(arg1,"elder") && IS_CLASS(ch,CLASS_VAMPIRE) &&
-(ch->pcdata->rank == AGE_ANCILLA))
-	is_ok = TRUE;
-    else if (!str_cmp(arg1,"methuselah") && IS_CLASS(ch,CLASS_VAMPIRE) &&
-(ch->pcdata->rank == AGE_ELDER))
-	is_ok = TRUE;
-    else if (!str_cmp(arg1,"lamagra") && IS_CLASS(ch, CLASS_VAMPIRE) &&
-(ch->pcdata->rank == AGE_METHUSELAH))
-	is_ok = TRUE;
-    else if (!str_cmp(arg1,"trueblood") && IS_CLASS(ch, CLASS_VAMPIRE) &&
-(ch->pcdata->rank == AGE_LA_MAGRA))
-        is_ok = TRUE;
-    else if (!str_cmp(arg1,"magic") && IS_CLASS(ch,CLASS_DROW))
-	is_ok = TRUE;
 
     for (loop = 1; loop < MAX_DISCIPLINES; loop++)
     {
@@ -3083,18 +3021,7 @@ return;
 
     cost = 200;
     immcost = count_imms(ch);
-    belt1 = 5000000;
-    belt2 = 10000000;
-    belt3 = 15000000;
-    belt4 = 20000000;
-    belt5 = 25000000;
-    belt6 = 30000000;
-    belt7 = 35000000;
-    belt8 = 40000000;
-    belt9 = 45000000;
-    belt10 = 50000000;
 
-    primal = (1+ch->practice)*500;
     magic = (1+ch->pcdata->stats[DROW_MAGIC])*100;
     silver = (1+ch->siltol)*2500;
     gnosis = ( 1 + ch->gnosis[GMAXIMUM] ) * 250000;
@@ -4229,7 +4156,6 @@ void do_hunt( CHAR_DATA *ch, char *argument )
 void check_hunt( CHAR_DATA *ch )
 {
     CHAR_DATA *victim;
-    bool found = FALSE;
     int direction = 0;
     ROOM_INDEX_DATA *in_room;
     in_room = ch->in_room;
@@ -4240,11 +4166,11 @@ void check_hunt( CHAR_DATA *ch )
 	ch->hunting = str_dup( "" );
 	return;
     }
-    if (check_track(ch,0)) {found = TRUE;direction = ch->in_room->track_dir[0];}
-    else if (check_track(ch,1)) {found = TRUE;direction = ch->in_room->track_dir[1];}
-    else if (check_track(ch,2)) {found = TRUE;direction = ch->in_room->track_dir[2];}
-    else if (check_track(ch,3)) {found = TRUE;direction = ch->in_room->track_dir[3];}
-    else if (check_track(ch,4)) {found = TRUE;direction = ch->in_room->track_dir[4];}
+    if (check_track(ch,0)) { direction = ch->in_room->track_dir[0]; }
+    else if (check_track(ch,1)) { direction = ch->in_room->track_dir[1]; }
+    else if (check_track(ch,2)) { direction = ch->in_room->track_dir[2]; }
+    else if (check_track(ch,3)) { direction = ch->in_room->track_dir[3]; }
+    else if (check_track(ch,4)) { direction = ch->in_room->track_dir[4]; }
     else if ( ( victim = get_char_room( ch, ch->hunting ) ) == NULL )
     {
 	send_to_char("You cannot sense any trails from this room.\n\r",ch);
