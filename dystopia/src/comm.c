@@ -850,8 +850,9 @@ void game_loop_unix( int control )
  				nanny( d, d->incomm );
 				break;
 			   case CON_PLAYING:
-                        if ( !run_olc_editor( d ) )
+                        if ( !run_olc_editor( d ) ) {
 				interpret( d->character, d->incomm );
+			}
 				break;
 			   case CON_EDITING:
 				edit_buffer( d->character, d->incomm );
@@ -1002,7 +1003,7 @@ void new_descriptor( int control )
     DESCRIPTOR_DATA *dnew;
     struct sockaddr_in sock;
     int desc;
-    int size;
+    unsigned int size;
     pthread_attr_t attr;
     pthread_t thread_lookup;
     DUMMY_ARG *dummyarg;
@@ -1566,8 +1567,8 @@ void crashrecov (int iSignal)
   DESCRIPTOR_DATA *d, *d_next;
   char buf [200], buf2[100];
   int pid;
-  int iFork;
   int i;
+  int iFork;
   FILE *fReturn;
   FILE *fCrash;
 
@@ -1594,6 +1595,7 @@ void crashrecov (int iSignal)
    * This will cause a core dump, even though the signal was handled
    */
   iFork = fork();
+  log_format("Output of fork(): %d", iFork);
   wait(NULL);
   if((pid = getpid()) != proc_pid)
   {
@@ -2249,7 +2251,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
         }
 
 	argument[0] = UPPER(argument[0]);
-	if ( !check_parse_name( argument ) && argument != "Vladd" )
+	if ( !check_parse_name( argument ) && !str_cmp(argument, "Vladd" ))
 	{
 	    write_to_buffer( d, "Illegal name, try another.\n\rEnter thy name brave traveler: ", 0 );
 	    return;
