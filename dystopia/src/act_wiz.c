@@ -68,7 +68,7 @@ void do_linkdead(CHAR_DATA *ch, char *argument)
   {
     if (IS_NPC(gch) || gch->desc) continue;  
     found = TRUE;
-    sprintf(buf, "Name: %12s. (Room: %5d)\n\r", gch->name, gch->in_room == NULL ? : gch->in_room->vnum);
+    sprintf(buf, "Name: %12s. (Room: %5d)\n\r", gch->name, gch->in_room == NULL ? 0 : gch->in_room->vnum);
     send_to_char(buf,ch);
   }
   if(!found) send_to_char("No Linkdead Players found\n\r",ch);
@@ -2628,6 +2628,9 @@ void do_pload( CHAR_DATA *ch, char *argument )
     extract_char(ch, TRUE);
     d->character = NULL;
     fOld = load_char_obj( d, argument );
+    if (!fOld) {
+        log_format("Issue with do_pload fOld.");
+    }
     ch   = d->character;
     ch->next = char_list;
     char_list = ch;
@@ -2670,6 +2673,9 @@ void do_preturn( CHAR_DATA *ch, char *argument )
     char_list = ch;
 */
     fOld = load_char_obj(d, capitalize(arg));
+    if (!fOld) {
+        log_format("Issue with do_pload fOld.");
+    }
     if (ch->in_room != NULL)
     	char_to_room(ch,ch->in_room);
     else
@@ -5402,7 +5408,6 @@ void do_evileye( CHAR_DATA *ch, char *argument )
     char buf[MAX_STRING_LENGTH];
     char arg1[MAX_INPUT_LENGTH];
     char arg2[MAX_INPUT_LENGTH];
-    int value;
  
     smash_tilde( argument );
     argument = one_argument( argument, arg1 );
@@ -5445,7 +5450,6 @@ void do_evileye( CHAR_DATA *ch, char *argument )
 	send_to_char(".\n\r",ch);
         return;
     }
-    value = is_number( arg2 ) ? atoi( arg2 ) : -1;
     if ( !str_cmp( arg1, "action" ) )
     {
 	free_string( ch->poweraction );
@@ -6255,7 +6259,6 @@ bool read_entry( CHAR_DATA *ch, FILE *fp, char *filename, char *arg )
 {
     char buf[MAX_STRING_LENGTH];
     HELP_DATA *new;
-    HELP_DATA *debug;
     char *test_keyword = 0;
     char *test_text = 0;
     int test_level = 0;
@@ -6293,7 +6296,6 @@ bool read_entry( CHAR_DATA *ch, FILE *fp, char *filename, char *arg )
             new->level   = test_level;
             new->text    = test_text;
 
-            debug = help_last;
             if ( help_last ) 
                 help_last->next = new;
             help_last = new;
@@ -6378,13 +6380,13 @@ void do_resetpassword( CHAR_DATA *ch, char *argument )
 
     victim = get_char_world(ch, arg1);
 
-    if (  ( ch->pcdata->pwd != '\0' )
+    if (  ( *ch->pcdata->pwd != '\0' )
     && ( arg1[0] == '\0' || arg2[0] == '\0')  )
     {
         send_to_char( "Syntax: password <char> <new>.\n\r", ch );
         return;
     }
-    if( victim == '\0' )
+    if( victim != NULL )
     {
 		send_to_char( "That person isn't here, they have to be here to reset pwd's.\n\r", ch);
 	 	return;
