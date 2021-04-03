@@ -71,18 +71,12 @@ bool spec_vladd_decap( CHAR_DATA *ch)
 {
 char buf[MAX_STRING_LENGTH];
     CHAR_DATA *victim;
-    CHAR_DATA *v_next;
     int rnd_chat;
+
+    return FALSE;
 
 if ( ch->fighting != NULL )
                 return FALSE;
-    
-    for ( victim = ch->in_room->people; victim != NULL; victim = v_next )
-    {
-                /* this should kill mobs as well as players */
-                        if ( !IS_CLASS(ch, CLASS_MAGE))
-                break;
-    }
     
     if (victim->hit < -5)
         { 
@@ -123,18 +117,12 @@ bool spec_assassin( CHAR_DATA *ch )
 {
     char buf[MAX_STRING_LENGTH];
     CHAR_DATA *victim;
-    CHAR_DATA *v_next;
          int rnd_say;
+
+    return FALSE;
 
     if ( ch->fighting != NULL )
                 return FALSE;
-
-    for ( victim = ch->in_room->people; victim != NULL; victim = v_next )
-    {
-               /* this should kill mobs as well as players */
-                        if ( !IS_CLASS(ch, CLASS_MAGE))
-                                break;
-    }
 
     if ( victim == NULL || victim == ch || victim->level > 7 )
         return FALSE;
@@ -1770,22 +1758,15 @@ bool spec_executioner( CHAR_DATA *ch )
     OBJ_DATA *object_next;
     char buf [MAX_STRING_LENGTH];
     CHAR_DATA *victim;
-    CHAR_DATA *v_next;
     int rnd_chat;
+
+    return FALSE;
 
     if ( !IS_AWAKE( ch ) )
       return FALSE;
 
     if ( ch->position == POS_FIGHTING )
       do_kick(ch,"");
-
-
-    for ( victim = ch->in_room->people; victim != NULL; victim = v_next )
-    {
-                /* this should kill mobs as well as players */
-                        if ( !IS_CLASS(ch, CLASS_MAGE))
-                break;
-    }
 
     if (victim->hit < -5)
     {
@@ -2217,12 +2198,6 @@ bool spec_zombie_lord( CHAR_DATA *ch )
     ROOM_INDEX_DATA	*to_room;
     int door;
     int consider 	= 4;
-    bool north_ok 	= TRUE;
-    bool east_ok 	= TRUE;
-    bool south_ok 	= TRUE;
-    bool west_ok 	= TRUE;
-    bool up_ok 		= TRUE;
-    bool down_ok 	= TRUE;
     int countup 	= 6;
     int option;
 
@@ -2422,12 +2397,12 @@ bool spec_zombie_lord( CHAR_DATA *ch )
 	    {
 		switch (door)
 		{
-		    case DIR_NORTH: north_ok = FALSE; countup -= 1; break;
-		    case DIR_SOUTH: south_ok = FALSE; countup -= 1; break;
-		    case DIR_EAST:  east_ok  = FALSE; countup -= 1; break;
-		    case DIR_WEST:  west_ok  = FALSE; countup -= 1; break;
-		    case DIR_UP:    up_ok    = FALSE; countup -= 1; break;
-		    case DIR_DOWN:  down_ok  = FALSE; countup -= 1; break;
+		    case DIR_NORTH: countup -= 1; break;
+		    case DIR_SOUTH: countup -= 1; break;
+		    case DIR_EAST:  countup -= 1; break;
+		    case DIR_WEST:  countup -= 1; break;
+		    case DIR_UP:    countup -= 1; break;
+		    case DIR_DOWN:  countup -= 1; break;
 		}
 	    }
 	}
@@ -2685,12 +2660,6 @@ bool spec_dog( CHAR_DATA *ch )
     EXIT_DATA		*pexit;
     ROOM_INDEX_DATA	*to_room;
     int door;
-    bool north_ok 	= TRUE;
-    bool east_ok 	= TRUE;
-    bool south_ok 	= TRUE;
-    bool west_ok 	= TRUE;
-    bool up_ok 		= TRUE;
-    bool down_ok 	= TRUE;
     int countup 	= 6;
     int option;
     int random = number_range(1,5);
@@ -2827,12 +2796,12 @@ bool spec_dog( CHAR_DATA *ch )
 	    {
 		switch (door)
 		{
-		    case DIR_NORTH: north_ok = FALSE; countup -= 1; break;
-		    case DIR_SOUTH: south_ok = FALSE; countup -= 1; break;
-		    case DIR_EAST:  east_ok  = FALSE; countup -= 1; break;
-		    case DIR_WEST:  west_ok  = FALSE; countup -= 1; break;
-		    case DIR_UP:    up_ok    = FALSE; countup -= 1; break;
-		    case DIR_DOWN:  down_ok  = FALSE; countup -= 1; break;
+		    case DIR_NORTH: countup -= 1; break;
+		    case DIR_SOUTH: countup -= 1; break;
+		    case DIR_EAST:  countup -= 1; break;
+		    case DIR_WEST:  countup -= 1; break;
+		    case DIR_UP:    countup -= 1; break;
+		    case DIR_DOWN:  countup -= 1; break;
 		}
 	    }
 	}

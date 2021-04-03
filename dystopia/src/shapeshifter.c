@@ -88,7 +88,7 @@ void do_faeriecurse( CHAR_DATA *ch, char *argument )
 {
   CHAR_DATA *victim;
   char arg [MAX_INPUT_LENGTH];
-  int level,sn,spelltype;
+  int level,sn;
 
   argument = one_argument(argument, arg);
 
@@ -124,14 +124,12 @@ void do_faeriecurse( CHAR_DATA *ch, char *argument )
   if (number_range(1,3) != 1)
   {
     if ( ( sn = skill_lookup( "web" ) ) < 0 ) return;
-    spelltype = skill_table[sn].target;
     level = 50;
     (*skill_table[sn].spell_fun) ( sn, level, ch, victim );
   }
   if (number_range(1,3) != 1)
   {
     if ( ( sn = skill_lookup( "curse" ) ) < 0 ) return;
-    spelltype = skill_table[sn].target;
     level = 50;
     (*skill_table[sn].spell_fun) ( sn, level, ch, victim );
   }
