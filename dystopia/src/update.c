@@ -177,7 +177,7 @@ void mobile_update( void )
 
     if ( ch->in_room == NULL ) continue;
 
-    if (!IS_NPC(ch) && ch->hunting != NULL && ch->hunting != '\0' && strlen(ch->hunting) > 1 )
+    if (!IS_NPC(ch) && ch->hunting != NULL && *ch->hunting != '\0' && strlen(ch->hunting) > 1 )
     {
       check_hunt( ch );
       continue;
@@ -1424,16 +1424,16 @@ void embrace_update( void )
         }
       }
 
-      if ( IS_CLASS(ch, CLASS_MONK) && ch->fighting == NULL )
+    if ( IS_CLASS(ch, CLASS_MONK) && ch->fighting == NULL )
 	ch->monkblock = 0;
 
-      if ( IS_NPC(ch) || ch->embracing == NULL )
+    if ( IS_NPC(ch) || ch->embracing == NULL )
         continue;
 
-	if (!IS_CLASS(ch,CLASS_VAMPIRE))
+    if (!IS_CLASS(ch,CLASS_VAMPIRE))
 	  stop_embrace(ch,NULL);
 
-	victim=ch->embracing;
+    victim=ch->embracing;
 
 /* Fix for embracing mobs by Shakti.					*/
 
