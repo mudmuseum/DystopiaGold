@@ -154,21 +154,20 @@ void do_moonbeam( CHAR_DATA *ch, char *argument )
     if (is_safe(ch,victim) == TRUE) return;
     if (ch->fighting == NULL)
         set_fighting(ch,victim, TRUE);
-        update_pos(victim);
+    update_pos(victim);
   
-    	act("$N is struck by a huge moonbeam.", ch, NULL, victim,TO_CHAR);
-	act("$N is struck by a deadly beam of moonlight from $n.", ch, NULL, victim,TO_NOTVICT);
-	act("You are struck by a deadly beam of moonlight!", ch, NULL, victim,TO_VICT);
+    act("$N is struck by a huge moonbeam.", ch, NULL, victim,TO_CHAR);
+    act("$N is struck by a deadly beam of moonlight from $n.", ch, NULL, victim,TO_NOTVICT);
+    act("You are struck by a deadly beam of moonlight!", ch, NULL, victim,TO_VICT);
     if (IS_GOOD(victim))
 	hurt_person(ch,victim, 500);
     if (IS_EVIL(victim))
         hurt_person(ch,victim, 1000);  
     if (IS_NEUTRAL(victim))
         hurt_person(ch,victim, 750);  
-	ch->mana -= 500;
+    ch->mana -= 500;
     WAIT_STATE(ch,12);
-	return;
-    
+    return;
 }
 
 void do_gmotherstouch( CHAR_DATA *ch, char *argument )
