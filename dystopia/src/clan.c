@@ -31,7 +31,7 @@
 void do_level( CHAR_DATA *ch, char *argument )
 {
     char arg       [MAX_INPUT_LENGTH];
-    char skill  [20];  
+    char skill  [40];  
     one_argument( argument, arg );
 
     if (IS_NPC(ch)) return;  
@@ -130,8 +130,9 @@ void do_level( CHAR_DATA *ch, char *argument )
     
     if ( IS_CLASS(ch, CLASS_DEMON) )
      send_to_char("#R[#nYou are a #Cdemon#R]\n\r", ch);
-    if ( IS_CLASS(ch, CLASS_MAGE) )
+    if ( IS_CLASS(ch, CLASS_MAGE) ) {
      send_to_char("#R[#nYou are a #Cbattlemage#R]\n\r", ch);    
+    }
      if ( IS_CLASS(ch ,CLASS_SHAPESHIFTER))
        send_to_char("#R[#nYou are a #Cshapeshifter#R]\n\r",ch);
      if (IS_CLASS(ch, CLASS_UNDEAD_KNIGHT))
@@ -3532,8 +3533,9 @@ void do_rage( CHAR_DATA *ch, char *argument )
 	    return;
 	}
 
-     if (ch->beast < 1)
+     if (ch->beast < 1) {
 	ch->beast = 1;
+     }
 
         if (ch->beast > ch->rage || ch->rage < 125)
 	{
