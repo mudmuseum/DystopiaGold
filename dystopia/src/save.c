@@ -1421,10 +1421,11 @@ void fread_char( CHAR_DATA *ch, FILE *fp )
     char buf[MAX_STRING_LENGTH];
     char *word;
     bool fMatch;
-    int  dummy;
-    int tempint;
+    int  dummy = 0;
+    int tempint = 0;
     int sn;
-	/*char *nothing;*/
+
+    log_format("Storing ignored values in dummy=%d, tempint=%d.", dummy, tempint);
 
     for ( ; ; )
     {
