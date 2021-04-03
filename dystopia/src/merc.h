@@ -5251,8 +5251,7 @@ struct slay_type
 #define MSL MAX_STRING_LENGTH
 #define MIL MAX_INPUT_LENGTH
 
-void 	logf 			args((char * fmt, ...));
-
+void log_format       args((char * fmt, ...));
 void copyover_recover args((void));
 
 

@@ -4360,7 +4360,7 @@ void gettimeofday( struct timeval *tp, void *tzp )
 }
 #endif
 
-void logf (char * fmt, ...)
+void log_format (char * fmt, ...)
 {
 	char buf [2*MSL];
 	va_list args;
