@@ -313,12 +313,13 @@ void do_spy( CHAR_DATA *ch, char *argument )
 	return;
     }
 
-    if      ( !str_cmp( arg1, "n" ) || !str_cmp( arg1, "north" ) ) ;
-    else if ( !str_cmp( arg1, "e" ) || !str_cmp( arg1, "east" ) )  ;
-    else if ( !str_cmp( arg1, "s" ) || !str_cmp( arg1, "south" ) ) ;
-    else if ( !str_cmp( arg1, "w" ) || !str_cmp( arg1, "west" ) )  ;
-    else if ( !str_cmp( arg1, "u" ) || !str_cmp( arg1, "up" ) )    ;
-    else if ( !str_cmp( arg1, "d" ) || !str_cmp( arg1, "down" ) )  ;
+    if  (!str_cmp( arg1, "n" ) || !str_cmp( arg1, "north" )  || 
+         !str_cmp( arg1, "e" ) || !str_cmp( arg1, "east"  )  || 
+         !str_cmp( arg1, "s" ) || !str_cmp( arg1, "south" )  ||
+         !str_cmp( arg1, "w" ) || !str_cmp( arg1, "west"  )  ||
+         !str_cmp( arg1, "u" ) || !str_cmp( arg1, "up"    )  ||
+         !str_cmp( arg1, "d" ) || !str_cmp( arg1, "down"  )
+        ) ;
     else
     {
 	send_to_char("You can only spy people north, south, east, west, up or down.\n\r", ch);
