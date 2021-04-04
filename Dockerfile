@@ -5,6 +5,7 @@ RUN yum install gcc zlib-devel make -y
 COPY ./dystopia /dystopia
 
 WORKDIR /dystopia/src
+RUN /usr/bin/make clean
 RUN /usr/bin/make
 
 WORKDIR /dystopia
