@@ -35,7 +35,7 @@
 #include <time.h>
 #include "merc.h"
 
-#define HTML_DIR   "public_html/"
+#define HTML_DIR   "../public_html/"
 
 char * plr_class_name(int arg)
 {
