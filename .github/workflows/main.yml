@@ -29,6 +29,7 @@ jobs:
       - name: Push the built image to the Elastic Container Registry
         run: |
           cd ${GITHUB_WORKSPACE}/
+          echo $(aws --version)
           aws ecr get-login-password --region ${AWS_DEFAULT_REGION} | docker login --username AWS --password-stdin ${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_DEFAULT_REGION}.amazonaws.com
           docker build -t dystopiagold:${{ github.run_number }}.${{ github.run_id }}
           docker tag dystopia:dystopiagold:${{ github.run_number }}.${{ github.run_id }} \
