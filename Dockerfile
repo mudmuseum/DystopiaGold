@@ -16,7 +16,7 @@ RUN cp -R /dystopia/src/dystopia /build/dystopia/area/
 
 FROM scratch
 COPY --from=SourceBuilder /build/dystopia /dystopia
-COPY --from=SourceBuilder /lib/ld-linux-aarch64.so.1 /lib/
+# COPY --from=SourceBuilder /lib/ld-linux-aarch64.so.1 /lib/
 COPY --from=SourceBuilder /lib64/libz.so.1 /lib64/
 COPY --from=SourceBuilder /lib64/libcrypt.so.1 /lib64/
 COPY --from=SourceBuilder /lib64/libpthread.so.0 /lib64/
@@ -24,6 +24,7 @@ COPY --from=SourceBuilder /lib64/libc.so.6 /lib64/
 COPY --from=SourceBuilder /lib64/libfreebl3.so /lib64/
 COPY --from=SourceBuilder /lib64/libdl.so.2 /lib64/
 COPY --from=SourceBuilder /lib64/libgcc_s.so.1 /lib64/
+COPY ./libs/ld-2.26.so /lib/
 WORKDIR /dystopia/area
 EXPOSE 9000
 ENTRYPOINT ["./dystopia", "9000"]
