@@ -31,6 +31,7 @@ COPY --from=SourceBuilder /lib/x86_64-linux-gnu/libz.so.1 /lib/x86_64-linux-gnu/
 COPY --from=SourceBuilder /lib/x86_64-linux-gnu/libcrypt.so.1 /lib/x86_64-linux-gnu/
 COPY --from=SourceBuilder /lib/x86_64-linux-gnu/libpthread.so.0 /lib/x86_64-linux-gnu/
 COPY --from=SourceBuilder /lib/x86_64-linux-gnu/libc.so.6 /lib/x86_64-linux-gnu/
+COPY --from=SourceBuilder /lib/x86_64-linux-gnu/libgcc_s.so.1 /lib/x86_64-linux-gnu/
 COPY --from=SourceBuilder /lib64/ld-linux-x86-64.so.2 /lib64/
 
 # COPY --from=SourceBuilder /lib/ld-linux-aarch64.so.1 /lib/
