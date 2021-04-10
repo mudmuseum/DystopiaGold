@@ -1,7 +1,7 @@
 # CC      = gcc
 CC      = aarch64-linux-gnu-gcc
 C_FLAGS = -Wall -g
-L_FLAGS = -lz -lcrypt -lpthread
+L_FLAGS = -lz -libcrypt -lpthread
 # STATIC  = -static
 
 O_FILES = act_comm.o act_info.o act_move.o act_obj.o act_wiz.o bit.o arena.o mccp.o \
