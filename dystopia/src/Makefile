@@ -1,6 +1,8 @@
-CC      = gcc
+# CC      = gcc
+CC      = aarch64-linux-gnu-gcc
 C_FLAGS = -Wall -g
 L_FLAGS = -lz -lcrypt -lpthread
+STATIC  = -static
 
 O_FILES = act_comm.o act_info.o act_move.o act_obj.o act_wiz.o bit.o arena.o mccp.o \
 	board.o build.o clan.o comm.o daemon.o db.o angel.o religion.o socials.o soundex.o \
@@ -13,7 +15,7 @@ O_FILES = act_comm.o act_info.o act_move.o act_obj.o act_wiz.o bit.o arena.o mcc
 
 merc: $(O_FILES)
 	rm -f dystopia
-	$(CC)  -o dystopia $(O_FILES) $(L_FLAGS)
+	$(CC)  -o dystopia $(O_FILES) $(L_FLAGS) $(STATIC)
 	chmod g+w dystopia
 	chmod g+w $(O_FILES)
 
