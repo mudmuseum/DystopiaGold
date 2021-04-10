@@ -3,7 +3,7 @@ FROM ubuntu:latest as SourceBuilder
 
 # RUN yum install gcc zlib-devel make -y
 RUN apt update
-RUN apt install gcc libcrypt-dev zlib1g-dev zlib1g zlibc make gcc-aarch64-linux-gnu binutils-aarch64-linux-gnu -y
+RUN apt install gcc libcrypt-dev libcrypt1 libcryptsetup-dev libcryptsetup12 libxcrypt-source zlib1g-dev zlib1g zlibc make gcc-aarch64-linux-gnu binutils-aarch64-linux-gnu -y
 
 COPY ./dystopia /dystopia
 
