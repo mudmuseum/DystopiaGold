@@ -12,17 +12,27 @@ else
 fi
 IMAGE="${ACCOUNT}.dkr.ecr.${REGION}.amazonaws.com/dystopiagold:${TAG}"
 
-# Identifies if container is already running
-RUNNING=$(/usr/bin/docker ps -q -f name=dystopiagold)
+# Login to ECR
+aws ecr get-login-password --region ${REGION} | docker login --username AWS --password-stdin ${ACCOUNT}.dkr.ecr.${REGION}.amazonaws.com
 
-if [[ ! -z $RUNNING ]]; then
-  echo "Dystopia Gold is currently running."
-else
-  # Launches Dystopia Gold
-  /usr/bin/docker run -d -n dystopiagold --restart always $IMAGE
-  if [[ $? != 0 ]]; then
-    echo "Issue with starting Dystopia Gold."
+# Verify ECR login worked and then prepare to start container
+if [[ $? == 0 ]]; then
+
+  # Identifies if container is already running
+  RUNNING=$(/usr/bin/docker ps -q -f name=dystopiagold)
+
+  if [[ ! -z $RUNNING ]]; then
+    echo "Dystopia Gold is currently running."
   else
-    echo "Started Dystopia Gold."
+    # Launches Dystopia Gold
+    /usr/bin/docker run -d --name dystopiagold --restart always $IMAGE
+    if [[ $? != 0 ]]; then
+      echo "Issue with starting Dystopia Gold."
+    else
+      echo "Started Dystopia Gold."
+    fi
   fi
+
+else
+  echo "Issue with logging into Docker registry."
 fi
