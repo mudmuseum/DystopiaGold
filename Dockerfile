@@ -18,7 +18,6 @@ RUN find . -type d | xargs -I {} mkdir -p /build/dystopia/{}
 RUN cp -R /dystopia/area \
           /dystopia/public_html \
           /dystopia/log \
-          /dystopia/player \
           /dystopia/txt \
           /dystopia/doc \
           /dystopia/notes \
@@ -43,6 +42,8 @@ COPY --from=SourceBuilder /lib64/ld-linux-x86-64.so.2 /lib64/
 # COPY --from=SourceBuilder /lib64/libdl.so.2 /lib64/
 # COPY --from=SourceBuilder /lib64/libgcc_s.so.1 /lib64/
 
+VOLUME /dystopia/player
+RUN mkdir -p /dystopia/player/backup
 WORKDIR /dystopia/area
 EXPOSE 9000
 ENTRYPOINT ["./dystopia", "9000"]
