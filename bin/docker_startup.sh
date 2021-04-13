@@ -42,7 +42,7 @@ if [[ $? == 0 ]]; then
     /usr/bin/docker run -d \
       --name ${CONTAINER_NAME} \
       -p ${HOST_PORT}:${CONTAINER_PORT} \
-      -v ${CONTAINER_NAME}_player:/${MUD_DIRECTORY}/player
+      -v ${CONTAINER_NAME}_player:/${MUD_DIRECTORY}/player \
       --restart always \
       $IMAGE
     if [[ $? != 0 ]]; then
