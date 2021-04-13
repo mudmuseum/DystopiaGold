@@ -9,6 +9,7 @@ CONTAINER_PORT=9000
 
 # Container Configuration
 CONTAINER_NAME="dystopiagold"
+MUD_DIRECTORY="dystopia"
 
 # Repository Configuration
 REPOSITORY_NAME="dystopiagold"
@@ -38,7 +39,12 @@ if [[ $? == 0 ]]; then
     echo "${MUD_NAME} is currently running."
   else
     # Launches Container
-    /usr/bin/docker run -d --name ${CONTAINER_NAME} -p ${HOST_PORT}:${CONTAINER_PORT} --restart always $IMAGE
+    /usr/bin/docker run -d \
+      --name ${CONTAINER_NAME} \
+      -p ${HOST_PORT}:${CONTAINER_PORT} \
+      -v ${CONTAINER_NAME}_player:/${MUD_DIRECTORY}/player
+      --restart always \
+      $IMAGE
     if [[ $? != 0 ]]; then
       echo "Issue with starting ${MUD_NAME}."
     else
