@@ -8,7 +8,7 @@ HOST_PORT=9000
 CONTAINER_PORT=9000
 
 # Container Configuration
-CONTAINER_NAME="dystopiagold"
+VOLUME_NAME="dystopiagold"
 MUD_DIRECTORY="dystopia"
 
 # Repository Configuration
@@ -33,16 +33,16 @@ aws ecr get-login-password --region ${REGION} | docker login --username AWS --pa
 if [[ $? == 0 ]]; then
 
   # Identifies if container is already running
-  RUNNING=$(/usr/bin/docker ps -q -f name=${CONTAINER_NAME})
+  RUNNING=$(/usr/bin/docker ps -q -f name=${REPOSITORY_NAME})
 
   if [[ ! -z $RUNNING ]]; then
     echo "${MUD_NAME} is currently running."
   else
     # Launches Container
     /usr/bin/docker run -d \
-      --name ${CONTAINER_NAME} \
+      --name ${REPOSITORY_NAME} \
       -p ${HOST_PORT}:${CONTAINER_PORT} \
-      -v ${CONTAINER_NAME}_player:/${MUD_DIRECTORY}/player
+      -v ${VOLUME_NAME}_player:/${MUD_DIRECTORY}/player \
       --restart always \
       $IMAGE
     if [[ $? != 0 ]]; then
