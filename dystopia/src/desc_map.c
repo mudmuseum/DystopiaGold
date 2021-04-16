@@ -228,7 +228,7 @@ void reformat_desc( char *desc )
   buf[j] = '\0';
 
   /* Copy to desc */
-  sprintf( desc, buf );
+  sprintf( desc, "%s", buf );
 }
 
 int get_line( char *desc, int max_len )
@@ -383,7 +383,7 @@ void draw_map( CHAR_DATA *ch, char *desc )
   int x, y;
   static char buf[MAX_STRING_LENGTH];
 
-  sprintf( buf, desc );
+  sprintf( buf, "%s", desc );
   /* Remove undesirable characters */
   reformat_desc( buf );
 

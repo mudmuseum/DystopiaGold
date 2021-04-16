@@ -2345,7 +2345,7 @@ void fread_to_eol( FILE *fp )
 char *fread_word( FILE *fp )
 {
     static char word[MAX_INPUT_LENGTH];
-    char buf[100];
+    char buf[MAX_STRING_LENGTH];
     char *pword;
     char cEnd;
 

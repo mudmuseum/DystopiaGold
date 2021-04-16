@@ -201,7 +201,7 @@ void do_gust( CHAR_DATA *ch, char *argument )
     ROOM_INDEX_DATA *to_room = NULL;
     EXIT_DATA       *pexit;
     EXIT_DATA       *pexit_rev;
-    char            buf       [MAX_INPUT_LENGTH];
+    char            buf       [MAX_INPUT_LENGTH+200];
     char            direction [MAX_INPUT_LENGTH];
     char            arg1      [MAX_INPUT_LENGTH];
     char            arg2      [MAX_INPUT_LENGTH];
