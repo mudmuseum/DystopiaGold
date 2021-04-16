@@ -214,9 +214,9 @@ void parse_who()
   /*
    * Write it all to the file, and return.
    */
-  fprintf(fp, fadein_data);
-  fprintf(fp, body_data);
-  fprintf(fp, fadeout_data);
+  fprintf(fp, "%s", fadein_data);
+  fprintf(fp, "%s", body_data);
+  fprintf(fp, "%s", fadeout_data);
 
   fclose (fp);
   return;
@@ -260,9 +260,9 @@ void parse_top()
   }
   strcat(body_data, "\n");
 
-  fprintf(fp, fadein_data);
-  fprintf(fp, body_data);
-  fprintf(fp, fadeout_data);
+  fprintf(fp, "%s", fadein_data);
+  fprintf(fp, "%s", body_data);
+  fprintf(fp, "%s", fadeout_data);
 
   fclose (fp);
   return;
@@ -334,9 +334,9 @@ void parse_leader()
 
   strcat(body_data, "\n");
 
-  fprintf(fp, fadein_data);
-  fprintf(fp, body_data);
-  fprintf(fp, fadeout_data);
+  fprintf(fp, "%s", fadein_data);
+  fprintf(fp, "%s", body_data);
+  fprintf(fp, "%s", fadeout_data);
    
   fclose (fp);
   return;

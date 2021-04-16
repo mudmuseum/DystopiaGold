@@ -2030,7 +2030,7 @@ void do_areaaffects(CHAR_DATA *ch, char *argument)
   AREA_AFFECT *paf;
   bool found = FALSE;
   char buf[MAX_STRING_LENGTH];
-  char buf2[MAX_STRING_LENGTH];
+  char buf2[MAX_STRING_LENGTH*2];
 
   if (IS_NPC(ch)) return;
   send_to_char("This area has been enchanted with :\n\r\n\r", ch);
@@ -2704,7 +2704,7 @@ void do_classportal(CHAR_DATA *ch, char *argument)
 
 void do_score(CHAR_DATA *ch, char *argument)
 {
-  char buf[MAX_STRING_LENGTH];
+  char buf[MAX_STRING_LENGTH*2];
   char tempbuf[MAX_STRING_LENGTH];
   char linebuf1[MAX_STRING_LENGTH];
   char linebuf2[MAX_STRING_LENGTH];

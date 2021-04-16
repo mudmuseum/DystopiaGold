@@ -52,7 +52,7 @@ void update_channel_storage(char *buf, int chan)
     sprintf(tbuf, "%-18.18s", buf);
     sprintf(xbuf, "%s %s", tbuf, line_indent(&buf[19], 15, 85));
   }
-  else sprintf(xbuf, buf);
+  else sprintf(xbuf, "%s", buf);
 
   if (chan >= STORE_MAX)
   {
