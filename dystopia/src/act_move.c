@@ -67,7 +67,7 @@ void move_char( CHAR_DATA *ch, int door )
     EXIT_DATA *pexit;
     DESCRIPTOR_DATA *d;
     char buf  [MAX_STRING_LENGTH];
-    char poly [MAX_STRING_LENGTH];
+    char poly [MAX_STRING_LENGTH*2];
     char mount2 [MAX_INPUT_LENGTH];
     char leave [20];
     bool bad_wall = FALSE;
@@ -2124,7 +2124,7 @@ const  char * discipline [MAX_DISCIPLINES] =
 
 void do_disciplines(CHAR_DATA *ch, char *argument)    
 {
-    char buf[MAX_INPUT_LENGTH];
+    char buf[MAX_INPUT_LENGTH+200];
     char buf2[MAX_INPUT_LENGTH];
     int loop;
     int percent = 0, i;
@@ -2150,7 +2150,7 @@ void do_disciplines(CHAR_DATA *ch, char *argument)
 	&& strlen(discipline[loop]) != 0
 	&& ch->power[loop] >= 0 )
 	{
-	    sprintf(buf2, discipline[loop]);
+	    sprintf(buf2, "%s", discipline[loop]);
 	    buf2[0] = UPPER(buf2[0]);
 
 	    sprintf(buf,"     %-14s: %-2d",

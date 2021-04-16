@@ -1587,7 +1587,7 @@ void do_far( CHAR_DATA *ch, char *argument )
 
 void do_stat( CHAR_DATA *ch, char *argument )
 {
-    char buf   [MAX_STRING_LENGTH];
+    char buf   [MAX_STRING_LENGTH+200];
     char lin   [MAX_STRING_LENGTH];
     char age   [MAX_STRING_LENGTH];
     int blood;
