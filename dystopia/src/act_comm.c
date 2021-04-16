@@ -943,7 +943,7 @@ void do_tell( CHAR_DATA *ch, char *argument )
       }
     }
 
-    sprintf(poly,"You tell $N '#C$t#n'.");
+    sprintf(poly, "%s", "You tell $N '#C$t#n'.");
     act(poly, ch, argument, victim, TO_CHAR );
 
     if ( !IS_NPC(ch) && IS_SET(ch->act, PLR_SILENCE) ) return;
@@ -1092,7 +1092,7 @@ void do_emote( CHAR_DATA *ch, char *argument )
     char *plast;
 
     char name   [80];
-    char poly   [MAX_INPUT_LENGTH];
+    char poly   [MAX_STRING_LENGTH+100];
     CHAR_DATA *to;
     bool is_ok;
 
@@ -1153,11 +1153,11 @@ void do_emote( CHAR_DATA *ch, char *argument )
 	if (!is_ok) continue;
 
 	if (IS_NPC(ch))
-	    sprintf(name, ch->short_descr);
+	    sprintf(name, "%s", ch->short_descr);
 	else if (!IS_NPC(ch) && IS_AFFECTED(ch,AFF_POLYMORPH))
-	    sprintf(name, ch->morph);
+	    sprintf(name, "%s", ch->morph);
         else
-	    sprintf(name, ch->name);
+	    sprintf(name, "%s", ch->name);
 	name[0]=UPPER(name[0]);
 	sprintf(poly,"%s %s\n\r", name,buf);
 	send_to_char(poly,to);
@@ -1177,7 +1177,7 @@ void do_xemote( CHAR_DATA *ch, char *argument )
     char name   [80];
     char you    [80];
     char them   [80];
-    char poly   [MAX_INPUT_LENGTH];
+    char poly   [MAX_STRING_LENGTH+100];
     char arg    [MAX_INPUT_LENGTH];
     CHAR_DATA *to;
     CHAR_DATA *victim;
@@ -1310,11 +1310,11 @@ oldarg = argument;
 	if (!is_ok) continue;
 
 	if (IS_NPC(ch))
-	    sprintf(name, ch->short_descr);
+	    sprintf(name, "%s", ch->short_descr);
 	else if (!IS_NPC(ch) && IS_AFFECTED(ch,AFF_POLYMORPH))
-	    sprintf(name, ch->morph);
+	    sprintf(name, "%s", ch->morph);
         else
-	    sprintf(name, ch->name);
+	    sprintf(name, "%s", ch->name);
 	name[0]=UPPER(name[0]);
 	sprintf(poly,"%s %s\n\r", name,buf);
 	send_to_char(poly,to);
@@ -1757,7 +1757,7 @@ void do_command( CHAR_DATA *ch, char *argument )
 {
     char arg1[MAX_INPUT_LENGTH];
     char arg2[MAX_INPUT_LENGTH];
-    char buf[MAX_STRING_LENGTH];
+    char buf[MAX_STRING_LENGTH*2];
     char buffy[MAX_STRING_LENGTH];
     CHAR_DATA *victim;
     int awe;
