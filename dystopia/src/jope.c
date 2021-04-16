@@ -967,7 +967,7 @@ void jope_list(CHAR_DATA *ch, char *argument)
 void jope_show(CHAR_DATA *ch, char *argument)
 {
   CHAR_DATA *victim;
-  char buf[MAX_STRING_LENGTH];
+  char buf[MAX_STRING_LENGTH*2];
   char buf2[MAX_STRING_LENGTH];
   char bufbanner[MAX_STRING_LENGTH];
   char line[MAX_STRING_LENGTH];

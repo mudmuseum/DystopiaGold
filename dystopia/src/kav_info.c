@@ -228,7 +228,7 @@ void do_spell( CHAR_DATA *ch, char *argument )
 
 void show_spell( CHAR_DATA *ch, int dtype )
 {
-    char buf[MAX_INPUT_LENGTH];
+    char buf[MAX_STRING_LENGTH];
     char bufskill[MAX_INPUT_LENGTH];
 
     if (IS_NPC(ch)) return;

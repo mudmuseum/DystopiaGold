@@ -373,7 +373,7 @@ void do_throw( CHAR_DATA *ch, char *argument )
     OBJ_DATA        *obj;
     char            arg1      [MAX_INPUT_LENGTH];
     char            arg2      [MAX_INPUT_LENGTH];
-    char            buf       [MAX_INPUT_LENGTH];
+    char            buf       [MAX_STRING_LENGTH*2];
     char            revdoor   [MAX_INPUT_LENGTH];
     int             door;
 
@@ -697,7 +697,7 @@ void do_fightstyle( CHAR_DATA *ch, char *argument )
 {
     char            arg1     [MAX_INPUT_LENGTH];
     char            arg2     [MAX_INPUT_LENGTH];
-    char            buf      [MAX_INPUT_LENGTH];
+    char            buf      [MAX_STRING_LENGTH];
     bool	    blah = FALSE;
     int             selection;
     int             value;
@@ -2640,7 +2640,7 @@ void special_hurl( CHAR_DATA *ch, CHAR_DATA *victim )
     ROOM_INDEX_DATA *to_room;
     EXIT_DATA       *pexit;
     EXIT_DATA       *pexit_rev;
-    char            buf       [MAX_INPUT_LENGTH];
+    char            buf       [MAX_STRING_LENGTH];
     char            direction [MAX_INPUT_LENGTH];
     int             door;
     int             rev_dir;
