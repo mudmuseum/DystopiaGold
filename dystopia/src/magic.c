@@ -42,7 +42,7 @@ void	improve_spl	args( ( CHAR_DATA *ch, int dtype, int sn ) );
 
 void improve_spl( CHAR_DATA *ch, int dtype, int sn )
 {
-    char buf[MAX_INPUT_LENGTH];
+    char buf[MAX_STRING_LENGTH];
     char bufskill[MAX_INPUT_LENGTH];
     char buftype[MAX_INPUT_LENGTH];
     int dice1;
@@ -174,7 +174,7 @@ int slot_lookup( int slot )
 void say_spell( CHAR_DATA *ch, int sn )
 {
     char buf  [MAX_STRING_LENGTH];
-    char buf2 [MAX_STRING_LENGTH];
+    char buf2 [MAX_STRING_LENGTH*2];
     char colour [MAX_STRING_LENGTH];
 /*  CHAR_DATA *rch; */
     char *pName;
@@ -3823,7 +3823,7 @@ void spell_voodoo( int sn, int level, CHAR_DATA *ch, void *vo )
 	return;
     }
 
-    sprintf(part2,obj->name);
+    sprintf(part2, "%s", obj->name);
 
     if ( str_cmp(part1,part2) )
     {

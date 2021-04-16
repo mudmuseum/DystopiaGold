@@ -1282,7 +1282,7 @@ bool change_exit( CHAR_DATA *ch, char *argument, int door )
      */
     if ( !str_cmp( command, "dig" ) )
     {
-	char buf[MAX_INPUT_LENGTH];
+	char buf[MAX_STRING_LENGTH];
 	
 	if ( arg[0] == '\0' || !is_number( arg ) )
 	{

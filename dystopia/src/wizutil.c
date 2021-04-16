@@ -185,7 +185,7 @@ void do_reimb(CHAR_DATA *ch, char *argument)
 {
         CHAR_DATA       *vch;
         char            arg[MAX_INPUT_LENGTH];
-        char            arg2[MAX_INPUT_LENGTH];
+        char            arg2[MAX_INPUT_LENGTH*2];
         int v;
    
         argument = one_argument(argument, arg);

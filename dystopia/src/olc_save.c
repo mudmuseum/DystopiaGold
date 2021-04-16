@@ -611,9 +611,9 @@ void save_help()
   for (pHelp = first_help; pHelp != NULL; pHelp = pHelp->next)
   {
     fprintf(fp, "%d ", pHelp->level);
-    fprintf(fp, pHelp->keyword);
+    fprintf(fp, "%s", pHelp->keyword);
     fprintf(fp, "~\n");
-    fprintf(fp, fix_string2(fix_string(pHelp->text)));
+    fprintf(fp, "%s", fix_string2(fix_string(pHelp->text)));
     fprintf(fp, "~\n\n");
   }
   fprintf(fp, "0 $~\n\n#$\n");
