@@ -1,7 +1,11 @@
-# DystopiaGold
+# MudMuseum Entry: Dystopia Gold
 
-The last active version of Dystopia when the MUD was shutdown.
+- MudMuseum Entry: Dystopia Gold
+- Sourced From: http://www.mudbytes.net/files/887/
+- Wikipedia Reference: 
+  - DikuMUD: https://en.wikipedia.org/wiki/DikuMUD
+  - Godwars: https://en.wikipedia.org/wiki/GodWars
 
-# Testing
+# Validatation
 
-1..2..3..4..5..
+Compiled clean with `gcc (GCC) 7.3.1 20180712 (Red Hat 7.3.1-12)`.
