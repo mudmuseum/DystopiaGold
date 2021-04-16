@@ -509,7 +509,7 @@ void edit_buffer( CHAR_DATA *ch, char *argument )
     DESCRIPTOR_DATA *d;
     EDITOR_DATA *edit;
     char cmd[MAX_INPUT_LENGTH];
-    char buf[MAX_INPUT_LENGTH];
+    char buf[MAX_STRING_LENGTH];
     sh_int x, line, max_buf_lines;
     bool save;
 

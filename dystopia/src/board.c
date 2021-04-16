@@ -245,7 +245,7 @@ static void save_board (BOARD_DATA *board)
 {
 	FILE *fp;
 	char filename[200];
-	char buf[200];
+	char buf[240];
 	NOTE_DATA *note;
 	
 	sprintf (filename, "%s%s", NOTE_DIR, board->short_name);
