@@ -2381,7 +2381,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 
 	if (ch->level > 1)
 	{
-	    sprintf(kav,ch->pcdata->switchname);
+	    sprintf(kav, "%s", ch->pcdata->switchname);
             free_char(d->character);
             d->character = NULL;
             fOld = load_char_obj( d, kav );
@@ -3696,9 +3696,9 @@ void kavitem( const char *format, CHAR_DATA *ch, const void *arg1, const void *a
 void bust_a_header(DESCRIPTOR_DATA *d)
 {
 char class[MAX_STRING_LENGTH];
-char class2[MAX_STRING_LENGTH];
-char header[MAX_STRING_LENGTH];
-char header1[MAX_STRING_LENGTH];
+char class2[MAX_STRING_LENGTH+200];
+char header[MAX_STRING_LENGTH*3];
+char header1[MAX_STRING_LENGTH+600];
 char blanklin[MAX_STRING_LENGTH];
 CHAR_DATA *ch;
 char cls[MAX_STRING_LENGTH];
@@ -3711,7 +3711,7 @@ ADD_COLOUR(ch,cls,NORMAL);
 if (IS_CLASS(ch,CLASS_VAMPIRE)) sprintf(class,"Vampire");
 else if (IS_CLASS(ch,CLASS_DEMON)) sprintf(class,"Demon");
 else if (IS_CLASS(ch,CLASS_WEREWOLF)) sprintf(class,"Werewolf");
-else sprintf(class,"Classless"); 
+else sprintf(class, "Classless"); 
 sprintf(class2,"%s the %s",ch->name,class);
 sprintf(blanklin," ");
 sprintf(header1,"%-30s Align:%-4d",class2,ch->alignment);

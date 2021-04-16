@@ -262,7 +262,7 @@ void do_smother( CHAR_DATA *ch, char *argument )
 void do_taste( CHAR_DATA *ch, char *argument )
 {
     CHAR_DATA *victim;
-    char      buf [MAX_STRING_LENGTH];
+    char      buf [MAX_STRING_LENGTH*2];
     char      age [MAX_STRING_LENGTH];
     char      lin [MAX_STRING_LENGTH];
     char      arg [MAX_INPUT_LENGTH];
