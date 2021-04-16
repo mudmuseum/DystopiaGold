@@ -1339,7 +1339,7 @@ void interpret( CHAR_DATA *ch, char *argument )
 {
     CHAR_DATA *unveil;
     char arg[MAX_STRING_LENGTH];
-    char argu[MAX_STRING_LENGTH];
+    char argu[MAX_STRING_LENGTH*3];
     char buf[MAX_INPUT_LENGTH];
     char command[MAX_STRING_LENGTH];
     char logline[MAX_STRING_LENGTH];
