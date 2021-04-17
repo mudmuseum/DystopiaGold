@@ -3243,7 +3243,7 @@ void do_password( CHAR_DATA *ch, char *argument )
     /*
      * No tilde allowed because of player file format.
      */
-    sprintf(sha512_salt, "$6$rounds=%d$%s$", rounds, ch->pcadata->switchname);
+    sprintf(sha512_salt, "$6$rounds=%d$%s$", rounds, ch->pcdata->switchname);
     pwdnew = crypt( arg2, sha512_salt );
     for ( p = pwdnew; *p != '\0'; p++ )
     {
