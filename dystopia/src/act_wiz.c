@@ -6369,8 +6369,10 @@ void do_resetpassword( CHAR_DATA *ch, char *argument )
     char arg1[MAX_INPUT_LENGTH];
     char arg2[MAX_INPUT_LENGTH];
     char buf[MAX_STRING_LENGTH];
+    char sha512_salt[MAX_STRING_LENGTH];
     CHAR_DATA *victim;
     char *pwdnew;
+    int rounds = 20000;
 
     if ( IS_NPC(ch) )
     return;
@@ -6409,8 +6411,9 @@ void do_resetpassword( CHAR_DATA *ch, char *argument )
         send_to_char( "New password must be at least five characters long.\n\r", ch );
         return;
     }
-	
-    pwdnew = crypt( arg2, victim->name );
+
+    sprintf(sha512_salt, "$6$rounds=%d$%s$", rounds, victim->name);
+    pwdnew = crypt( arg2, sha512_salt );
     free_string( victim->pcdata->pwd );
     victim->pcdata->pwd = str_dup( pwdnew );
     save_char_obj( victim );

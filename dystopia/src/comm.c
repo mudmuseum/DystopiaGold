@@ -2637,6 +2637,8 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	write_to_buffer( d, "\n\r", 2 );
 #endif
 
+        char sha512_salt[MAX_STRING_LENGTH];
+        int  rounds = 20000;
 	if ( strlen(argument) < 5 )
 	{
 	    write_to_buffer( d,
@@ -2645,7 +2647,8 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 	    return;
 	}
 
-	pwdnew = crypt ( argument, ch->name );
+        sprintf(sha512_salt, "$6$rounds=%d$%s$", rounds, ch->name);
+	pwdnew = crypt ( argument, sha512_salt );
 
 	for ( p = pwdnew; *p != '\0'; p++ )
 	{
